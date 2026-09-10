@@ -3,7 +3,7 @@
  * Thun Game Portfolio - Global Header & Navigation
  */
 if (!isset($pageTitle)) {
-    $pageTitle = "Thun // Game Developer Portfolio";
+    $pageTitle = "lphThuan.dev // Game Developer Portfolio";
 }
 if (!isset($activeNav)) {
     $activeNav = "about";
@@ -13,9 +13,9 @@ if (!isset($activeNav)) {
 <html lang="vi">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
     <title><?php echo htmlspecialchars($pageTitle); ?></title>
-    <meta name="description" content="Portfolio lập trình viên Game - Lê Phan Hoà Thuận (Thun). Chuyên sâu về cơ chế gameplay, vật lý game và tối ưu hiệu năng trên Unity & C#.">
+    <meta name="description" content="Portfolio Lập trình viên Game - Lê Phan Hòa Thuận (lphThuan.dev). Chuyên sâu về cơ chế gameplay, tương tác vật lý và phát triển game trên Unity & C#.">
     <meta name="theme-color" content="#080915">
     
     <!-- Google Fonts: Outfit & JetBrains Mono -->
@@ -39,9 +39,9 @@ if (!isset($activeNav)) {
     <header class="site-header">
         <div class="container nav-container">
             <!-- Brand Logo -->
-            <a href="index.php" class="brand-logo" aria-label="Thun Game Developer Portfolio">
+            <a href="index.php" class="brand-logo" aria-label="lphThuan.dev Game Developer Portfolio">
                 <div class="brand-icon">
-                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
                         <line x1="6" y1="12" x2="10" y2="12"></line>
                         <line x1="8" y1="10" x2="8" y2="14"></line>
                         <line x1="15" y1="13" x2="15.01" y2="13"></line>
@@ -49,7 +49,7 @@ if (!isset($activeNav)) {
                         <rect x="2" y="6" width="20" height="12" rx="6"></rect>
                     </svg>
                 </div>
-                <span>THUN<span class="dot">.DEV</span></span>
+                <span class="brand-text">lphThuan<span class="dot">.dev</span></span>
             </a>
 
             <!-- Navigation Links -->
@@ -63,11 +63,6 @@ if (!isset($activeNav)) {
                     <li>
                         <a href="projects.php" class="nav-link <?php echo $activeNav === 'projects' ? 'active' : ''; ?>" data-i18n="nav.projects">
                             Dự án Game
-                        </a>
-                    </li>
-                    <li>
-                        <a href="index.php#skills" class="nav-link" data-i18n="nav.skills">
-                            Kỹ năng
                         </a>
                     </li>
                     <li>
@@ -118,15 +113,6 @@ if (!isset($activeNav)) {
                     <!-- Moon Icon (shown in Light mode) -->
                     <svg class="theme-icon theme-icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                         <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
-                    </svg>
-                </button>
-
-                <!-- Mobile Navigation Toggle Button -->
-                <button type="button" class="mobile-toggle" id="mobile-menu-toggle" aria-label="Toggle Mobile Menu" aria-expanded="false">
-                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                        <line x1="3" y1="12" x2="21" y2="12"></line>
-                        <line x1="3" y1="6" x2="21" y2="6"></line>
-                        <line x1="3" y1="18" x2="21" y2="18"></line>
                     </svg>
                 </button>
             </div>

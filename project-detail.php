@@ -23,7 +23,7 @@ if (!$project && count($projects) > 0) {
     $project = $projects[0];
 }
 
-$pageTitle = ($project['title_vi'] ?? 'Chi Tiết Dự Án') . " // Thun Game Dev";
+$pageTitle = ($project['title_vi'] ?? 'Chi Tiết Dự Án') . " // lphThuan.dev";
 $activeNav = "projects";
 $extraScripts = ['assets/js/project-detail.js'];
 

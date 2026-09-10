@@ -2,7 +2,7 @@
 /**
  * Thun Game Portfolio - Projects Showcase Page
  */
-$pageTitle = "Dự Án Game // Lê Phan Hoà Thuận (Thun)";
+$pageTitle = "Dự Án Game // lphThuan.dev";
 $activeNav = "projects";
 
 $projectsJson = file_get_contents(__DIR__ . '/data/projects.json');

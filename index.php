@@ -2,7 +2,7 @@
 /**
  * Thun Game Portfolio - Home / About Me Page
  */
-$pageTitle = "Lê Phan Hoà Thuận (Thun) // Game Developer Portfolio";
+$pageTitle = "lphThuan.dev // Game Developer Portfolio";
 $activeNav = "about";
 
 // Load projects from JSON for featured showcase
@@ -17,223 +17,130 @@ require_once __DIR__ . '/includes/header.php';
     <!-- 1. Hero & Profile Section (Trang Giới Thiệu) -->
     <section class="hero-section" id="about">
         <div class="container">
-            <!-- Profile Card (Cột trái: Avatar viền glow | Cột phải: Thông tin liên hệ) -->
+            <!-- Profile Card (Cột trái: Avatar | Cột phải: Thông tin liên hệ | Dưới: Mô tả đặt chung một khung) -->
             <div class="glass-panel profile-card">
-                <!-- Left Column: Circular Avatar with Neon Glow Ring -->
-                <div class="profile-avatar-wrap">
-                    <div class="avatar-ring">
-                        <img src="assets/images/avatar.jpg" alt="Lê Phan Hoà Thuận - Game Developer Avatar" class="avatar-img" width="240" height="240">
-                    </div>
-                    <div class="avatar-status-badge">
-                        <span class="pulse-dot"></span>
-                        <span data-i18n="hero.badge">Sẵn sàng đón nhận cơ hội mới</span>
-                    </div>
-                </div>
-
-                <!-- Right Column: Personal & Contact Information -->
-                <div class="profile-info">
-                    <span class="profile-greeting" data-i18n="hero.greeting">Xin chào, tôi là</span>
-                    <h1 class="profile-name">
-                        <span class="text-gradient" data-i18n="hero.name">Lê Phan Hoà Thuận</span>
-                    </h1>
-                    <div class="profile-role-tag" data-i18n="hero.role">
-                        Lập trình viên Game (Game Programmer)
+                <!-- Top Grid: Avatar + Personal & Contact Information -->
+                <div class="profile-top-grid">
+                    <!-- Left Column: Circular Avatar with Neon Glow Ring -->
+                    <div class="profile-avatar-wrap">
+                        <div class="avatar-ring">
+                            <img src="assets/images/avatar.jpg" alt="Lê Phan Hòa Thuận - Game Developer Avatar" class="avatar-img" width="240" height="240">
+                        </div>
+                        <div class="avatar-status-badge">
+                            <span class="pulse-dot"></span>
+                            <span data-i18n="hero.badge">Sẵn sàng đón nhận cơ hội Fresher</span>
+                        </div>
                     </div>
 
-                    <!-- Contact Buttons: GitHub & Zalo as interactive buttons -->
-                    <div class="contact-actions-row">
-                        <!-- GitHub Button -->
-                        <a href="https://github.com/lphthuan" target="_blank" rel="noopener noreferrer" class="btn btn-github" id="btn-github-link" aria-label="Visit GitHub Profile">
-                            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
-                                <path fill-rule="evenodd" clip-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.53 1.032 1.53 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"/>
-                            </svg>
-                            <span data-i18n="hero.github_btn">Xem GitHub</span>
-                        </a>
-
-                        <!-- Zalo Button -->
-                        <a href="https://zalo.me/0389893210" target="_blank" rel="noopener noreferrer" class="btn btn-zalo" id="btn-zalo-link" aria-label="Chat via Zalo">
-                            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
-                                <path d="M12 2C6.48 2 2 6.48 2 12c0 1.9.54 3.68 1.48 5.18L2 22l4.98-1.42C8.42 21.49 10.15 22 12 22c5.52 0 10-4.48 10-10S17.52 2 12 2zm1 14h-4c-.55 0-1-.45-1-1s.45-1 1-1h4c.55 0 1 .45 1 1s-.45 1-1 1zm2-4H9c-.55 0-1-.45-1-1s.45-1 1-1h6c.55 0 1 .45 1 1s-.45 1-1 1zm0-4H9c-.55 0-1-.45-1-1s.45-1 1-1h6c.55 0 1 .45 1 1s-.45 1-1 1z"/>
-                            </svg>
-                            <span data-i18n="hero.zalo_btn">Nhắn tin Zalo</span>
-                        </a>
-
-                        <!-- Download Resume Button -->
-                        <a href="#contact" class="btn btn-outline">
-                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
-                                <polyline points="7 10 12 15 17 10"></polyline>
-                                <line x1="12" y1="15" x2="12" y2="3"></line>
-                            </svg>
-                            <span data-i18n="hero.download_cv">Tải CV Lập Trình</span>
-                        </a>
-                    </div>
-
-                    <!-- Contact Meta Information Grid (All with Icons) -->
-                    <div class="contact-meta-grid" id="contact">
-                        <!-- Location -->
-                        <div class="meta-item">
-                            <div class="meta-icon-box">
-                                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
-                                    <circle cx="12" cy="10" r="3"></circle>
-                                </svg>
-                            </div>
-                            <div class="meta-content">
-                                <span class="meta-label" data-i18n="contact.address_label">Địa chỉ:</span>
-                                <span class="meta-value" data-i18n="contact.address_val">TP. Hồ Chí Minh, Việt Nam</span>
-                            </div>
+                    <!-- Right Column: Personal & Contact Information -->
+                    <div class="profile-info">
+                        <span class="profile-greeting" data-i18n="hero.greeting">Xin chào, tôi là</span>
+                        <h1 class="profile-name">
+                            <span class="text-gradient" data-i18n="hero.name">Lê Phan Hòa Thuận</span>
+                        </h1>
+                        <div class="profile-role-tag" data-i18n="hero.role">
+                            Lập trình viên Game (Unity Game Developer)
                         </div>
 
-                        <!-- Phone -->
-                        <div class="meta-item">
-                            <div class="meta-icon-box">
-                                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                    <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                        <!-- Contact Action Buttons: GitHub & Zalo -->
+                        <div class="contact-actions-row">
+                            <!-- GitHub Button -->
+                            <a href="https://github.com/lphthuan/" target="_blank" rel="noopener noreferrer" class="btn btn-github" id="btn-github-link" aria-label="Visit GitHub Profile">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.53 1.032 1.53 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"/>
                                 </svg>
-                            </div>
-                            <div class="meta-content">
-                                <span class="meta-label" data-i18n="contact.phone_label">Số điện thoại:</span>
-                                <a href="tel:0389893210" class="meta-value" data-i18n="contact.phone_val">038 989 3210</a>
-                            </div>
+                                <span data-i18n="hero.github_btn">Xem GitHub</span>
+                            </a>
+
+                            <!-- Zalo Button -->
+                            <a href="https://zalo.me/0898333096" target="_blank" rel="noopener noreferrer" class="btn btn-zalo" id="btn-zalo-link" aria-label="Chat via Zalo">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M12 2C6.48 2 2 6.48 2 12c0 1.9.54 3.68 1.48 5.18L2 22l4.98-1.42C8.42 21.49 10.15 22 12 22c5.52 0 10-4.48 10-10S17.52 2 12 2zm1 14h-4c-.55 0-1-.45-1-1s.45-1 1-1h4c.55 0 1 .45 1 1s-.45 1-1 1zm2-4H9c-.55 0-1-.45-1-1s.45-1 1-1h6c.55 0 1 .45 1 1s-.45 1-1 1zm0-4H9c-.55 0-1-.45-1-1s.45-1 1-1h6c.55 0 1 .45 1 1s-.45 1-1 1z"/>
+                                </svg>
+                                <span data-i18n="hero.zalo_btn">Nhắn tin Zalo</span>
+                            </a>
                         </div>
 
-                        <!-- Email -->
-                        <div class="meta-item">
-                            <div class="meta-icon-box">
-                                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
-                                    <polyline points="22,6 12,13 2,6"></polyline>
-                                </svg>
+                        <!-- Contact Meta Information Grid -->
+                        <div class="contact-meta-grid" id="contact">
+                            <!-- Location -->
+                            <div class="meta-item">
+                                <div class="meta-icon-box">
+                                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                                        <circle cx="12" cy="10" r="3"></circle>
+                                    </svg>
+                                </div>
+                                <div class="meta-content">
+                                    <span class="meta-label" data-i18n="contact.address_label">Địa chỉ:</span>
+                                    <span class="meta-value" data-i18n="contact.address_val">Quận Ninh Kiều, TP Cần Thơ</span>
+                                </div>
                             </div>
-                            <div class="meta-content">
-                                <span class="meta-label" data-i18n="contact.email_label">Email:</span>
-                                <a href="mailto:lphthuan@gmail.com" class="meta-value" data-i18n="contact.email_val">lphthuan@gmail.com</a>
-                            </div>
-                        </div>
 
-                        <!-- Date of Birth -->
-                        <div class="meta-item">
-                            <div class="meta-icon-box">
-                                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                    <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
-                                    <line x1="16" y1="2" x2="16" y2="6"></line>
-                                    <line x1="8" y1="2" x2="8" y2="6"></line>
-                                    <line x1="3" y1="10" x2="21" y2="10"></line>
-                                </svg>
+                            <!-- Phone -->
+                            <div class="meta-item">
+                                <div class="meta-icon-box">
+                                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                                    </svg>
+                                </div>
+                                <div class="meta-content">
+                                    <span class="meta-label" data-i18n="contact.phone_label">Số điện thoại:</span>
+                                    <a href="tel:0898333096" class="meta-value" data-i18n="contact.phone_val">0898 333 096</a>
+                                </div>
                             </div>
-                            <div class="meta-content">
-                                <span class="meta-label" data-i18n="contact.dob_label">Ngày sinh:</span>
-                                <span class="meta-value" data-i18n="contact.dob_val">26/02/2003</span>
+
+                            <!-- Email -->
+                            <div class="meta-item">
+                                <div class="meta-icon-box">
+                                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                                        <polyline points="22,6 12,13 2,6"></polyline>
+                                    </svg>
+                                </div>
+                                <div class="meta-content">
+                                    <span class="meta-label" data-i18n="contact.email_label">Email:</span>
+                                    <a href="mailto:lphthuan@gmail.com" class="meta-value" data-i18n="contact.email_val">lphthuan@gmail.com</a>
+                                </div>
+                            </div>
+
+                            <!-- Date of Birth -->
+                            <div class="meta-item">
+                                <div class="meta-icon-box">
+                                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                                        <line x1="16" y1="2" x2="16" y2="6"></line>
+                                        <line x1="8" y1="2" x2="8" y2="6"></line>
+                                        <line x1="3" y1="10" x2="21" y2="10"></line>
+                                    </svg>
+                                </div>
+                                <div class="meta-content">
+                                    <span class="meta-label" data-i18n="contact.dob_label">Ngày sinh:</span>
+                                    <span class="meta-value" data-i18n="contact.dob_val">16/11/2006</span>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
 
-            <!-- Detailed Bio & Game Programming Philosophy -->
-            <div class="glass-panel bio-card">
-                <h3 class="text-gradient" data-i18n="hero.bio_lead">
-                    Đam mê kiến tạo trải nghiệm gameplay mượt mà, tối ưu hiệu năng và phát triển hệ thống cơ chế game tương tác sâu sắc.
-                </h3>
-                <p data-i18n="hero.bio_desc">
-                    Tôi tập trung chuyên sâu vào lập trình cơ chế gameplay (Gameplay Mechanics), tương tác vật lý trong game, trí tuệ nhân tạo (AI Behaviors), tối ưu hóa hiệu năng render/memory trên Unity và Unreal Engine. Với nền tảng tư duy toán học và kiến trúc code sạch (Design Patterns, State Machine, Event-driven), tôi luôn nỗ lực tạo ra các tựa game sống động và cuốn hút người chơi.
-                </p>
-            </div>
-        </div>
-    </section>
-
-    <!-- 2. Technical Skills Section -->
-    <section class="section-block" id="skills" style="padding-bottom: 4rem;">
-        <div class="container">
-            <div class="section-header">
-                <div class="section-tag" data-i18n="skills.title">Kỹ Năng Kỹ Thuật</div>
-                <h2 class="section-title">
-                    <span class="text-gradient">Chuyên Môn</span> Lập Trình Game
-                </h2>
-                <p class="section-subtitle" data-i18n="skills.subtitle">
-                    Hệ sinh thái công nghệ và năng lực chuyên môn lập trình game
-                </p>
-            </div>
-
-            <div class="skills-grid">
-                <!-- Game Engines -->
-                <div class="glass-panel skill-card">
-                    <div class="skill-card-icon">
-                        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                            <polygon points="12 2 2 7 12 12 22 7 12 2"></polygon>
-                            <polyline points="2 17 12 22 22 17"></polyline>
-                            <polyline points="2 12 12 17 22 12"></polyline>
+                <!-- Bio Description Section (Đặt chung trong cùng khung với thông tin ở trên) -->
+                <div class="profile-bio-section">
+                    <div class="bio-header-badge">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+                            <circle cx="12" cy="7" r="4"></circle>
                         </svg>
+                        <span>MÔ TẢ BẢN THÂN // BIO</span>
                     </div>
-                    <h4 data-i18n="skills.engine_title">Game Engine</h4>
-                    <div class="skill-pills-wrap">
-                        <span class="skill-pill">Unity 6 / 2022</span>
-                        <span class="skill-pill">Universal Render Pipeline (URP)</span>
-                        <span class="skill-pill">Unreal Engine 5</span>
-                        <span class="skill-pill">Unity Profiler</span>
-                        <span class="skill-pill">Addressables</span>
-                    </div>
-                </div>
-
-                <!-- Programming Languages -->
-                <div class="glass-panel skill-card">
-                    <div class="skill-card-icon">
-                        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                            <polyline points="16 18 22 12 16 6"></polyline>
-                            <polyline points="8 6 2 12 8 18"></polyline>
-                        </svg>
-                    </div>
-                    <h4 data-i18n="skills.lang_title">Ngôn ngữ lập trình</h4>
-                    <div class="skill-pills-wrap">
-                        <span class="skill-pill">C# (.NET)</span>
-                        <span class="skill-pill">C++ (OOP & Memory)</span>
-                        <span class="skill-pill">HLSL / Shader Graph</span>
-                        <span class="skill-pill">Python</span>
-                        <span class="skill-pill">PHP</span>
-                    </div>
-                </div>
-
-                <!-- Gameplay & Systems -->
-                <div class="glass-panel skill-card">
-                    <div class="skill-card-icon">
-                        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                            <circle cx="12" cy="12" r="10"></circle>
-                            <path d="M12 8v8"></path>
-                            <path d="M8 12h8"></path>
-                        </svg>
-                    </div>
-                    <h4 data-i18n="skills.system_title">Hệ thống Gameplay</h4>
-                    <div class="skill-pills-wrap">
-                        <span class="skill-pill">Finite State Machine (FSM)</span>
-                        <span class="skill-pill">RigidBody / Kinematic Physics</span>
-                        <span class="skill-pill">Boss Behavior Trees</span>
-                        <span class="skill-pill">Hitbox & Frame Data</span>
-                        <span class="skill-pill">Object Pooling System</span>
-                    </div>
-                </div>
-
-                <!-- Tools & Pipeline -->
-                <div class="glass-panel skill-card">
-                    <div class="skill-card-icon">
-                        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                            <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"></path>
-                        </svg>
-                    </div>
-                    <h4 data-i18n="skills.tools_title">Công cụ & Quy trình</h4>
-                    <div class="skill-pills-wrap">
-                        <span class="skill-pill">Git / GitHub Workflow</span>
-                        <span class="skill-pill">GitHub Actions CI/CD</span>
-                        <span class="skill-pill">JetBrains Rider</span>
-                        <span class="skill-pill">Visual Studio</span>
-                        <span class="skill-pill">RenderDoc</span>
-                    </div>
+                    <p class="bio-text" data-i18n="hero.bio_desc">
+                        I’m a Game Developer with hands on experience in Unity through academic projects and a 3 month internship. I’m seeking a fresher position in a professional environment to further improve my skills and grow as a developer, while aiming for long term commitment and meaningful contributions to the company.
+                    </p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- 3. Featured Projects Showcase (Trang Dự án Tiêu biểu) -->
+    <!-- 2. Featured Projects Showcase (Trang Dự án Tiêu biểu) -->
     <section class="section-block" id="projects" style="padding-bottom: 5rem;">
         <div class="container">
             <div class="section-header">

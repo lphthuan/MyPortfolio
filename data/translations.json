@@ -3,16 +3,15 @@
     "nav": {
       "about": "Giới thiệu",
       "projects": "Dự án Game",
-      "skills": "Kỹ năng",
       "contact": "Liên hệ"
     },
     "hero": {
       "greeting": "Xin chào, tôi là",
-      "name": "Lê Phan Hoà Thuận",
-      "role": "Lập trình viên Game (Game Programmer)",
-      "badge": "Sẵn sàng đón nhận cơ hội mới",
-      "bio_lead": "Đam mê kiến tạo trải nghiệm gameplay mượt mà, tối ưu hiệu năng và phát triển hệ thống cơ chế game tương tác sâu sắc.",
-      "bio_desc": "Tôi tập trung chuyên sâu vào lập trình cơ chế gameplay (Gameplay Mechanics), tương tác vật lý trong game, trí tuệ nhân tạo (AI Behaviors), tối ưu hóa hiệu năng render/memory trên Unity và Unreal Engine. Với nền tảng tư duy toán học và kiến trúc code sạch (Design Patterns, State Machine, Event-driven), tôi luôn nỗ lực tạo ra các tựa game sống động và cuốn hút người chơi.",
+      "name": "Lê Phan Hòa Thuận",
+      "role": "Lập trình viên Game (Unity Game Developer)",
+      "badge": "Sẵn sàng đón nhận cơ hội Fresher",
+      "bio_lead": "Lập trình viên Game đam mê phát triển cơ chế tương tác và trải nghiệm gameplay mượt mà trên Unity.",
+      "bio_desc": "Tôi là Lập trình viên Game với kinh nghiệm thực tế về Unity qua các dự án học tập và đợt thực tập 3 tháng. Tôi đang tìm kiếm vị trí Fresher trong môi trường chuyên nghiệp để tiếp tục trau dồi kỹ năng, phát triển bản thân và hướng tới sự gắn bó lâu dài cùng những đóng góp ý nghĩa cho công ty.",
       "github_btn": "Xem GitHub",
       "zalo_btn": "Nhắn tin Zalo",
       "download_cv": "Tải CV Lập Trình"
@@ -20,25 +19,17 @@
     "contact": {
       "title": "Thông Tin Liên Hệ",
       "address_label": "Địa chỉ:",
-      "address_val": "TP. Hồ Chí Minh, Việt Nam",
+      "address_val": "Quận Ninh Kiều, TP Cần Thơ",
       "phone_label": "Số điện thoại:",
-      "phone_val": "038 989 3210",
+      "phone_val": "0898 333 096",
       "email_label": "Email:",
       "email_val": "lphthuan@gmail.com",
       "dob_label": "Ngày sinh:",
-      "dob_val": "26/02/2003",
+      "dob_val": "16/11/2006",
       "github_label": "GitHub:",
       "github_val": "github.com/lphthuan",
       "zalo_label": "Zalo:",
-      "zalo_val": "0389893210"
-    },
-    "skills": {
-      "title": "Kỹ Năng Kỹ Thuật",
-      "subtitle": "Hệ sinh thái công nghệ và năng lực chuyên môn lập trình game",
-      "engine_title": "Game Engine",
-      "lang_title": "Ngôn ngữ lập trình",
-      "system_title": "Hệ thống Gameplay & Kỹ thuật",
-      "tools_title": "Công cụ & Quy trình"
+      "zalo_val": "0898 333 096"
     },
     "projects": {
       "title": "Dự Án Nổi Bật",
@@ -82,16 +73,15 @@
     "nav": {
       "about": "About Me",
       "projects": "Game Projects",
-      "skills": "Skills",
       "contact": "Contact"
     },
     "hero": {
       "greeting": "Hello, I am",
       "name": "Le Phan Hoa Thuan",
-      "role": "Game Developer / Programmer",
-      "badge": "Available for Opportunities",
-      "bio_lead": "Passionate about building responsive gameplay mechanics, optimized systems, and immersive interactive game worlds.",
-      "bio_desc": "I specialize in gameplay programming, character controllers, game physics, AI behaviors, and performance profiling on Unity and Unreal Engine. Driven by clean architecture (Design Patterns, Finite State Machines, Event-Driven Architecture) and solid game math, I strive to deliver satisfying and fluid experiences for players.",
+      "role": "Game Developer (Unity)",
+      "badge": "Open to Fresher Opportunities",
+      "bio_lead": "Game Developer passionate about creating responsive gameplay mechanics and polished experiences in Unity.",
+      "bio_desc": "I’m a Game Developer with hands-on experience in Unity through academic projects and a 3-month internship. I’m seeking a fresher position in a professional environment to further improve my skills and grow as a developer, while aiming for long-term commitment and meaningful contributions to the company.",
       "github_btn": "Visit GitHub",
       "zalo_btn": "Chat on Zalo",
       "download_cv": "Download Resume"
@@ -99,25 +89,17 @@
     "contact": {
       "title": "Contact Details",
       "address_label": "Location:",
-      "address_val": "Ho Chi Minh City, Vietnam",
+      "address_val": "Ninh Kieu District, Can Tho City, Vietnam",
       "phone_label": "Phone:",
-      "phone_val": "+84 38 989 3210",
+      "phone_val": "0898 333 096",
       "email_label": "Email:",
       "email_val": "lphthuan@gmail.com",
       "dob_label": "Date of Birth:",
-      "dob_val": "February 26, 2003",
+      "dob_val": "November 16, 2006",
       "github_label": "GitHub:",
       "github_val": "github.com/lphthuan",
       "zalo_label": "Zalo:",
-      "zalo_val": "0389893210"
-    },
-    "skills": {
-      "title": "Technical Skills",
-      "subtitle": "Tech stack and core proficiencies in game development",
-      "engine_title": "Game Engines",
-      "lang_title": "Programming Languages",
-      "system_title": "Gameplay & Systems",
-      "tools_title": "Tools & Pipeline"
+      "zalo_val": "0898 333 096"
     },
     "projects": {
       "title": "Featured Projects",

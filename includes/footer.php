@@ -9,7 +9,7 @@
             <div class="footer-content">
                 <div>
                     <a href="index.php" class="brand-logo" style="margin-bottom: 0.5rem; display: inline-flex;">
-                        <span>THUN<span class="dot">.DEV</span></span>
+                        <span>lphThuan<span class="dot">.dev</span></span>
                     </a>
                     <p class="footer-quote" data-i18n="footer.quote">
                         Biến ý tưởng sáng tạo thành những trải nghiệm tương tác đỉnh cao.
@@ -20,7 +20,7 @@
                     <a href="https://github.com/lphthuan" target="_blank" rel="noopener noreferrer" class="nav-link" aria-label="GitHub Profile">
                         GitHub
                     </a>
-                    <a href="https://zalo.me/0389893210" target="_blank" rel="noopener noreferrer" class="nav-link" aria-label="Zalo Chat">
+                    <a href="https://zalo.me/0898333096" target="_blank" rel="noopener noreferrer" class="nav-link" aria-label="Zalo Chat">
                         Zalo
                     </a>
                     <a href="mailto:lphthuan@gmail.com" class="nav-link" aria-label="Email Me">
@@ -34,7 +34,7 @@
 
             <div class="footer-bottom">
                 <p>
-                    &copy; <?php echo date('Y'); ?> <strong>Lê Phan Hoà Thuận (Thun)</strong>. <span data-i18n="footer.rights">Bảo lưu mọi quyền.</span>
+                    &copy; <?php echo date('Y'); ?> <strong>Lê Phan Hòa Thuận (lphThuan.dev)</strong>. <span data-i18n="footer.rights">Bảo lưu mọi quyền.</span>
                 </p>
             </div>
         </div>

@@ -4,8 +4,11 @@ Thumbs.db
 .vscode/
 .idea/
 
-# Logs
+# Logs & temp
 *.log
+*.tmp
+~$*
 
 # Design documents & local drafts
 PortfolioDesignDocument.docx
+TempAsset/

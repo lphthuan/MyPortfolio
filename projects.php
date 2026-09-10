@@ -14,30 +14,10 @@ require_once __DIR__ . '/includes/header.php';
 <main style="padding: 4rem 0 6rem;">
     <div class="container">
         <!-- Section Header -->
-        <div class="section-header">
-            <div class="section-tag" data-i18n="projects.all_projects">Tất cả dự án</div>
+        <div class="section-header" style="margin-bottom: 3.5rem;">
             <h1 class="section-title">
                 <span class="text-gradient" data-i18n="projects.title">Dự Án</span>
             </h1>
-            <p class="section-subtitle" data-i18n="projects.subtitle">
-                Các sản phẩm và cơ chế kỹ thuật đã phát triển
-            </p>
-
-            <!-- Category Filter Buttons -->
-            <div style="display: flex; justify-content: center; gap: 10px; margin-top: 2rem; flex-wrap: wrap;">
-                <button type="button" class="btn btn-outline filter-btn active" data-filter="all" style="padding: 8px 18px; font-size: 0.9rem;" data-i18n="projects.filter_all">
-                    Tất cả
-                </button>
-                <button type="button" class="btn btn-outline filter-btn" data-filter="rpg" style="padding: 8px 18px; font-size: 0.9rem;" data-i18n="projects.filter_rpg">
-                    3D Action / RPG
-                </button>
-                <button type="button" class="btn btn-outline filter-btn" data-filter="mechanics" style="padding: 8px 18px; font-size: 0.9rem;" data-i18n="projects.filter_mechanics">
-                    Cơ chế Gameplay
-                </button>
-                <button type="button" class="btn btn-outline filter-btn" data-filter="jam" style="padding: 8px 18px; font-size: 0.9rem;" data-i18n="projects.filter_jam">
-                    Game Jam
-                </button>
-            </div>
         </div>
 
         <!-- Projects Grid (Dạng bài báo game) -->
@@ -90,23 +70,5 @@ require_once __DIR__ . '/includes/header.php';
         </div>
     </div>
 </main>
-
-<script>
-// Filter interaction
-document.querySelectorAll('.filter-btn').forEach(btn => {
-    btn.addEventListener('click', () => {
-        document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
-        btn.classList.add('active');
-        const filter = btn.getAttribute('data-filter');
-        document.querySelectorAll('#projects-grid .project-card').forEach(card => {
-            if (filter === 'all' || card.getAttribute('data-category') === filter) {
-                card.style.display = 'flex';
-            } else {
-                card.style.display = 'none';
-            }
-        });
-    });
-});
-</script>
 
 <?php require_once __DIR__ . '/includes/footer.php'; ?>

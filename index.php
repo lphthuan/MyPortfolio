@@ -24,7 +24,7 @@ require_once __DIR__ . '/includes/header.php';
                     <!-- Left Column: Circular Avatar with Neon Glow Ring -->
                     <div class="profile-avatar-wrap">
                         <div class="avatar-ring">
-                            <img src="assets/images/thuan_avatar.jpg?v=2.2" alt="Lê Phan Hòa Thuận - Game Developer Avatar" class="avatar-img" width="240" height="240">
+                            <img src="assets/images/thuan_avatar.jpg?v=2.3" alt="Lê Phan Hòa Thuận - Game Developer Avatar" class="avatar-img" width="240" height="240">
                         </div>
                     </div>
 
@@ -126,10 +126,10 @@ require_once __DIR__ . '/includes/header.php';
                             <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
                             <circle cx="12" cy="7" r="4"></circle>
                         </svg>
-                        <span>MÔ TẢ BẢN THÂN // BIO</span>
+                        <span data-i18n="hero.bio_title">MÔ TẢ BẢN THÂN // BIO</span>
                     </div>
                     <p class="bio-text" data-i18n="hero.bio_desc">
-                        I’m a Game Developer with hands on experience in Unity through academic projects and a 3 month internship. I’m seeking a fresher position in a professional environment to further improve my skills and grow as a developer, while aiming for long term commitment and meaningful contributions to the company.
+                        Tôi là Lập trình viên Game với kinh nghiệm thực tế về Unity qua các dự án học tập và đợt thực tập 3 tháng. Tôi đang tìm kiếm vị trí Fresher trong môi trường chuyên nghiệp để tiếp tục trau dồi kỹ năng, phát triển bản thân và hướng tới sự gắn bó lâu dài cùng những đóng góp ý nghĩa cho công ty.
                     </p>
                 </div>
             </div>
@@ -140,13 +140,9 @@ require_once __DIR__ . '/includes/header.php';
     <section class="section-block" id="projects" style="padding-bottom: 5rem;">
         <div class="container">
             <div class="section-header">
-                <div class="section-tag" data-i18n="projects.featured_badge">Dự án tiêu biểu</div>
                 <h2 class="section-title">
                     <span class="text-gradient" data-i18n="projects.title">Dự Án</span>
                 </h2>
-                <p class="section-subtitle" data-i18n="projects.subtitle">
-                    Các sản phẩm và cơ chế kỹ thuật đã phát triển
-                </p>
             </div>
 
             <!-- Projects Editorial Cards Grid -->

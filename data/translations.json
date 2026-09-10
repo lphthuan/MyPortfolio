@@ -2,7 +2,7 @@
   "vi": {
     "nav": {
       "about": "Giới thiệu",
-      "projects": "Dự án Game",
+      "projects": "Dự án",
       "contact": "Liên hệ"
     },
     "hero": {
@@ -32,8 +32,8 @@
       "zalo_val": "0898 333 096"
     },
     "projects": {
-      "title": "Dự Án Nổi Bật",
-      "subtitle": "Các sản phẩm game và cơ chế kỹ thuật đã phát triển",
+      "title": "Dự Án",
+      "subtitle": "Các sản phẩm và cơ chế kỹ thuật đã phát triển",
       "all_projects": "Tất cả dự án",
       "featured_badge": "Dự án tiêu biểu",
       "view_detail": "Xem chi tiết dự án",
@@ -72,7 +72,7 @@
   "en": {
     "nav": {
       "about": "About Me",
-      "projects": "Game Projects",
+      "projects": "Projects",
       "contact": "Contact"
     },
     "hero": {
@@ -102,8 +102,8 @@
       "zalo_val": "0898 333 096"
     },
     "projects": {
-      "title": "Featured Projects",
-      "subtitle": "Game titles, technical mechanics, and interactive prototypes",
+      "title": "Projects",
+      "subtitle": "Featured technical mechanics and interactive prototypes",
       "all_projects": "All Projects",
       "featured_badge": "Featured Project",
       "view_detail": "Explore Project",

@@ -10,9 +10,9 @@ $projects = json_decode($projectsJson, true) ?? [];
 $slug = $_GET['slug'] ?? '';
 $project = null;
 
-// Find requested project by slug
+// Find requested project by slug (case-insensitive for flexible CV links like /project/ROPE)
 foreach ($projects as $p) {
-    if ($p['slug'] === $slug) {
+    if (strcasecmp($p['slug'], $slug) === 0) {
         $project = $p;
         break;
     }
@@ -34,7 +34,7 @@ require_once __DIR__ . '/includes/header.php';
     <div class="container">
         <!-- Back Link Navigation -->
         <div class="back-btn-row">
-            <a href="projects.php" class="btn btn-outline" style="padding: 8px 16px; font-size: 0.88rem;">
+            <a href="projects" class="btn btn-outline" style="padding: 8px 16px; font-size: 0.88rem;">
                 <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
                     <line x1="19" y1="12" x2="5" y2="12"></line>
                     <polyline points="12 19 5 12 12 5"></polyline>

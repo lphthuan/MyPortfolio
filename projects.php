@@ -2,7 +2,7 @@
 /**
  * Thun Game Portfolio - Projects Showcase Page
  */
-$pageTitle = "Dự Án Game // lphThuan.dev";
+$pageTitle = "Dự Án // lphThuan.dev";
 $activeNav = "projects";
 
 $projectsJson = file_get_contents(__DIR__ . '/data/projects.json');
@@ -17,10 +17,10 @@ require_once __DIR__ . '/includes/header.php';
         <div class="section-header">
             <div class="section-tag" data-i18n="projects.all_projects">Tất cả dự án</div>
             <h1 class="section-title">
-                <span class="text-gradient" data-i18n="projects.title">Dự Án Game</span>
+                <span class="text-gradient" data-i18n="projects.title">Dự Án</span>
             </h1>
             <p class="section-subtitle" data-i18n="projects.subtitle">
-                Các sản phẩm game, nguyên mẫu cơ chế tương tác và nghiên cứu kỹ thuật
+                Các sản phẩm và cơ chế kỹ thuật đã phát triển
             </p>
 
             <!-- Category Filter Buttons -->
@@ -76,7 +76,7 @@ require_once __DIR__ . '/includes/header.php';
                         </p>
 
                         <div class="project-footer">
-                            <a href="project-detail.php?slug=<?php echo urlencode($proj['slug']); ?>" class="link-explore">
+                            <a href="project/<?php echo urlencode($proj['slug']); ?>" class="link-explore">
                                 <span data-i18n="projects.view_detail">Xem chi tiết dự án</span>
                                 <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
                                     <line x1="5" y1="12" x2="19" y2="12"></line>

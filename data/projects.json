@@ -1,179 +1,179 @@
 [
   {
     "id": 1,
-    "slug": "aetheria-chrono-echoes",
+    "slug": "ROPE",
     "category": "rpg",
-    "category_label_vi": "3D Action RPG",
-    "category_label_en": "3D Action RPG",
+    "category_label_vi": "3D FPS Action",
+    "category_label_en": "3D FPS Action",
     "featured": true,
-    "title_vi": "Aetheria: Chrono Echoes",
-    "title_en": "Aetheria: Chrono Echoes",
-    "engine": "Unity 6 (URP)",
-    "tags": ["Unity", "C#", "Action RPG", "Combat System", "Boss AI"],
-    "short_desc_vi": "Game nhập vai hành động 3D góc nhìn thứ ba với hệ thống chiến đấu nhịp độ nhanh, đòn đánh combo mượt mà và cơ chế né tránh hoàn hảo (Perfect Dodge).",
-    "short_desc_en": "Third-person 3D action RPG featuring fluid melee combo combat, time-dilation perfect dodge mechanics, and reactive boss fight AI.",
-    "full_desc_vi": "Aetheria: Chrono Echoes là dự án game hành động phiêu lưu 3D nơi người chơi điều khiển chiến binh thời gian du hành qua các di tích cổ xưa. Tôi chịu trách nhiệm chính trong việc thiết kế kiến trúc gameplay, xây dựng Finite State Machine (FSM) cho chuyển động nhân vật, lập trình hệ thống hitbox/hurtbox chuẩn xác theo từng frame hoạt ảnh, và tích hợp AI trùm với cây hành vi (Behavior Tree). Dự án đạt hiệu năng ổn định 60 FPS trên nhiều cấu hình máy tính nhờ kỹ thuật Object Pooling và tối ưu batching.",
-    "full_desc_en": "Aetheria: Chrono Echoes is a 3D action-adventure title where players manipulate temporal echoes to navigate ruins and overcome lethal adversaries. As the Lead Gameplay Programmer, I architected the core character movement using a robust Finite State Machine, developed an animation-driven hitbox/hurtbox collision system, and implemented challenging boss encounters powered by Behavior Trees and NavMesh AI. The project maintains solid 60 FPS through extensive object pooling and draw-call batching optimizations.",
-    "role_vi": "Lập trình viên Gameplay chính (Lead Gameplay Programmer)",
-    "role_en": "Lead Gameplay Programmer",
-    "team_size": "3 thành viên (1 Programmer, 1 3D Artist, 1 Sound Designer)",
-    "duration_vi": "4 tháng (2025)",
-    "duration_en": "4 months (2025)",
-    "platform": "PC (Windows / Steam)",
+    "title_vi": "ROPE - 3D FPS Game Project",
+    "title_en": "ROPE - 3D FPS Game Project",
+    "engine": "Unity / C#",
+    "tags": ["Unity", "C#", "3D FPS", "Enemy AI", "NavMesh", "Root Motion", "Inventory System"],
+    "short_desc_vi": "Game FPS 3D với gameplay chiến đấu và nhiệm vụ sinh tồn. Xây dựng hệ thống AI kẻ địch sử dụng NavMesh cho tìm đường và theo dõi người chơi, thiết kế hệ thống kho đồ và tương tác vật phẩm lấy cảm hứng từ R.E.P.O, tích hợp root motion để đồng bộ chuyển động nhân vật.",
+    "short_desc_en": "Tactical 3D FPS title featuring combat and mission-based gameplay. Built an Enemy AI system with NavMesh pathfinding and player tracking, an inventory interaction framework inspired by R.E.P.O, and root motion animation synchronization.",
+    "full_desc_vi": "ROPE là dự án game FPS 3D nơi người chơi hoàn thành các nhiệm vụ sinh tồn và chiến đấu nhịp độ cao. Trong vai trò Phó nhóm (Sub leader), tôi chịu trách nhiệm chính trong việc phát triển hệ thống AI kẻ địch cho 3 loại quái và Boss, mỗi loại sở hữu cơ chế và hành vi riêng biệt sử dụng NavMesh và State Machine. Bên cạnh đó, tôi trực tiếp thiết kế hệ thống kho đồ và cơ chế tương tác vật phẩm 3D lấy cảm hứng từ tựa game R.E.P.O, đồng thời tích hợp Root Motion để đồng bộ hóa hoàn hảo giữa hoạt ảnh nhân vật và chuyển động vật lý.",
+    "full_desc_en": "ROPE is a 3D first-person shooter combining high-stakes mission objectives and intense combat. As Sub Leader, I engineered the Enemy AI system for 3 distinct mob types and a challenging boss fight, leveraging NavMesh pathfinding and state machines. Additionally, I architected the 3D inventory and physical item interaction system inspired by R.E.P.O, alongside root motion animation integration for grounded, responsive movement feel.",
+    "role_vi": "Phó nhóm (Sub leader) - Lập trình viên AI Kẻ địch & Hệ thống Gameplay",
+    "role_en": "Sub leader - Enemy AI & Gameplay Systems Developer",
+    "team_size": "Nhóm phát triển Game (Project Team)",
+    "duration_vi": "2026",
+    "duration_en": "2026",
+    "platform": "PC (Windows)",
     "thumbnail": "https://images.unsplash.com/photo-1542751371-adc38448a05e?q=80&w=1200&auto=format&fit=crop",
     "trailer_video": "https://www.youtube-nocookie.com/embed/dQw4w9WgXcQ",
     "gameplay_video": "https://www.youtube-nocookie.com/embed/dQw4w9WgXcQ",
     "mechanic_loop_video": "https://assets.mixkit.co/videos/preview/mixkit-futuristic-robot-turning-head-and-looking-at-camera-42407-large.mp4",
-    "mechanic_title_vi": "Demo Cơ Chế: Combo Chặt Chém & Đảo Ngược Thời Gian (Time-Reverse)",
-    "mechanic_title_en": "Mechanic Demo: Fluid Sword Combo & Time-Reverse Dodge",
+    "mechanic_title_vi": "Demo Cơ Chế: AI Kẻ Địch Tìm Đường & Hệ Thống Kho Đồ R.E.P.O",
+    "mechanic_title_en": "Mechanic Demo: NavMesh Enemy AI Tracking & 3D Inventory Framework",
     "gallery": [
       {
         "url": "https://images.unsplash.com/photo-1542751371-adc38448a05e?q=80&w=1200&auto=format&fit=crop",
-        "caption_vi": "Cảnh quan đền cổ Aetheria với ánh sáng thể tích URP",
-        "caption_en": "Aetheria ancient temple environment with volumetric lighting"
+        "caption_vi": "Giao diện chiến đấu FPS góc nhìn thứ nhất và cơ chế ngắm bắn",
+        "caption_en": "First-person combat HUD and aiming mechanics"
       },
       {
         "url": "https://images.unsplash.com/photo-1550745165-9bc0b252726f?q=80&w=1200&auto=format&fit=crop",
-        "caption_vi": "Giao diện chiến đấu và hệ thống thanh năng lượng thời gian",
-        "caption_en": "Combat HUD and temporal energy resource meter"
+        "caption_vi": "Hệ thống kho đồ và tương tác vật phẩm 3D lấy cảm hứng từ R.E.P.O",
+        "caption_en": "3D inventory system and physical item interactions inspired by R.E.P.O"
       },
       {
         "url": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?q=80&w=1200&auto=format&fit=crop",
-        "caption_vi": "Màn đấu trùm Titan Golem với các đòn đánh theo pha",
-        "caption_en": "Titan Golem phase-based boss fight encounter"
+        "caption_vi": "Màn đấu quái vật với cơ chế AI tìm đường NavMesh thích ứng",
+        "caption_en": "Adaptive NavMesh pathfinding encounter with enemy mobs"
       },
       {
         "url": "https://images.unsplash.com/photo-1511512578047-dfb367046420?q=80&w=1200&auto=format&fit=crop",
-        "caption_vi": "Cây kỹ năng nhân vật phân nhánh theo 3 thuộc tính nguyên tố",
-        "caption_en": "Branched talent tree with elemental specialization"
+        "caption_vi": "Thiết kế cấp độ nhiệm vụ và ánh sáng môi trường URP",
+        "caption_en": "Mission level design with volumetric lighting"
       }
     ],
     "highlights_vi": [
-      "Hệ thống điều khiển nhân vật góc nhìn thứ 3 với IK Foot Placement thích ứng địa hình dốc.",
-      "Cơ chế đòn đánh combo linh hoạt có thể hủy đòn (Animation Cancel) để né tránh tức thì.",
-      "Hệ thống Boss AI nhiều giai đoạn (Multi-phase) với phản xạ theo hành vi người chơi.",
-      "Tối ưu hóa hiệu năng render bằng URP Custom Render Passes."
+      "Phát triển hệ thống Enemy AI đa dạng cho 3 loại quái và 1 Boss với hành vi chiến đấu chuyên biệt.",
+      "Thiết kế hệ thống kho đồ và tương tác vật phẩm mượt mà trong không gian 3D lấy cảm hứng từ R.E.P.O.",
+      "Tối ưu hóa tìm đường và né chướng ngại vật thời gian thực với Unity NavMesh.",
+      "Đồng bộ hóa chuyển động nhân vật với hoạt ảnh qua công nghệ Root Motion."
     ],
     "highlights_en": [
-      "Third-person character controller with IK Foot Placement dynamically conforming to terrain.",
-      "Responsive animation-canceling combat combo framework with frame-accurate parry windows.",
-      "Multi-phase Boss AI utilizing adaptive decision weighting based on player tactical distance.",
-      "Render pipeline optimization via URP Custom Render Passes and GPU instancing."
+      "Engineered multifaceted Enemy AI behaviors for 3 mob classes and an engaging boss encounter.",
+      "Designed tactile 3D inventory and physical item interaction system inspired by R.E.P.O.",
+      "Optimized real-time pathfinding and dynamic obstacle avoidance utilizing Unity NavMesh.",
+      "Synchronized character movement tightly with skeletal animations via Root Motion."
     ],
-    "demo_link": "https://itch.io",
-    "github_link": "https://github.com/lphthuan"
+    "demo_link": "https://github.com/lphthuan/ROPE",
+    "github_link": "https://github.com/lphthuan/ROPE"
   },
   {
     "id": 2,
-    "slug": "neon-override-cyber-protocol",
+    "slug": "death-mine",
     "category": "mechanics",
-    "category_label_vi": "Cyberpunk Action",
-    "category_label_en": "Cyberpunk Action",
+    "category_label_vi": "Kinh dị Sinh tồn / AI Âm thanh",
+    "category_label_en": "Survival Horror / Sound AI",
     "featured": true,
-    "title_vi": "Neon Override: Cyber Protocol",
-    "title_en": "Neon Override: Cyber Protocol",
+    "title_vi": "Death Mine - 3D Survival Horror",
+    "title_en": "Death Mine - 3D Survival Horror",
     "engine": "Unity / C#",
-    "tags": ["Unity", "C#", "Cyberpunk", "Parkour Physics", "Grappling Hook"],
-    "short_desc_vi": "Tựa game hành động phong cách Cyberpunk tập trung vào cơ chế di chuyển parkour tốc độ cao, đu dây Grappling Hook và chạy trên tường (Wall-running).",
-    "short_desc_en": "High-octane cyberpunk parkour action title centered on physics-based grappling hook traversal, wall-running, and dynamic momentum conservation.",
-    "full_desc_vi": "Dự án nghiên cứu chuyên sâu về cảm giác chuyển động (Movement Game Feel) trong thể loại game hành động nhịp độ cao. Tôi lập trình bộ mô phỏng vật lý quán tính (Momentum-based Physics Controller) cho phép người chơi kết hợp nhuần nhuyễn giữa đu dây móc, trượt dốc (Slide Jump) và chạy tường. Mọi thông số vật lý gia tốc, góc bám tường và lực cản không khí đều được tùy biến tinh tế qua ScriptableObjects để nhà thiết kế dễ dàng cân chỉnh.",
-    "full_desc_en": "An in-depth technical exploration into Movement Game Feel for fast-paced action titles. I developed a custom momentum-preserving physics controller allowing seamless transitions between grappling hook swings, momentum-preserving slide jumps, and continuous wall-runs. All acceleration curves, wall-sticking vectors, and drag coefficients are decoupled into modular ScriptableObjects for instant designer iteration.",
-    "role_vi": "Lập trình viên Vật lý & Cơ chế Di chuyển (Movement & Physics Dev)",
-    "role_en": "Movement & Physics Programmer",
-    "team_size": "2 thành viên",
-    "duration_vi": "2.5 tháng (2025)",
-    "duration_en": "2.5 months (2025)",
-    "platform": "PC",
+    "tags": ["Unity", "C#", "Survival Horror", "Sound-wave AI", "Observer Pattern", "NavMesh"],
+    "short_desc_vi": "Game kinh dị sinh tồn 3D với cơ chế lén lút và giải đố. Xây dựng hệ thống AI kẻ địch có khả năng theo dõi, lắng nghe và định vị người chơi thông qua sóng âm sử dụng NavMesh và kiến trúc Observer Pattern.",
+    "short_desc_en": "3D survival horror game featuring stealth and puzzle-solving. Built an Enemy AI capable of listening and locating players through dynamic sound waves via NavMesh and an event-driven Observer Pattern.",
+    "full_desc_vi": "Death Mine là dự án game kinh dị sinh tồn góc nhìn thứ nhất, đưa người chơi vào một khu mỏ bỏ hoang với bầu không khí u ám và nguy hiểm rình rập. Trong vai trò Phó nhóm, tôi chịu trách nhiệm lập trình AI kẻ địch với cơ chế thính giác đặc biệt: quái vật có khả năng lắng nghe tiếng bước chân, tiếng va đập vật phẩm và sóng âm phát ra từ môi trường để truy vết người chơi. Bằng việc áp dụng kiến trúc hướng sự kiện (Observer Pattern), các sự kiện âm thanh được phân phối linh hoạt tới các tác tử AI mà không gây xung đột hiệu năng.",
+    "full_desc_en": "Death Mine is an atmospheric first-person survival horror experience set in abandoned underground mines. As Sub Leader, I developed sensory-driven Enemy AI capable of locating players by calculating acoustic sound propagations from footsteps, dropped props, and environmental collisions. Utilizing the event-driven Observer Pattern, acoustic triggers seamlessly alert nearby AI agents without performance bottlenecks.",
+    "role_vi": "Phó nhóm (Sub leader) - Lập trình viên AI Kẻ địch & Điều phối nhóm",
+    "role_en": "Sub leader - Enemy AI Programmer & Team Coordinator",
+    "team_size": "Nhóm phát triển Game (Project Team)",
+    "duration_vi": "2025",
+    "duration_en": "2025",
+    "platform": "PC (Windows)",
     "thumbnail": "https://images.unsplash.com/photo-1509198397868-475647b2a1e5?q=80&w=1200&auto=format&fit=crop",
     "trailer_video": "https://www.youtube-nocookie.com/embed/dQw4w9WgXcQ",
     "gameplay_video": "https://www.youtube-nocookie.com/embed/dQw4w9WgXcQ",
     "mechanic_loop_video": "https://assets.mixkit.co/videos/preview/mixkit-animation-of-futuristic-devices-99786-large.mp4",
-    "mechanic_title_vi": "Demo Cơ Chế: Hệ Thống Đu Dây Vật Lý Quán Tính (Grapple Swing)",
-    "mechanic_title_en": "Mechanic Demo: Physics Momentum Grapple Swing System",
+    "mechanic_title_vi": "Demo Cơ Chế: AI Kẻ Địch Dò Sóng Âm & Phản Ứng Theo Tiếng Động",
+    "mechanic_title_en": "Mechanic Demo: Acoustic Sound-wave AI Sensor & Event-driven Reaction",
     "gallery": [
       {
         "url": "https://images.unsplash.com/photo-1509198397868-475647b2a1e5?q=80&w=1200&auto=format&fit=crop",
-        "caption_vi": "Đường chân trời thành phố Neon với góc nhìn đu dây tốc độ cao",
-        "caption_en": "Neon city skyline during high-speed grapple traversal"
+        "caption_vi": "Hành lang khu mỏ tối tăm với ánh đèn pin hạn chế góc nhìn",
+        "caption_en": "Dark mine shaft corridor with narrow flashlight illumination"
       },
       {
         "url": "https://images.unsplash.com/photo-1578632767115-351597cf2477?q=80&w=1200&auto=format&fit=crop",
-        "caption_vi": "Cơ chế làm chậm thời gian (Bullet Time) khi ngắm bắn điểm móc dây",
-        "caption_en": "Bullet Time time-dilation effect when targeting grappling anchor points"
+        "caption_vi": "Cơ chế ẩn nấp và lắng nghe bước chân quái vật tuần tra",
+        "caption_en": "Stealth mechanic and auditory monster patrol detection"
       },
       {
         "url": "https://images.unsplash.com/photo-1538481199705-c710c4e965fc?q=80&w=1200&auto=format&fit=crop",
-        "caption_vi": "Hiệu ứng vệt sáng Shader và âm thanh phản hồi khi tiếp đất chuẩn",
-        "caption_en": "Dynamic speed lines shader and haptic visual feedback on landing"
+        "caption_vi": "Các câu đố tương tác mở cửa và vận hành máy móc",
+        "caption_en": "Interactive environment puzzles and electrical mechanism"
       }
     ],
     "highlights_vi": [
-      "Bộ điều khiển chuyển động tùy biến dựa trên Rigidbody với thuật toán bảo toàn động lượng.",
-      "Hệ thống Grappling Hook dò tìm điểm neo động bằng thuật toán hình nón SphereCast.",
-      "Cơ chế Wall Run tự động nhận diện độ cong và pháp tuyến bề mặt tường.",
-      "Camera Shake và Dynamic FOV thay đổi mượt mà theo tốc độ di chuyển của nhân vật."
+      "Xây dựng thuật toán AI nhận diện và định vị người chơi thông qua bán kính sóng âm.",
+      "Áp dụng Observer Pattern để xử lý phản hồi sự kiện âm thanh môi trường theo thời gian thực.",
+      "Kết hợp cơ chế lén lút (Stealth), ẩn nấp và giải đố vào nhịp độ gameplay kịch tính.",
+      "Tối ưu hóa AI Navigation trong địa hình hầm mỏ chật hẹp, nhiều ngã rẽ."
     ],
     "highlights_en": [
-      "Custom Rigidbody-driven movement controller with rigorous kinetic momentum conservation.",
-      "Dynamic anchor point detection algorithm utilizing predictive cone SphereCasting.",
-      "Adaptive wall-running system automatically orienting to curved surface normal vectors.",
-      "Procedural camera shake and velocity-dependent Dynamic FOV scaling."
+      "Developed acoustic sensing algorithm calculating threat alert vectors based on sound-wave radius.",
+      "Applied Observer Pattern for decoupled, low-latency audio event dispatching to AI agents.",
+      "Balanced tense stealth mechanics, line-of-sight concealment, and mechanical puzzles.",
+      "Optimized AI Navigation mesh for tight, multi-branching subterranean level geometry."
     ],
-    "demo_link": "https://itch.io",
-    "github_link": "https://github.com/lphthuan"
+    "demo_link": "https://github.com/lphthuan/Death-Mine",
+    "github_link": "https://github.com/lphthuan/Death-Mine"
   },
   {
     "id": 3,
-    "slug": "quantum-rift-shader-lab",
+    "slug": "the-flower",
     "category": "jam",
-    "category_label_vi": "Shader & Puzzle",
-    "category_label_en": "Shader & Puzzle",
+    "category_label_vi": "Co-op Adventure / Đồ Án",
+    "category_label_en": "Co-op Adventure / Capstone",
     "featured": true,
-    "title_vi": "Quantum Rift: Shader & Gravity Lab",
-    "title_en": "Quantum Rift: Shader & Gravity Lab",
-    "engine": "Unity (Shader Graph & HLSL)",
-    "tags": ["Unity", "HLSL", "Shader Graph", "Gravity Physics", "Puzzle"],
-    "short_desc_vi": "Dự án câu đố không gian tương tác với cơ chế bẻ cong trọng lực 360 độ và shader cổng không gian (Seamless Portal Rendering).",
-    "short_desc_en": "Spatial puzzle prototype featuring 360-degree arbitrary gravity reorientation and seamless non-Euclidean portal rendering shaders.",
-    "full_desc_vi": "Được phát triển trong khuôn khổ một cuộc thi Game Jam kỹ thuật, dự án thử nghiệm những ý tưởng toán học không gian phi Euclid. Người chơi có thể xoay đổi hướng trọng lực của từng vật thể và bước qua các cổng dịch chuyển không gian tức thời mà không hề bị giật khung hình hay lộ vết ghép camera. Toàn bộ hiệu ứng cổng dịch chuyển được tính toán thông qua Ma trận chiếu xiên (Oblique Projection Matrix) và Shader HLSL tùy chỉnh.",
-    "full_desc_en": "Developed during a technical Game Jam, this prototype pushes the boundaries of non-Euclidean spatial mechanics. Players reorient global and local gravitational vectors while traversing seamless portal gates without visual seams or camera clipping. The portal rendering utilizes Oblique Near-Plane Projection clipping matrices combined with custom HLSL screen-space stencil shaders.",
-    "role_vi": "Lập trình viên Đồ họa & Cơ chế Game (Graphics & Mechanics Programmer)",
-    "role_en": "Graphics & Mechanics Programmer",
-    "team_size": "Cá nhân (Solo Project)",
-    "duration_vi": "3 tuần (2025)",
-    "duration_en": "3 weeks (2025)",
-    "platform": "PC / WebGL",
+    "title_vi": "The Flower - Đồ Án Tốt Nghiệp",
+    "title_en": "The Flower - Graduation Project",
+    "engine": "Unity 6 / C#",
+    "tags": ["Unity 6", "Netcode for GameObjects", "Unity Relay", "Co-op 2 Players", "Puzzle AI"],
+    "short_desc_vi": "Game phiêu lưu hợp tác 2 người chơi sử dụng Unity 6 với giải đố và tương tác môi trường. Triển khai multiplayer qua Netcode for GameObjects và Unity Services (Relay, Auth), cùng hệ thống nhập liệu đa thiết bị.",
+    "short_desc_en": "2-player cooperative adventure title built with Unity 6 featuring collaborative puzzles. Integrated multiplayer networking via Netcode for GameObjects and Unity Relay, with multi-device input.",
+    "full_desc_vi": "The Flower là dự án game tốt nghiệp (Đồ án tốt nghiệp) được phát triển trên nền tảng Unity 6 với phong cách đồ họa giàu cảm xúc. Tựa game mang lối chơi phiêu lưu hợp tác 2 người (2-player Co-op), đòi hỏi hai người chơi phối hợp giải đố và tương tác môi trường. Trong vai trò Phó nhóm, tôi chịu trách nhiệm thiết kế hệ thống giải đố, lập trình AI kẻ địch phản xạ với cả hai người chơi, và tham gia cấu hình hạ tầng mạng P2P/Relay qua Unity Netcode for GameObjects và Unity Authentication. Dự án hỗ trợ cắm nhiều thiết bị (Keyboard/Gamepad) cùng lúc với UI động mượt mà.",
+    "full_desc_en": "The Flower is a capstone graduation project developed in Unity 6, focusing on a poignant two-player cooperative adventure. Players must collaborate to solve environmental mechanisms and navigate hazards. As Sub Leader, I engineered the puzzle interaction frameworks, implemented adaptive Enemy AI responding to dual players, and co-configured the networking architecture using Netcode for GameObjects and Unity Gaming Services (Relay & Authentication). The project features comprehensive multi-device input support.",
+    "role_vi": "Phó nhóm (Sub leader) - Lập trình viên Cơ chế Giải đố, AI Kẻ địch & Mạng",
+    "role_en": "Sub leader - Puzzle Systems, Enemy AI & Networking Dev",
+    "team_size": "Nhóm đồ án tốt nghiệp (Graduation Team)",
+    "duration_vi": "2026",
+    "duration_en": "2026",
+    "platform": "PC (Co-op Multiplayer)",
     "thumbnail": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?q=80&w=1200&auto=format&fit=crop",
     "trailer_video": "https://www.youtube-nocookie.com/embed/dQw4w9WgXcQ",
     "gameplay_video": "https://www.youtube-nocookie.com/embed/dQw4w9WgXcQ",
     "mechanic_loop_video": "https://assets.mixkit.co/videos/preview/mixkit-digital-animation-of-screens-with-graphs-99784-large.mp4",
-    "mechanic_title_vi": "Demo Cơ Chế: Cổng Không Gian Phi Euclid & Đổi Chiều Trọng Lực",
-    "mechanic_title_en": "Mechanic Demo: Non-Euclidean Portal Rendering & Gravity Shift",
+    "mechanic_title_vi": "Demo Cơ Chế: Đồng Bộ Mạng Co-op 2 Người & Câu Đố Tương Tác",
+    "mechanic_title_en": "Mechanic Demo: 2-Player Co-op State Synchronization & Cooperative Puzzles",
     "gallery": [
       {
         "url": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?q=80&w=1200&auto=format&fit=crop",
-        "caption_vi": "Cổng không gian nhìn xuyên vô tận với RenderTexture và Camera ảo",
-        "caption_en": "Infinite recursive portal view rendered via RenderTextures and virtual cameras"
+        "caption_vi": "Thế giới phiêu lưu nghệ thuật với cơ chế câu đố tương tác 2 người",
+        "caption_en": "Artistic adventure environment with 2-player cooperative puzzle"
       },
       {
         "url": "https://images.unsplash.com/photo-1550745165-9bc0b252726f?q=80&w=1200&auto=format&fit=crop",
-        "caption_vi": "Shader hố đen bẻ cong ánh sáng (Gravitational Lensing)",
-        "caption_en": "Gravitational Lensing screen-space distortion shader"
+        "caption_vi": "Giao diện kết nối mạng qua Unity Relay và Authentication",
+        "caption_en": "Multiplayer lobby interface powered by Unity Relay and Authentication"
       }
     ],
     "highlights_vi": [
-      "Thuật toán Oblique Projection Matrix ngăn chặn hiện tượng vật thể cắt xuyên camera cổng.",
-      "Hệ thống dịch chuyển tức thời bảo toàn cả hướng và độ lớn của vận tốc nhân vật.",
-      "Môi trường vật lý cho phép đi bộ trên trần nhà và các bức tường nghiêng 90 độ.",
-      "Hỗ trợ xuất bản WebGL mượt mà với dung lượng gói game tối ưu dưới 30MB."
+      "Triển khai tính năng Multiplayer mượt mà bằng Unity Netcode for GameObjects và Unity Services (Relay, Auth).",
+      "Thiết kế hệ thống câu đố môi trường tương tác đòi hỏi sự phối hợp nhịp nhàng giữa 2 người chơi.",
+      "Xây dựng hệ thống nhập liệu đa thiết bị (Multi-device Input) hỗ trợ đồng thời Bàn phím và Gamepad.",
+      "Áp dụng kiến trúc hướng sự kiện (Event-driven Architecture) đảm bảo hiệu năng và khả năng mở rộng."
     ],
     "highlights_en": [
-      "Custom Oblique Projection clipping planes eliminating near-clip plane portal artifacts.",
-      "Teleportation vector transformation accurately preserving both magnitude and local direction.",
-      "Arbitrary gravity orientation enabling natural traversal along inverted ceilings and vertical walls.",
-      "Lightweight WebGL build pipeline achieving under 30MB total asset payload."
+      "Implemented responsive multiplayer networking via Unity 6 Netcode for GameObjects and Unity Relay.",
+      "Designed collaborative environmental puzzles requiring synchronized dual-player actions.",
+      "Architected a versatile multi-device input system supporting simultaneous Keyboard and Gamepads.",
+      "Applied an Event-driven architecture ensuring low network latency and scalable code maintenance."
     ],
-    "demo_link": "https://itch.io",
-    "github_link": "https://github.com/lphthuan"
+    "demo_link": "https://github.com/JohnnyDat06/DATN_Co-op",
+    "github_link": "https://github.com/JohnnyDat06/DATN_Co-op"
   }
 ]

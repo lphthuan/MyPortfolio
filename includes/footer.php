@@ -26,8 +26,8 @@
                     <a href="mailto:lephanhoathuan2006@gmail.com" class="nav-link" aria-label="Email Me">
                         Email
                     </a>
-                    <a href="projects.php" class="nav-link" data-i18n="nav.projects">
-                        Dự án Game
+                    <a href="projects" class="nav-link" data-i18n="nav.projects">
+                        Dự án
                     </a>
                 </div>
             </div>
@@ -41,11 +41,11 @@
     </footer>
 
     <!-- Core Scripts -->
-    <script src="assets/js/main.js?v=2.1"></script>
-    <script src="assets/js/i18n.js?v=2.1"></script>
+    <script src="assets/js/main.js?v=2.2"></script>
+    <script src="assets/js/i18n.js?v=2.2"></script>
     <?php if (isset($extraScripts) && is_array($extraScripts)): ?>
         <?php foreach ($extraScripts as $script): ?>
-            <script src="<?php echo htmlspecialchars($script); ?>?v=2.1"></script>
+            <script src="<?php echo htmlspecialchars($script); ?>?v=2.2"></script>
         <?php endforeach; ?>
     <?php endif; ?>
 </body>

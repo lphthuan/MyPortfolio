@@ -332,37 +332,6 @@
   background: #ffffff;
 }
 
-.avatar-status-badge {
-  margin-top: 1.25rem;
-  display: inline-flex;
-  align-items: center;
-  gap: 8px;
-  padding: 6px 14px;
-  background: rgba(16, 185, 129, 0.12);
-  border: 1px solid rgba(16, 185, 129, 0.35);
-  border-radius: var(--radius-full);
-  color: var(--accent-emerald);
-  font-size: 0.8rem;
-  font-family: var(--font-mono);
-  font-weight: 600;
-  text-align: center;
-}
-
-.pulse-dot {
-  width: 8px;
-  height: 8px;
-  background-color: var(--accent-emerald);
-  border-radius: 50%;
-  box-shadow: 0 0 10px var(--accent-emerald);
-  animation: pulseDot 2s infinite;
-  flex-shrink: 0;
-}
-
-@keyframes pulseDot {
-  0%, 100% { opacity: 1; transform: scale(1); }
-  50% { opacity: 0.4; transform: scale(0.85); }
-}
-
 /* Right Column: Information & Contact Buttons */
 .profile-info {
   display: flex;

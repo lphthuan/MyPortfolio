@@ -23,9 +23,11 @@ if (!isset($activeNav)) {
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Outfit:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
     
+    <base href="/">
+
     <!-- Stylesheets with Cache Busting -->
-    <link rel="stylesheet" href="assets/css/style.css?v=2.1">
-    <link rel="stylesheet" href="assets/css/components.css?v=2.1">
+    <link rel="stylesheet" href="assets/css/style.css?v=2.2">
+    <link rel="stylesheet" href="assets/css/components.css?v=2.2">
 </head>
 <body>
     <!-- Ambient Background Glows -->
@@ -52,7 +54,7 @@ if (!isset($activeNav)) {
                 <span class="brand-text">lphThuan<span class="dot">.dev</span></span>
             </a>
 
-            <!-- Navigation Links -->
+            <!-- Navigation Links (Giới thiệu & Dự án) -->
             <nav>
                 <ul class="nav-menu">
                     <li>
@@ -61,13 +63,8 @@ if (!isset($activeNav)) {
                         </a>
                     </li>
                     <li>
-                        <a href="projects.php" class="nav-link <?php echo $activeNav === 'projects' ? 'active' : ''; ?>" data-i18n="nav.projects">
-                            Dự án Game
-                        </a>
-                    </li>
-                    <li>
-                        <a href="index.php#contact" class="nav-link" data-i18n="nav.contact">
-                            Liên hệ
+                        <a href="projects" class="nav-link <?php echo $activeNav === 'projects' ? 'active' : ''; ?>" data-i18n="nav.projects">
+                            Dự án
                         </a>
                     </li>
                 </ul>

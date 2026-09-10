@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - main
+  workflow_dispatch:
 
 jobs:
   web-deploy:
@@ -21,7 +22,9 @@ jobs:
           password: ${{ secrets.FTP_PASSWORD }}
           port: ${{ secrets.FTP_PORT || 21 }}
           protocol: ftps
-          server-dir: ${{ secrets.FTP_SERVER_DIR || '/' }}
+          security: loose
+          log-level: verbose
+          server-dir: ${{ secrets.FTP_SERVER_DIR || './' }}
           exclude: |
             **/.git*
             **/.git*/**

@@ -151,11 +151,12 @@ body {
   100% { transform: translate(-30px, 40px) scale(0.95); }
 }
 
-/* Layout container */
+/* Layout container - Fluid auto-scaling */
 .container {
+  width: 100%;
   max-width: 1200px;
   margin: 0 auto;
-  padding: 0 1.5rem;
+  padding: 0 clamp(1rem, 2.5vw, 2rem);
   position: relative;
   z-index: 1;
 }

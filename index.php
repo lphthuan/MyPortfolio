@@ -24,7 +24,7 @@ require_once __DIR__ . '/includes/header.php';
                     <!-- Left Column: Circular Avatar with Neon Glow Ring -->
                     <div class="profile-avatar-wrap">
                         <div class="avatar-ring">
-                            <img src="assets/images/avatar.jpg" alt="Lê Phan Hòa Thuận - Game Developer Avatar" class="avatar-img" width="240" height="240">
+                            <img src="assets/images/thuan_avatar.jpg?v=2.1" alt="Lê Phan Hòa Thuận - Game Developer Avatar" class="avatar-img" width="240" height="240">
                         </div>
                         <div class="avatar-status-badge">
                             <span class="pulse-dot"></span>
@@ -100,7 +100,7 @@ require_once __DIR__ . '/includes/header.php';
                                 </div>
                                 <div class="meta-content">
                                     <span class="meta-label" data-i18n="contact.email_label">Email:</span>
-                                    <a href="mailto:lphthuan@gmail.com" class="meta-value" data-i18n="contact.email_val">lphthuan@gmail.com</a>
+                                    <a href="mailto:lephanhoathuan2006@gmail.com" class="meta-value" data-i18n="contact.email_val">lephanhoathuan2006@gmail.com</a>
                                 </div>
                             </div>
 

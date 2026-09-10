@@ -23,7 +23,7 @@
                     <a href="https://zalo.me/0898333096" target="_blank" rel="noopener noreferrer" class="nav-link" aria-label="Zalo Chat">
                         Zalo
                     </a>
-                    <a href="mailto:lphthuan@gmail.com" class="nav-link" aria-label="Email Me">
+                    <a href="mailto:lephanhoathuan2006@gmail.com" class="nav-link" aria-label="Email Me">
                         Email
                     </a>
                     <a href="projects.php" class="nav-link" data-i18n="nav.projects">
@@ -41,11 +41,11 @@
     </footer>
 
     <!-- Core Scripts -->
-    <script src="assets/js/main.js"></script>
-    <script src="assets/js/i18n.js"></script>
+    <script src="assets/js/main.js?v=2.1"></script>
+    <script src="assets/js/i18n.js?v=2.1"></script>
     <?php if (isset($extraScripts) && is_array($extraScripts)): ?>
         <?php foreach ($extraScripts as $script): ?>
-            <script src="<?php echo htmlspecialchars($script); ?>"></script>
+            <script src="<?php echo htmlspecialchars($script); ?>?v=2.1"></script>
         <?php endforeach; ?>
     <?php endif; ?>
 </body>

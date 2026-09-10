@@ -1,0 +1,179 @@
+[
+  {
+    "id": 1,
+    "slug": "aetheria-chrono-echoes",
+    "category": "rpg",
+    "category_label_vi": "3D Action RPG",
+    "category_label_en": "3D Action RPG",
+    "featured": true,
+    "title_vi": "Aetheria: Chrono Echoes",
+    "title_en": "Aetheria: Chrono Echoes",
+    "engine": "Unity 6 (URP)",
+    "tags": ["Unity", "C#", "Action RPG", "Combat System", "Boss AI"],
+    "short_desc_vi": "Game nhập vai hành động 3D góc nhìn thứ ba với hệ thống chiến đấu nhịp độ nhanh, đòn đánh combo mượt mà và cơ chế né tránh hoàn hảo (Perfect Dodge).",
+    "short_desc_en": "Third-person 3D action RPG featuring fluid melee combo combat, time-dilation perfect dodge mechanics, and reactive boss fight AI.",
+    "full_desc_vi": "Aetheria: Chrono Echoes là dự án game hành động phiêu lưu 3D nơi người chơi điều khiển chiến binh thời gian du hành qua các di tích cổ xưa. Tôi chịu trách nhiệm chính trong việc thiết kế kiến trúc gameplay, xây dựng Finite State Machine (FSM) cho chuyển động nhân vật, lập trình hệ thống hitbox/hurtbox chuẩn xác theo từng frame hoạt ảnh, và tích hợp AI trùm với cây hành vi (Behavior Tree). Dự án đạt hiệu năng ổn định 60 FPS trên nhiều cấu hình máy tính nhờ kỹ thuật Object Pooling và tối ưu batching.",
+    "full_desc_en": "Aetheria: Chrono Echoes is a 3D action-adventure title where players manipulate temporal echoes to navigate ruins and overcome lethal adversaries. As the Lead Gameplay Programmer, I architected the core character movement using a robust Finite State Machine, developed an animation-driven hitbox/hurtbox collision system, and implemented challenging boss encounters powered by Behavior Trees and NavMesh AI. The project maintains solid 60 FPS through extensive object pooling and draw-call batching optimizations.",
+    "role_vi": "Lập trình viên Gameplay chính (Lead Gameplay Programmer)",
+    "role_en": "Lead Gameplay Programmer",
+    "team_size": "3 thành viên (1 Programmer, 1 3D Artist, 1 Sound Designer)",
+    "duration_vi": "4 tháng (2025)",
+    "duration_en": "4 months (2025)",
+    "platform": "PC (Windows / Steam)",
+    "thumbnail": "https://images.unsplash.com/photo-1542751371-adc38448a05e?q=80&w=1200&auto=format&fit=crop",
+    "trailer_video": "https://www.youtube-nocookie.com/embed/dQw4w9WgXcQ",
+    "gameplay_video": "https://www.youtube-nocookie.com/embed/dQw4w9WgXcQ",
+    "mechanic_loop_video": "https://assets.mixkit.co/videos/preview/mixkit-futuristic-robot-turning-head-and-looking-at-camera-42407-large.mp4",
+    "mechanic_title_vi": "Demo Cơ Chế: Combo Chặt Chém & Đảo Ngược Thời Gian (Time-Reverse)",
+    "mechanic_title_en": "Mechanic Demo: Fluid Sword Combo & Time-Reverse Dodge",
+    "gallery": [
+      {
+        "url": "https://images.unsplash.com/photo-1542751371-adc38448a05e?q=80&w=1200&auto=format&fit=crop",
+        "caption_vi": "Cảnh quan đền cổ Aetheria với ánh sáng thể tích URP",
+        "caption_en": "Aetheria ancient temple environment with volumetric lighting"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1550745165-9bc0b252726f?q=80&w=1200&auto=format&fit=crop",
+        "caption_vi": "Giao diện chiến đấu và hệ thống thanh năng lượng thời gian",
+        "caption_en": "Combat HUD and temporal energy resource meter"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?q=80&w=1200&auto=format&fit=crop",
+        "caption_vi": "Màn đấu trùm Titan Golem với các đòn đánh theo pha",
+        "caption_en": "Titan Golem phase-based boss fight encounter"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1511512578047-dfb367046420?q=80&w=1200&auto=format&fit=crop",
+        "caption_vi": "Cây kỹ năng nhân vật phân nhánh theo 3 thuộc tính nguyên tố",
+        "caption_en": "Branched talent tree with elemental specialization"
+      }
+    ],
+    "highlights_vi": [
+      "Hệ thống điều khiển nhân vật góc nhìn thứ 3 với IK Foot Placement thích ứng địa hình dốc.",
+      "Cơ chế đòn đánh combo linh hoạt có thể hủy đòn (Animation Cancel) để né tránh tức thì.",
+      "Hệ thống Boss AI nhiều giai đoạn (Multi-phase) với phản xạ theo hành vi người chơi.",
+      "Tối ưu hóa hiệu năng render bằng URP Custom Render Passes."
+    ],
+    "highlights_en": [
+      "Third-person character controller with IK Foot Placement dynamically conforming to terrain.",
+      "Responsive animation-canceling combat combo framework with frame-accurate parry windows.",
+      "Multi-phase Boss AI utilizing adaptive decision weighting based on player tactical distance.",
+      "Render pipeline optimization via URP Custom Render Passes and GPU instancing."
+    ],
+    "demo_link": "https://itch.io",
+    "github_link": "https://github.com/lphthuan"
+  },
+  {
+    "id": 2,
+    "slug": "neon-override-cyber-protocol",
+    "category": "mechanics",
+    "category_label_vi": "Cyberpunk Action",
+    "category_label_en": "Cyberpunk Action",
+    "featured": true,
+    "title_vi": "Neon Override: Cyber Protocol",
+    "title_en": "Neon Override: Cyber Protocol",
+    "engine": "Unity / C#",
+    "tags": ["Unity", "C#", "Cyberpunk", "Parkour Physics", "Grappling Hook"],
+    "short_desc_vi": "Tựa game hành động phong cách Cyberpunk tập trung vào cơ chế di chuyển parkour tốc độ cao, đu dây Grappling Hook và chạy trên tường (Wall-running).",
+    "short_desc_en": "High-octane cyberpunk parkour action title centered on physics-based grappling hook traversal, wall-running, and dynamic momentum conservation.",
+    "full_desc_vi": "Dự án nghiên cứu chuyên sâu về cảm giác chuyển động (Movement Game Feel) trong thể loại game hành động nhịp độ cao. Tôi lập trình bộ mô phỏng vật lý quán tính (Momentum-based Physics Controller) cho phép người chơi kết hợp nhuần nhuyễn giữa đu dây móc, trượt dốc (Slide Jump) và chạy tường. Mọi thông số vật lý gia tốc, góc bám tường và lực cản không khí đều được tùy biến tinh tế qua ScriptableObjects để nhà thiết kế dễ dàng cân chỉnh.",
+    "full_desc_en": "An in-depth technical exploration into Movement Game Feel for fast-paced action titles. I developed a custom momentum-preserving physics controller allowing seamless transitions between grappling hook swings, momentum-preserving slide jumps, and continuous wall-runs. All acceleration curves, wall-sticking vectors, and drag coefficients are decoupled into modular ScriptableObjects for instant designer iteration.",
+    "role_vi": "Lập trình viên Vật lý & Cơ chế Di chuyển (Movement & Physics Dev)",
+    "role_en": "Movement & Physics Programmer",
+    "team_size": "2 thành viên",
+    "duration_vi": "2.5 tháng (2025)",
+    "duration_en": "2.5 months (2025)",
+    "platform": "PC",
+    "thumbnail": "https://images.unsplash.com/photo-1509198397868-475647b2a1e5?q=80&w=1200&auto=format&fit=crop",
+    "trailer_video": "https://www.youtube-nocookie.com/embed/dQw4w9WgXcQ",
+    "gameplay_video": "https://www.youtube-nocookie.com/embed/dQw4w9WgXcQ",
+    "mechanic_loop_video": "https://assets.mixkit.co/videos/preview/mixkit-animation-of-futuristic-devices-99786-large.mp4",
+    "mechanic_title_vi": "Demo Cơ Chế: Hệ Thống Đu Dây Vật Lý Quán Tính (Grapple Swing)",
+    "mechanic_title_en": "Mechanic Demo: Physics Momentum Grapple Swing System",
+    "gallery": [
+      {
+        "url": "https://images.unsplash.com/photo-1509198397868-475647b2a1e5?q=80&w=1200&auto=format&fit=crop",
+        "caption_vi": "Đường chân trời thành phố Neon với góc nhìn đu dây tốc độ cao",
+        "caption_en": "Neon city skyline during high-speed grapple traversal"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1578632767115-351597cf2477?q=80&w=1200&auto=format&fit=crop",
+        "caption_vi": "Cơ chế làm chậm thời gian (Bullet Time) khi ngắm bắn điểm móc dây",
+        "caption_en": "Bullet Time time-dilation effect when targeting grappling anchor points"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1538481199705-c710c4e965fc?q=80&w=1200&auto=format&fit=crop",
+        "caption_vi": "Hiệu ứng vệt sáng Shader và âm thanh phản hồi khi tiếp đất chuẩn",
+        "caption_en": "Dynamic speed lines shader and haptic visual feedback on landing"
+      }
+    ],
+    "highlights_vi": [
+      "Bộ điều khiển chuyển động tùy biến dựa trên Rigidbody với thuật toán bảo toàn động lượng.",
+      "Hệ thống Grappling Hook dò tìm điểm neo động bằng thuật toán hình nón SphereCast.",
+      "Cơ chế Wall Run tự động nhận diện độ cong và pháp tuyến bề mặt tường.",
+      "Camera Shake và Dynamic FOV thay đổi mượt mà theo tốc độ di chuyển của nhân vật."
+    ],
+    "highlights_en": [
+      "Custom Rigidbody-driven movement controller with rigorous kinetic momentum conservation.",
+      "Dynamic anchor point detection algorithm utilizing predictive cone SphereCasting.",
+      "Adaptive wall-running system automatically orienting to curved surface normal vectors.",
+      "Procedural camera shake and velocity-dependent Dynamic FOV scaling."
+    ],
+    "demo_link": "https://itch.io",
+    "github_link": "https://github.com/lphthuan"
+  },
+  {
+    "id": 3,
+    "slug": "quantum-rift-shader-lab",
+    "category": "jam",
+    "category_label_vi": "Shader & Puzzle",
+    "category_label_en": "Shader & Puzzle",
+    "featured": true,
+    "title_vi": "Quantum Rift: Shader & Gravity Lab",
+    "title_en": "Quantum Rift: Shader & Gravity Lab",
+    "engine": "Unity (Shader Graph & HLSL)",
+    "tags": ["Unity", "HLSL", "Shader Graph", "Gravity Physics", "Puzzle"],
+    "short_desc_vi": "Dự án câu đố không gian tương tác với cơ chế bẻ cong trọng lực 360 độ và shader cổng không gian (Seamless Portal Rendering).",
+    "short_desc_en": "Spatial puzzle prototype featuring 360-degree arbitrary gravity reorientation and seamless non-Euclidean portal rendering shaders.",
+    "full_desc_vi": "Được phát triển trong khuôn khổ một cuộc thi Game Jam kỹ thuật, dự án thử nghiệm những ý tưởng toán học không gian phi Euclid. Người chơi có thể xoay đổi hướng trọng lực của từng vật thể và bước qua các cổng dịch chuyển không gian tức thời mà không hề bị giật khung hình hay lộ vết ghép camera. Toàn bộ hiệu ứng cổng dịch chuyển được tính toán thông qua Ma trận chiếu xiên (Oblique Projection Matrix) và Shader HLSL tùy chỉnh.",
+    "full_desc_en": "Developed during a technical Game Jam, this prototype pushes the boundaries of non-Euclidean spatial mechanics. Players reorient global and local gravitational vectors while traversing seamless portal gates without visual seams or camera clipping. The portal rendering utilizes Oblique Near-Plane Projection clipping matrices combined with custom HLSL screen-space stencil shaders.",
+    "role_vi": "Lập trình viên Đồ họa & Cơ chế Game (Graphics & Mechanics Programmer)",
+    "role_en": "Graphics & Mechanics Programmer",
+    "team_size": "Cá nhân (Solo Project)",
+    "duration_vi": "3 tuần (2025)",
+    "duration_en": "3 weeks (2025)",
+    "platform": "PC / WebGL",
+    "thumbnail": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?q=80&w=1200&auto=format&fit=crop",
+    "trailer_video": "https://www.youtube-nocookie.com/embed/dQw4w9WgXcQ",
+    "gameplay_video": "https://www.youtube-nocookie.com/embed/dQw4w9WgXcQ",
+    "mechanic_loop_video": "https://assets.mixkit.co/videos/preview/mixkit-digital-animation-of-screens-with-graphs-99784-large.mp4",
+    "mechanic_title_vi": "Demo Cơ Chế: Cổng Không Gian Phi Euclid & Đổi Chiều Trọng Lực",
+    "mechanic_title_en": "Mechanic Demo: Non-Euclidean Portal Rendering & Gravity Shift",
+    "gallery": [
+      {
+        "url": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?q=80&w=1200&auto=format&fit=crop",
+        "caption_vi": "Cổng không gian nhìn xuyên vô tận với RenderTexture và Camera ảo",
+        "caption_en": "Infinite recursive portal view rendered via RenderTextures and virtual cameras"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1550745165-9bc0b252726f?q=80&w=1200&auto=format&fit=crop",
+        "caption_vi": "Shader hố đen bẻ cong ánh sáng (Gravitational Lensing)",
+        "caption_en": "Gravitational Lensing screen-space distortion shader"
+      }
+    ],
+    "highlights_vi": [
+      "Thuật toán Oblique Projection Matrix ngăn chặn hiện tượng vật thể cắt xuyên camera cổng.",
+      "Hệ thống dịch chuyển tức thời bảo toàn cả hướng và độ lớn của vận tốc nhân vật.",
+      "Môi trường vật lý cho phép đi bộ trên trần nhà và các bức tường nghiêng 90 độ.",
+      "Hỗ trợ xuất bản WebGL mượt mà với dung lượng gói game tối ưu dưới 30MB."
+    ],
+    "highlights_en": [
+      "Custom Oblique Projection clipping planes eliminating near-clip plane portal artifacts.",
+      "Teleportation vector transformation accurately preserving both magnitude and local direction.",
+      "Arbitrary gravity orientation enabling natural traversal along inverted ceilings and vertical walls.",
+      "Lightweight WebGL build pipeline achieving under 30MB total asset payload."
+    ],
+    "demo_link": "https://itch.io",
+    "github_link": "https://github.com/lphthuan"
+  }
+]

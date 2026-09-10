@@ -1,0 +1,160 @@
+{
+  "vi": {
+    "nav": {
+      "about": "Giới thiệu",
+      "projects": "Dự án Game",
+      "skills": "Kỹ năng",
+      "contact": "Liên hệ"
+    },
+    "hero": {
+      "greeting": "Xin chào, tôi là",
+      "name": "Lê Phan Hoà Thuận",
+      "role": "Lập trình viên Game (Game Programmer)",
+      "badge": "Sẵn sàng đón nhận cơ hội mới",
+      "bio_lead": "Đam mê kiến tạo trải nghiệm gameplay mượt mà, tối ưu hiệu năng và phát triển hệ thống cơ chế game tương tác sâu sắc.",
+      "bio_desc": "Tôi tập trung chuyên sâu vào lập trình cơ chế gameplay (Gameplay Mechanics), tương tác vật lý trong game, trí tuệ nhân tạo (AI Behaviors), tối ưu hóa hiệu năng render/memory trên Unity và Unreal Engine. Với nền tảng tư duy toán học và kiến trúc code sạch (Design Patterns, State Machine, Event-driven), tôi luôn nỗ lực tạo ra các tựa game sống động và cuốn hút người chơi.",
+      "github_btn": "Xem GitHub",
+      "zalo_btn": "Nhắn tin Zalo",
+      "download_cv": "Tải CV Lập Trình"
+    },
+    "contact": {
+      "title": "Thông Tin Liên Hệ",
+      "address_label": "Địa chỉ:",
+      "address_val": "TP. Hồ Chí Minh, Việt Nam",
+      "phone_label": "Số điện thoại:",
+      "phone_val": "038 989 3210",
+      "email_label": "Email:",
+      "email_val": "lphthuan@gmail.com",
+      "dob_label": "Ngày sinh:",
+      "dob_val": "26/02/2003",
+      "github_label": "GitHub:",
+      "github_val": "github.com/lphthuan",
+      "zalo_label": "Zalo:",
+      "zalo_val": "0389893210"
+    },
+    "skills": {
+      "title": "Kỹ Năng Kỹ Thuật",
+      "subtitle": "Hệ sinh thái công nghệ và năng lực chuyên môn lập trình game",
+      "engine_title": "Game Engine",
+      "lang_title": "Ngôn ngữ lập trình",
+      "system_title": "Hệ thống Gameplay & Kỹ thuật",
+      "tools_title": "Công cụ & Quy trình"
+    },
+    "projects": {
+      "title": "Dự Án Nổi Bật",
+      "subtitle": "Các sản phẩm game và cơ chế kỹ thuật đã phát triển",
+      "all_projects": "Tất cả dự án",
+      "featured_badge": "Dự án tiêu biểu",
+      "view_detail": "Xem chi tiết dự án",
+      "view_all": "Xem tất cả dự án",
+      "filter_all": "Tất cả",
+      "filter_rpg": "3D Action / RPG",
+      "filter_mechanics": "Cơ chế Gameplay",
+      "filter_jam": "Game Jam",
+      "back_to_projects": "Quay lại danh sách dự án",
+      "role_label": "Vai trò",
+      "team_label": "Quy mô nhóm",
+      "duration_label": "Thời gian",
+      "engine_label": "Engine",
+      "platform_label": "Nền tảng",
+      "trailer_title": "Video Trailer Giới Thiệu",
+      "gameplay_title": "Video Gameplay Trực Tiếp",
+      "looper_title": "Video Loop Demo Cơ Chế (Mechanic Showcase)",
+      "looper_desc": "Đoạn video ngắn tự động chạy lặp lại để biểu diễn chi tiết cơ chế tương tác, vật lý và xử lý logic gameplay.",
+      "gallery_title": "Bộ Sưu Tập Hình Ảnh Trong Game",
+      "gallery_hint": "Bấm vào hình ảnh bất kỳ để xem toàn màn hình",
+      "play_demo": "Chơi Thử Demo",
+      "source_code": "Mã Nguồn GitHub"
+    },
+    "footer": {
+      "quote": "Biến ý tưởng sáng tạo thành những trải nghiệm tương tác đỉnh cao.",
+      "rights": "Bảo lưu mọi quyền."
+    },
+    "ui": {
+      "light_mode": "Chế độ Sáng",
+      "dark_mode": "Chế độ Tối",
+      "lang_switch": "Đổi ngôn ngữ",
+      "vietnamese": "Tiếng Việt",
+      "english": "English"
+    }
+  },
+  "en": {
+    "nav": {
+      "about": "About Me",
+      "projects": "Game Projects",
+      "skills": "Skills",
+      "contact": "Contact"
+    },
+    "hero": {
+      "greeting": "Hello, I am",
+      "name": "Le Phan Hoa Thuan",
+      "role": "Game Developer / Programmer",
+      "badge": "Available for Opportunities",
+      "bio_lead": "Passionate about building responsive gameplay mechanics, optimized systems, and immersive interactive game worlds.",
+      "bio_desc": "I specialize in gameplay programming, character controllers, game physics, AI behaviors, and performance profiling on Unity and Unreal Engine. Driven by clean architecture (Design Patterns, Finite State Machines, Event-Driven Architecture) and solid game math, I strive to deliver satisfying and fluid experiences for players.",
+      "github_btn": "Visit GitHub",
+      "zalo_btn": "Chat on Zalo",
+      "download_cv": "Download Resume"
+    },
+    "contact": {
+      "title": "Contact Details",
+      "address_label": "Location:",
+      "address_val": "Ho Chi Minh City, Vietnam",
+      "phone_label": "Phone:",
+      "phone_val": "+84 38 989 3210",
+      "email_label": "Email:",
+      "email_val": "lphthuan@gmail.com",
+      "dob_label": "Date of Birth:",
+      "dob_val": "February 26, 2003",
+      "github_label": "GitHub:",
+      "github_val": "github.com/lphthuan",
+      "zalo_label": "Zalo:",
+      "zalo_val": "0389893210"
+    },
+    "skills": {
+      "title": "Technical Skills",
+      "subtitle": "Tech stack and core proficiencies in game development",
+      "engine_title": "Game Engines",
+      "lang_title": "Programming Languages",
+      "system_title": "Gameplay & Systems",
+      "tools_title": "Tools & Pipeline"
+    },
+    "projects": {
+      "title": "Featured Projects",
+      "subtitle": "Game titles, technical mechanics, and interactive prototypes",
+      "all_projects": "All Projects",
+      "featured_badge": "Featured Project",
+      "view_detail": "Explore Project",
+      "view_all": "View All Projects",
+      "filter_all": "All",
+      "filter_rpg": "3D Action / RPG",
+      "filter_mechanics": "Gameplay Mechanics",
+      "filter_jam": "Game Jam",
+      "back_to_projects": "Back to Projects",
+      "role_label": "Role",
+      "team_label": "Team Size",
+      "duration_label": "Duration",
+      "engine_label": "Engine",
+      "platform_label": "Platform",
+      "trailer_title": "Official Trailer",
+      "gameplay_title": "Gameplay Walkthrough",
+      "looper_title": "Mechanic Showcase (Looping Video Demo)",
+      "looper_desc": "Continuous looping demo capturing real-time mechanics, collision response, and dynamic gameplay systems.",
+      "gallery_title": "In-Game Screenshot Gallery",
+      "gallery_hint": "Click any screenshot to inspect in full-screen lightbox",
+      "play_demo": "Play WebGL Demo",
+      "source_code": "GitHub Repository"
+    },
+    "footer": {
+      "quote": "Transforming creative ideas into responsive, unforgettable interactive experiences.",
+      "rights": "All rights reserved."
+    },
+    "ui": {
+      "light_mode": "Light Mode",
+      "dark_mode": "Dark Mode",
+      "lang_switch": "Switch Language",
+      "vietnamese": "Tiếng Việt",
+      "english": "English"
+    }
+  }
+}

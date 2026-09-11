@@ -123,19 +123,19 @@
     "short_desc_en": "3D Sci-Fi third-person shooter (TPS) action survival title built in Unity. Players embody scavenger \"Subject Zero\" infiltrating a quarantined industrial facility, surviving intelligent mutated AI threats, collecting mission quotas, and securing access passcards to breach the final boss sector.",
     "full_desc_vi": "ROPE là dự án game bắn súng hành động sinh tồn Sci-Fi 3D góc nhìn thứ ba (TPS), đưa người chơi vào một nhà máy công nghiệp bỏ hoang tràn ngập quái vật sinh học nguy hiểm dưới bầu trời đỏ rực. Trong vai trò \"Subject Zero\", người chơi phải thu gom các vật phẩm giá trị bị bỏ lại, tích lũy đủ chỉ tiêu hạn ngạch (Quota) và nộp tại điểm tập kết để nhận Thẻ khóa an ninh (Passcard) mở cánh cổng tiến vào khu vực trùm cuối.\\n\\nTrong vai trò Lập trình viên chính (Core Developer), tôi chịu trách nhiệm chính trong việc kiến trúc và phát triển các phân hệ cốt lõi:\\n- Lập trình AI Kẻ địch đa dạng: Thiết kế và triển khai 3 loại tác tử AI (Nhện độc Arathrox săn theo bầy, Quái cảm tử Crustaspikan Larvae ôm bom tự sát, Robot chiến đấu Droid Oil tấn công tầm xa) và Trùm cuối 2 Phase Crustaspikan King.\\n- Vòng lặp Gameplay Quota & Nhiệm vụ: Xây dựng cơ chế thu thập tài nguyên, kiểm tra tiến độ giao nộp tại điểm tập kết và kích hoạt nhận Thẻ khóa Passcard mở rào chắn an ninh.\\n- Hệ thống Vũ khí & Tác chiến: Lập trình cơ chế bắn súng, độ giật, quản lý đạn dược và nhặt hòm tiếp tế phân bổ rải rác trên bản đồ.\\n- Chuyển động nhân vật: Tích hợp Root Motion kết hợp điều khiển chuyển động và hệ thống camera bắn súng góc nhìn thứ ba (TPS) mượt mà, chân thực.\\n- Cân bằng và Kiểm thử (QA Testing): Cân chỉnh sát thương, tầm phát hiện của quái vật và tối ưu hóa hiệu năng tính toán đường đi trên Unity NavMesh.",
     "full_desc_en": "ROPE is a 3D third-person shooter (TPS) Sci-Fi action survival title where players infiltrate a hazardous abandoned industrial complex teeming with mutated bio-threats. As \"Subject Zero\", players must scavenge valuable remnants, fulfill quota collection thresholds at extraction terminals to unlock security Passcards, and breach the final boss sector.\\n\\nAs Core Developer, I architected and engineered key gameplay and technical pillars:\\n- Multifaceted Enemy AI Systems: Designed 3 distinct AI archetypes (pack-hunting venomous Arathrox spiders, suicide-bombing Crustaspikan Larvae, and long-range Droid Oil combat mechs) alongside the formidable 2-Phase Crustaspikan King Boss.\\n- Quota Objective Gameplay Loop: Built physical item scavenging mechanics, extraction terminal validation, and dynamic security passcard gate unlock flows.\\n- Combat & Ballistics: Implemented responsive shooting physics, weapon recoil, magazine constraints, and ambient supply crate looting.\\n- Locomotion & Root Motion: Synchronized character movement animations with Root Motion for responsive, grounded third-person shooter (TPS) controls.\\n- Quality Assurance & Balance Tuning: Calibrated combat damage scaling, enemy sensory perception radii, and real-time pathfinding performance on Unity NavMesh.",
-    "role_vi": "Lập trình viên chính (Core Developer) - Hệ thống AI Kẻ địch, Vũ khí & Gameplay Sinh tồn",
-    "role_en": "Core Developer - Enemy AI Systems, Weapon Combat & Survival Gameplay",
+    "role_vi": "Lập trình viên chính (Core Developer) - Phát triển hệ thống hành vi AI cho 4 loại kẻ thù riêng biệt & Gameplay",
+    "role_en": "Core Developer - AI Behavior Systems for 4 Distinct Enemy Types & Survival Gameplay",
     "team_size": "4 thành viên (Team Doro)",
     "team_size_en": "4 members (Team Doro)",
-    "duration_vi": "2026",
-    "duration_en": "2026",
+    "duration_vi": "Tháng 01/2026 - Tháng 03/2026",
+    "duration_en": "Jan 2026 - Mar 2026",
     "platform": "PC (Windows)",
     "thumbnail": "assets/images/projects/rope/rope-thumbnail.png",
     "trailer_video": "",
     "gameplay_video": "",
     "mechanic_loop_video": "",
-    "demo_link": "https://github.com/lphthuan/ROPE",
-    "github_link": "https://github.com/lphthuan/ROPE",
+    "demo_link": "https://drive.google.com/file/d/13ohE18W031m7L7SCF0Ci0QN4Qu8I4uJ5/view",
+    "github_link": "https://github.com/JohnnyDat06/ROPE",
     "story_desc_vi": "ROPE đưa người chơi thâm nhập vào một tổ hợp nhà máy công nghiệp bỏ hoang u ám dưới bầu trời đỏ rực. Trong vai \"Subject Zero\" – một người thu gom liều mạng, bạn phải đối mặt với nỗi sợ hãi tột cùng để tìm kiếm những linh kiện và vật phẩm giá trị bị bỏ lại giữa những đống đổ nát, container rỉ sét và đường ray hoang phế. Mục tiêu tối thượng là tích lũy đủ chỉ tiêu hạn ngạch (Quota) để đổi lấy sự sống và cơ hội thoát thân khỏi vùng đất chết.",
     "story_desc_en": "ROPE plunges players into a sprawling abandoned industrial complex bathed in an ominous crimson sky. Assuming the identity of \"Subject Zero\"—a desperate scavenger risking everything—you must navigate rusted shipping containers, decaying warehouses, and desolate rail yards to recover valuable remnants. Your ultimate objective is fulfilling quota collection thresholds to secure extraction passcards and escape the quarantined hazard zone alive.",
     "enemy_ai_desc_vi": "Điểm nhấn cốt lõi của gameplay nằm ở hệ thống AI Kẻ địch đa tầng được thiết kế với các cơ chế chiến thuật riêng biệt, buộc người chơi phải liên tục thay đổi cách tiếp cận:\\n- Quái 1 - Arathrox (Nhện độc): Tốc độ di chuyển cực nhanh, săn theo bầy đàn, tấn công cắn lén và phun nọc độc từ xa. Điểm yếu chí mạng là túi nọc phát sáng ở đuôi – khi bị bắn vỡ sẽ vô hiệu hóa hoàn toàn khả năng phun độc.\\n- Quái 2 - Crustaspikan Larvae (Quái cảm tử): Ẩn mình dưới lòng đất, mang khối bom hẹn giờ trên lưng. Khi tiếp cận mục tiêu, quái phát ra tiếng đếm nhịp \"bíp bíp\" dồn dập và lao bổ vào tự sát với sức nổ tàn khốc.\\n- Quái 3 - Droid Oil (Robot chiến đấu): Cực kỳ cơ động, trang bị súng trường tầm xa với độ chính xác cao. Điểm yếu là phần đầu cảm biến quang học, ưu tiên kỹ năng bắn tỉa headshot để triệt hạ nhanh.",
@@ -144,20 +144,20 @@
     "boss_desc_en": "After satisfying resource quotas and utilizing the Passcard to breach the reinforced security gate, players enter Map 2 for the ultimate climax: the 2-Phase Crustaspikan King Boss battle. Towering in size with heavy chitinous plating, the boss hurls massive boulders with concussive force and summons Arathrox reinforcements. Victory requires navigating arena covers, dodging lethal projectile impacts, and concentrating firepower to shatter its armored abdominal plate, exposing vital organ weak spots.",
     "highlights_vi": [
       "Lập trình kiến trúc AI Kẻ địch (Enemy AI): Xây dựng hệ thống tác tử AI thông minh trên Unity NavMesh với Finite State Machine (FSM) đa trạng thái (Patrol, Alert, Chase, Attack).",
-      "Cơ chế Nhện độc Arathrox: Thiết kế hành vi săn mồi theo bầy đàn, lập trình cơ chế bắn vỡ túi nọc độc ở chóp đuôi để vô hiệu hóa hoàn toàn khả năng phun độc tầm xa.",
-      "AI Cảm tử Crustaspikan Larvae: Lập trình hành vi ẩn mình mai phục, kích hoạt âm thanh cảnh báo nhịp dồn dập \"bíp bíp\" và lao bổ ôm bom phát nổ tự sát.",
-      "Robot chiến đấu Droid Oil: Xây dựng cơ chế phát hiện mục tiêu, xả súng tầm xa với độ chính xác cao và tích hợp điểm yếu Headshot tại cụm cảm biến quang học.",
-      "Trận đấu Boss 2 Phase (Crustaspikan King): Phát triển cơ chế nhặt ném tảng đá vật lý, triệu hồi quái phụ hỗ trợ và cơ chế phá hủy giáp bụng để lộ điểm yếu nội tạng.",
+      "Quái 1 - Nhện độc Arathrox: Thiết kế hành vi săn mồi theo bầy đàn, lập trình cơ chế bắn vỡ túi nọc độc ở chóp đuôi để vô hiệu hóa hoàn toàn khả năng phun độc tầm xa.",
+      "Quái 2 - Quái cảm tử Crustaspikan Larvae: Lập trình hành vi ẩn mình mai phục, kích hoạt âm thanh cảnh báo nhịp dồn dập 'bíp bíp' và lao bổ ôm bom phát nổ tự sát.",
+      "Quái 3 - Robot chiến đấu Droid Oil: Xây dựng cơ chế phát hiện mục tiêu, xả súng tầm xa với độ chính xác cao và tích hợp điểm yếu Headshot tại cụm cảm biến quang học.",
+      "Quái 4 / Trùm cuối 2 Phase (Crustaspikan King): Phát triển cơ chế nhặt ném tảng đá vật lý, triệu hồi quái phụ hỗ trợ và cơ chế phá hủy giáp bụng để lộ điểm yếu nội tạng.",
       "Vòng lặp Quota & Thẻ Khóa (Passcard): Xây dựng cơ chế thu thập tài nguyên giá trị, kiểm tra điều kiện giao nộp tại điểm tập kết để mở rào chắn khu vực trùm.",
       "Đồng bộ Chuyển động & Vũ khí: Tích hợp Root Motion kết hợp điều khiển súng, độ giật và hệ thống camera bắn súng góc nhìn thứ ba (TPS) mượt mà cho nhân vật Subject Zero.",
       "Kiểm thử & Cân bằng Gameplay (QA & Balancing): Tối ưu hóa số lượng tác tử AI trên NavMesh, cân bằng sát thương và tỷ lệ rơi đạn dược từ hòm tiếp tế."
     ],
     "highlights_en": [
       "Engineered Enemy AI Architecture: Built intelligent agent behaviors on Unity NavMesh utilizing a decoupled Finite State Machine (Patrol, Alert, Chase, Attack).",
-      "Arathrox Spider Mechanics: Programmed pack-hunting aggression and weak-point logic where destroying the caudal venom sac permanently disables ranged acid spit.",
-      "Crustaspikan Larvae Suicide Bomber: Implemented subterranean stealth ambushes, escalating audio proximity tells, and high-impact self-detonation physics.",
-      "Droid Oil Combat Mech: Built long-range ballistic targeting with high precision and integrated critical headshot hitboxes on the optical sensor array.",
-      "2-Phase Crustaspikan King Boss Encounter: Developed physical boulder-tossing trajectories, minion summoning waves, and abdominal armor-shattering mechanics.",
+      "Enemy 1 - Arathrox Spider Mechanics: Programmed pack-hunting aggression and weak-point logic where destroying the caudal venom sac permanently disables ranged acid spit.",
+      "Enemy 2 - Crustaspikan Larvae Suicide Bomber: Implemented subterranean stealth ambushes, escalating audio proximity tells, and high-impact self-detonation physics.",
+      "Enemy 3 - Droid Oil Combat Mech: Built long-range ballistic targeting with high precision and integrated critical headshot hitboxes on the optical sensor array.",
+      "Enemy 4 / 2-Phase Boss (Crustaspikan King): Developed physical boulder-tossing trajectories, minion summoning waves, and abdominal armor-shattering mechanics.",
       "Quota Progression & Passcard Loop: Engineered physical item scavenging, collection terminal validation, and dynamic security barrier unlock systems.",
       "Locomotion & Weapon Sync: Integrated Root Motion animation blending with responsive weapon handling, recoil physics, and smooth third-person shooter (TPS) camera controls for Subject Zero.",
       "QA Testing & Combat Balancing: Optimized NavMesh agent densities, tuned weapon damage curves, and balanced ammunition drop rates across supply crates."
@@ -198,67 +198,91 @@
   {
     "id": 3,
     "slug": "death-mine",
-    "category": "mechanics",
-    "category_label_vi": "Kinh dị Sinh tồn / AI Âm thanh",
-    "category_label_en": "Survival Horror / Sound AI",
+    "category": "rpg",
+    "category_label_vi": "Kinh dị Sinh tồn / Lén lút",
+    "category_label_en": "Survival Horror / Stealth",
     "featured": true,
-    "title_vi": "Death Mine - 3D Survival Horror",
-    "title_en": "Death Mine - 3D Survival Horror",
+    "title_vi": "Dead Mine - 3D Survival Horror & Stealth",
+    "title_en": "Dead Mine - 3D Survival Horror & Stealth",
     "engine": "Unity / C#",
     "tags": [
       "Unity",
       "C#",
-      "Survival Horror",
+      "Stealth Horror",
       "Sound-wave AI",
       "Observer Pattern",
       "NavMesh"
     ],
-    "short_desc_vi": "Game kinh dị sinh tồn 3D với cơ chế lén lút và giải đố. Xây dựng hệ thống AI kẻ địch có khả năng theo dõi, lắng nghe và định vị người chơi thông qua sóng âm sử dụng NavMesh và kiến trúc Observer Pattern.",
-    "short_desc_en": "3D survival horror game featuring stealth and puzzle-solving. Built an Enemy AI capable of listening and locating players through dynamic sound waves via NavMesh and an event-driven Observer Pattern.",
-    "full_desc_vi": "Death Mine là dự án game kinh dị sinh tồn góc nhìn thứ nhất, đưa người chơi vào một khu mỏ bỏ hoang với bầu không khí u ám và nguy hiểm rình rập. Trong vai trò Phó nhóm, tôi chịu trách nhiệm lập trình AI kẻ địch với cơ chế thính giác đặc biệt: quái vật có khả năng lắng nghe tiếng bước chân, tiếng va đập vật phẩm và sóng âm phát ra từ môi trường để truy vết người chơi. Bằng việc áp dụng kiến trúc hướng sự kiện (Observer Pattern), các sự kiện âm thanh được phân phối linh hoạt tới các tác tử AI mà không gây xung đột hiệu năng.",
-    "full_desc_en": "Death Mine is an atmospheric first-person survival horror experience set in abandoned underground mines. As Sub Leader, I developed sensory-driven Enemy AI capable of locating players by calculating acoustic sound propagations from footsteps, dropped props, and environmental collisions. Utilizing the event-driven Observer Pattern, acoustic triggers seamlessly alert nearby AI agents without performance bottlenecks.",
-    "role_vi": "Phó nhóm (Sub leader) - Lập trình viên AI Kẻ địch & Điều phối nhóm",
-    "role_en": "Sub leader - Enemy AI Programmer & Team Coordinator",
-    "team_size": "Nhóm phát triển Game (Project Team)",
+    "short_desc_vi": "Game kinh dị sinh tồn 3D góc nhìn thứ ba với triết lý 'Im lặng là sống sót'. Người chơi vào vai nhà khoa học Arthur Mills bị mắc kẹt tại hầm mỏ Black Rock, lẩn trốn sinh vật săn mồi mù lòa 'THỨ ĐÓ' sở hữu thính giác siêu nhạy, tìm kiếm 3 Lõi Năng Lượng để kích hoạt thang máy thoát hiểm.",
+    "short_desc_en": "3D third-person stealth survival horror game driven by the core principle 'Silence is Survival'. Players embody scientist Arthur Mills trapped in the Black Rock mines, evading a blind auditory apex predator ('IT') to recover 3 Energy Cores and activate the escape elevator.",
+    "full_desc_vi": "Dead Mine (Khu Mỏ Tử Thần / Dead Depths) là dự án game kinh dị sinh tồn 3D đưa người chơi vào hầm mỏ công nghiệp Black Rock u ám sau một cơn dư chấn địa chấn kinh hoàng. Người chơi vào vai nhà khoa học Arthur Mills – hoàn toàn không có vũ khí tự vệ, buộc phải dựa vào trí tuệ, đèn pin và những bước chân cẩn trọng để lẩn trốn quái vật dị hình 'THỨ ĐÓ'. Mục tiêu sống còn là thu thập đủ 3 Lõi Năng Lượng phân bổ tại các khu vực nguy hiểm của mỏ để nạp vào Bảng điều khiển Trung tâm và tẩu thoát qua Thang máy B.\n\nTrong vai trò Lập trình viên chính (Core Developer), tôi chịu trách nhiệm kiến trúc các hệ thống gameplay và kỹ thuật cốt lõi:\n- Hệ thống AI Thính giác Quái vật: Xây dựng thuật toán nhận diện và định vị người chơi qua bán kính sóng âm (tiếng bước chạy, va đập đồ vật, mở cửa sắt).\n- Kiến trúc Observer Pattern: Thiết kế hệ thống phát tán sự kiện âm thanh môi trường theo thời gian thực tới tác tử AI trên Unity NavMesh.\n- Cơ chế Leo Thang Độ Khó (Dynamic Difficulty Scaling): Điều chỉnh trí thông minh, tốc độ tuần tra và bán kính thính giác của quái vật tăng dần theo từng Lõi Năng Lượng được thu thập.\n- Hệ thống Tương tác Môi trường & Lén lút: Lập trình cơ chế đánh đổi âm thanh – giải đố (xoay van nước, khởi động cầu dao điện, đẩy toa xe mỏ).\n- Quản lý Tài nguyên Sinh tồn & Kiểm thử: Tối ưu hóa chuyển động nhân vật, cơ chế tiêu hao pin đèn pin và cân bằng độ căng thẳng trong các đường hầm chật hẹp.",
+    "full_desc_en": "Dead Mine (Dead Depths) is an atmospheric 3D survival horror experience set within the subterranean Black Rock industrial mine after a catastrophic seismic tremor. Players embody scientist Arthur Mills—completely weaponless, relying strictly on wits, flashlight management, and cautious footsteps to evade the blind auditory predator known as 'IT'. The paramount objective is retrieving 3 Energy Cores scattered across hazardous mine shafts to power the Central Control terminal and escape via Elevator B.\n\nAs Core Developer, I architected and engineered key technical pillars:\n- Sensory Auditory Enemy AI: Developed acoustic perception algorithms locating players via sound-wave propagation from footsteps and physical prop collisions.\n- Observer Pattern Event Architecture: Engineered decoupled, zero-latency audio event dispatching to NavMesh AI agents.\n- Dynamic Difficulty Escalation: Programmed scaling monster aggression, perception radii, and patrol speeds tied directly to core retrieval milestones.\n- Stealth & Environmental Interaction: Built risk-reward puzzle mechanics (valve turning, breaker flips, mine cart pushes) generating acoustic noise lures.\n- Survival Resource Balancing & QA: Optimized player locomotion, flashlight battery depletion, and claustrophobic collision navigation.",
+    "role_vi": "Lập trình viên chính (Core Developer) - Lập trình AI Thính giác quái vật, Tương tác Môi trường & Cân bằng Độ khó",
+    "role_en": "Core Developer - Auditory Enemy AI, Environment Interaction & Difficulty Balancing",
+    "team_size": "5 thành viên (Nhóm 2)",
     "duration_vi": "2025",
     "duration_en": "2025",
     "platform": "PC (Windows)",
-    "thumbnail": "https://images.unsplash.com/photo-1509198397868-475647b2a1e5?q=80&w=1200&auto=format&fit=crop",
-    "trailer_video": "https://www.youtube-nocookie.com/embed/dQw4w9WgXcQ",
+    "thumbnail": "assets/images/projects/dead-mine/dead-mine-thumbnail.png",
+    "trailer_video": "https://www.youtube-nocookie.com/embed/PmQAOy-L11w",
     "gameplay_video": "https://www.youtube-nocookie.com/embed/dQw4w9WgXcQ",
     "mechanic_loop_video": "https://assets.mixkit.co/videos/preview/mixkit-animation-of-futuristic-devices-99786-large.mp4",
     "mechanic_title_vi": "Demo Cơ Chế: AI Kẻ Địch Dò Sóng Âm & Phản Ứng Theo Tiếng Động",
     "mechanic_title_en": "Mechanic Demo: Acoustic Sound-wave AI Sensor & Event-driven Reaction",
     "gallery": [
       {
-        "url": "https://images.unsplash.com/photo-1509198397868-475647b2a1e5?q=80&w=1200&auto=format&fit=crop",
-        "caption_vi": "Hành lang khu mỏ tối tăm với ánh đèn pin hạn chế góc nhìn",
-        "caption_en": "Dark mine shaft corridor with narrow flashlight illumination"
+        "url": "assets/images/projects/dead-mine/dead-mine-thumbnail.png",
+        "caption_vi": "Quái vật 'THỨ ĐÓ' đối mặt trong chùm sáng đèn pin trên đường ray mỏ",
+        "caption_en": "The blind apex predator 'IT' caught in the flashlight beam on underground mine rails"
       },
       {
-        "url": "https://images.unsplash.com/photo-1578632767115-351597cf2477?q=80&w=1200&auto=format&fit=crop",
-        "caption_vi": "Cơ chế ẩn nấp và lắng nghe bước chân quái vật tuần tra",
-        "caption_en": "Stealth mechanic and auditory monster patrol detection"
+        "url": "assets/images/projects/dead-mine/dead-mine-environment.png",
+        "caption_vi": "Hành lang hầm mỏ Black Rock sâu hun hút với các thanh dầm gỗ và ánh đèn u ám",
+        "caption_en": "Deep Black Rock mine shaft corridor framed with timber supports and eerie lantern glow"
       },
       {
-        "url": "https://images.unsplash.com/photo-1538481199705-c710c4e965fc?q=80&w=1200&auto=format&fit=crop",
-        "caption_vi": "Các câu đố tương tác mở cửa và vận hành máy móc",
-        "caption_en": "Interactive environment puzzles and electrical mechanism"
+        "url": "assets/images/projects/dead-mine/dead-mine-cart-tunnel.png",
+        "caption_vi": "Toa xe mỏ chở gỗ trong đường hầm sương mờ - Minh họa cơ chế tương tác tạo tiếng ồn",
+        "caption_en": "Timber-loaded mine cart in misty drift tunnel illustrating sound-emitting environmental props"
+      },
+      {
+        "url": "assets/images/projects/dead-mine/dead-mine-ore-carts.png",
+        "caption_vi": "Đường hầm vòm sắt với các toa xe quặng rỉ sét - Địa hình luồn lách lẩn trốn",
+        "caption_en": "Arched steel tunnel with rusted ore carts providing claustrophobic stealth concealment"
+      },
+      {
+        "url": "assets/images/projects/dead-mine/dead-mine-arthur.png",
+        "caption_vi": "Mô hình 3D nhân vật chính nhà khoa học Arthur Mills với mặt nạ phòng độc",
+        "caption_en": "3D character model of protagonist scientist Arthur Mills equipped with survival respirator"
+      },
+      {
+        "url": "assets/images/projects/dead-mine/dead-mine-monster.png",
+        "caption_vi": "Mô hình 3D sinh vật săn mồi dị hình 'THỨ ĐÓ' với thính giác cực nhạy",
+        "caption_en": "3D model render of the mutated apex predator 'IT' guided exclusively by acoustic hearing"
       }
     ],
     "highlights_vi": [
-      "Xây dựng thuật toán AI nhận diện và định vị người chơi thông qua bán kính sóng âm.",
-      "Áp dụng Observer Pattern để xử lý phản hồi sự kiện âm thanh môi trường theo thời gian thực.",
-      "Kết hợp cơ chế lén lút (Stealth), ẩn nấp và giải đố vào nhịp độ gameplay kịch tính.",
-      "Tối ưu hóa AI Navigation trong địa hình hầm mỏ chật hẹp, nhiều ngã rẽ."
+      "Lập trình AI Thính giác Quái vật (Auditory Sensor AI): Xây dựng thuật toán nhận diện và định vị người chơi trên Unity NavMesh dựa trên bán kính sóng âm phát ra từ tiếng bước chân và vật thể môi trường.",
+      "Kiến trúc Hướng Sự kiện (Observer Pattern): Thiết kế hệ thống phát tán tín hiệu âm thanh độc lập, truyền phát thời gian thực tới các tác tử AI mà không gây xung đột hay sụt giảm hiệu năng.",
+      "Cơ chế Leo Thang Độ Khó (Dynamic Difficulty Scaling): Tự động nâng cấp độ nhạy thính giác, tốc độ di chuyển và hành vi truy đuổi của quái vật tương ứng với số lượng Lõi Năng Lượng người chơi đã lắp đặt.",
+      "Hệ thống Đánh Đổi Lén Lút & Tương Tác: Lập trình các cơ cấu giải đố môi trường (van xả áp, cầu dao, cửa thép, toa quặng) buộc người chơi phải cân nhắc giữa việc tạo tiếng ồn và ẩn nấp tính toán thời cơ.",
+      "Tối ưu hóa Điều hướng & Không gian Hẹp: Cấu hình NavMesh Agent chuyên biệt cho địa hình hầm mỏ quanh co, kết hợp cơ chế quản lý pin đèn pin và hệ thống camera linh hoạt."
     ],
     "highlights_en": [
-      "Developed acoustic sensing algorithm calculating threat alert vectors based on sound-wave radius.",
-      "Applied Observer Pattern for decoupled, low-latency audio event dispatching to AI agents.",
-      "Balanced tense stealth mechanics, line-of-sight concealment, and mechanical puzzles.",
-      "Optimized AI Navigation mesh for tight, multi-branching subterranean level geometry."
+      "Engineered Auditory Sensor AI: Programmed acoustic detection and localization on Unity NavMesh based on dynamic sound-wave radius emitted by footsteps and physics props.",
+      "Event-Driven Observer Architecture: Designed a decoupled audio broadcast system dispatching real-time acoustic events to AI agents without performance bottlenecks.",
+      "Dynamic Difficulty Progression: Scaled monster auditory sensitivity, aggression thresholds, and pursuit velocity in direct sync with Energy Core milestones (1 to 3 Cores).",
+      "Sound-Stealth Tradeoff Mechanics: Implemented mechanical puzzle interactions (pressure valves, circuit breakers, heavy mine carts) requiring tactical risk assessment.",
+      "Claustrophobic Navigation & Optimization: Tuned tight-corridor NavMesh pathfinding, integrated flashlight battery drain mechanics, and optimized third-person survival controls."
     ],
     "demo_link": "https://github.com/lphthuan/Death-Mine",
-    "github_link": "https://github.com/lphthuan/Death-Mine"
+    "github_link": "https://github.com/lphthuan/Death-Mine",
+    "team_size_en": "5 members (Team 2)",
+    "story_desc_vi": "Dead Mine đưa người chơi theo chân Arthur Mills – một nhà khoa học bị cô lập dưới lòng đất sâu của hầm mỏ Black Rock sau cơn địa chấn. Giữa bóng tối dày đặc, các thanh dầm gỗ rạn nứt và những đường ray hoang phế, anh nhận ra mình không hề đơn độc: một sinh vật dị hình mù lòa mang tên 'THỨ ĐÓ' đang lùng sục từng ngóc ngách, săn đuổi bất kỳ tiếng động nhỏ nhất phát ra trong không gian tĩnh mịch.",
+    "story_desc_en": "Dead Mine follows Arthur Mills—a scientist stranded deep beneath the surface within the collapsed Black Rock mines following a catastrophic earthquake. Surrounded by suffocating darkness, splintered timber supports, and rusted rails, he discovers he is not alone: a blind monstrous predator known as 'IT' prowls the corridors, zeroing in on the faintest sound echoing through the silence.",
+    "gameplay_puzzles_desc_vi": "Với triết lý cốt lõi 'Im lặng là sống sót', game loại bỏ hoàn toàn cơ chế chiến đấu vũ trang để đẩy sự căng thẳng lên tột độ. Người chơi phải phân biệt ranh giới sống chết giữa đi bộ nhẹ nhàng và chạy hoảng loạn; giải các câu đố cơ học như xoay van xả nước, mở cửa thép gỉ sét hoặc đẩy toa xe mỏ – những hành động mang tính đánh đổi khi luôn phát tán sóng âm thu hút quái vật kéo đến.",
+    "gameplay_puzzles_desc_en": "Driven by the core creed 'Silence is Survival', the game completely eliminates combat weapons to elevate pure survival tension. Players must balance quiet sneaking against noisy panicked sprinting; solving physical puzzles like turning pressurized water valves, prying rusty steel bulkheads, and pushing mine carts—each interaction a deliberate risk that emits acoustic sound waves alerting the hunter.",
+    "boss_desc_vi": "Mục tiêu cốt lõi là định vị và thu thập 3 Lõi Năng Lượng (Energy Cores) cổ xưa để nạp vào Bảng điều khiển Trung tâm. Trò chơi sở hữu cơ chế leo thang độ khó lũy tiến: mỗi Lõi Năng Lượng được tìm thấy sẽ khiến sinh vật 'THỨ ĐÓ' trở nên hung hãn, thính giác nhạy bén và tốc độ truy đuổi nhanh hơn. Việc lắp Lõi thứ 3 sẽ kích hoạt còi báo động khổng lồ, mở ra màn chạy đua sinh tử để đến được Thang máy Thoát hiểm B.",
+    "boss_desc_en": "The core objective demands recovering 3 ancient Energy Cores to reboot the Central Control Panel. The experience features an escalating difficulty curve: each core installed heightens 'IT's' auditory sensitivity, aggression, and patrol velocity. Inserting the final 3rd core trips an emergency alarm klaxon, triggering a breathless, high-stakes final sprint toward Elevator B to escape alive."
   }
 ]

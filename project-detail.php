@@ -360,6 +360,123 @@ require_once __DIR__ . '/includes/header.php';
                             </div>
                         </div>
                     </div>
+                <?php elseif (strcasecmp($project['slug'], 'death-mine') === 0): ?>
+                    <!-- Block 1: Story & Setting -->
+                    <div class="editorial-block glass-panel">
+                        <h2 class="text-gradient editorial-heading" 
+                            data-i18n-vi="Cốt Truyện & Bối Cảnh Hầm Mỏ Black Rock"
+                            data-i18n-en="Narrative & Black Rock Mines Setting">
+                            Cốt Truyện & Bối Cảnh Hầm Mỏ Black Rock
+                        </h2>
+                        <div class="editorial-grid-split">
+                            <div class="editorial-text-col">
+                                <p data-i18n-vi="<?php echo htmlspecialchars($project['story_desc_vi']); ?>"
+                                   data-i18n-en="<?php echo htmlspecialchars($project['story_desc_en']); ?>">
+                                    <?php echo htmlspecialchars($project['story_desc_vi']); ?>
+                                </p>
+                            </div>
+                            <div class="gallery-item editorial-media-card">
+                                <img src="assets/images/projects/dead-mine/dead-mine-environment.png" 
+                                     alt="Hành lang hầm mỏ Black Rock sâu hun hút" 
+                                     class="gallery-img"
+                                     loading="lazy">
+                                <div class="editorial-media-caption"
+                                     data-i18n-vi="Khu mỏ Black Rock: Hành lang khai thác sâu với dầm gỗ chống và ánh đèn u tối sau cơn địa chấn kinh hoàng"
+                                     data-i18n-en="Black Rock Mines: Deep extraction corridors reinforced by timber beams under eerie lantern glow">
+                                    Khu mỏ Black Rock: Hành lang khai thác sâu với dầm gỗ chống và ánh đèn u tối sau cơn địa chấn kinh hoàng
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Block 2: Stealth Philosophy & Sound AI -->
+                    <div class="editorial-block glass-panel">
+                        <h2 class="text-gradient editorial-heading" 
+                            data-i18n-vi="Triết Lý Lén Lút & Cơ Chế Sóng Âm 'Im Lặng Là Sống Sót'"
+                            data-i18n-en="Stealth Philosophy & 'Silence is Survival' Auditory AI">
+                            Triết Lý Lén Lút & Cơ Chế Sóng Âm 'Im Lặng Là Sống Sót'
+                        </h2>
+                        <div class="editorial-text-col editorial-text-full">
+                            <p data-i18n-vi="<?php echo htmlspecialchars($project['gameplay_puzzles_desc_vi']); ?>"
+                               data-i18n-en="<?php echo htmlspecialchars($project['gameplay_puzzles_desc_en']); ?>">
+                                <?php echo htmlspecialchars($project['gameplay_puzzles_desc_vi']); ?>
+                            </p>
+                        </div>
+                        <div class="editorial-trio-images">
+                            <div class="gallery-item editorial-media-card">
+                                <img src="assets/images/projects/dead-mine/dead-mine-thumbnail.png" 
+                                     alt="Đối mặt quái vật THỨ ĐÓ trong ánh đèn pin" 
+                                     class="gallery-img"
+                                     loading="lazy">
+                                <div class="editorial-media-caption"
+                                     data-i18n-vi="Khoảnh khắc kinh hoàng: Sinh vật săn mồi 'THỨ ĐÓ' bất ngờ gầm thét khi phát hiện sóng âm người chơi trong ánh đèn pin."
+                                     data-i18n-en="Terrifying encounter: The apex predator 'IT' lunging down the rail tracks after locking onto player sound waves.">
+                                    Khoảnh khắc kinh hoàng: Sinh vật săn mồi 'THỨ ĐÓ' bất ngờ gầm thét khi phát hiện sóng âm người chơi trong ánh đèn pin.
+                                </div>
+                            </div>
+                            <div class="gallery-item editorial-media-card">
+                                <img src="assets/images/projects/dead-mine/dead-mine-arthur.png" 
+                                     alt="Nhà khoa học Arthur Mills" 
+                                     class="gallery-img"
+                                     loading="lazy">
+                                <div class="editorial-media-caption"
+                                     data-i18n-vi="Arthur Mills: Nhà khoa học không trang bị vũ khí, hoàn toàn phụ thuộc vào di chuyển lén lút, quan sát và giải đố."
+                                     data-i18n-en="Arthur Mills: Weaponless scientist reliant entirely on cautious sneaking, observation, and puzzle-solving.">
+                                    Arthur Mills: Nhà khoa học không trang bị vũ khí, hoàn toàn phụ thuộc vào di chuyển lén lút, quan sát và giải đố.
+                                </div>
+                            </div>
+                            <div class="gallery-item editorial-media-card">
+                                <img src="assets/images/projects/dead-mine/dead-mine-monster.png" 
+                                     alt="Mô hình 3D sinh vật săn mồi dị hình THỨ ĐÓ" 
+                                     class="gallery-img"
+                                     loading="lazy">
+                                <div class="editorial-media-caption"
+                                     data-i18n-vi="Sinh vật 'THỨ ĐÓ': Kẻ cai ngục mù lòa của khu mỏ, được điều hướng hoàn toàn bằng hệ thống thính giác siêu nhạy."
+                                     data-i18n-en="The Creature 'IT': Blind warden of the subterranean shafts driven purely by hyper-sensitive acoustic hearing.">
+                                    Sinh vật 'THỨ ĐÓ': Kẻ cai ngục mù lòa của khu mỏ, được điều hướng hoàn toàn bằng hệ thống thính giác siêu nhạy.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Block 3: Energy Cores & Climax Escape -->
+                    <div class="editorial-block glass-panel">
+                        <h2 class="text-gradient editorial-heading" 
+                            data-i18n-vi="Hệ Thống 3 Lõi Năng Lượng & Leo Thang Độ Khó Thoát Hiểm"
+                            data-i18n-en="3 Energy Cores System & Escalating Climax Escape">
+                            Hệ Thống 3 Lõi Năng Lượng & Leo Thang Độ Khó Thoát Hiểm
+                        </h2>
+                        <div class="editorial-text-col editorial-text-full">
+                            <p data-i18n-vi="<?php echo htmlspecialchars($project['boss_desc_vi']); ?>"
+                               data-i18n-en="<?php echo htmlspecialchars($project['boss_desc_en']); ?>">
+                                <?php echo htmlspecialchars($project['boss_desc_vi']); ?>
+                            </p>
+                        </div>
+                        <div class="editorial-dual-images">
+                            <div class="gallery-item editorial-media-card">
+                                <img src="assets/images/projects/dead-mine/dead-mine-cart-tunnel.png" 
+                                     alt="Toa xe mỏ chở gỗ trong đường hầm sương mờ" 
+                                     class="gallery-img"
+                                     loading="lazy">
+                                <div class="editorial-media-caption"
+                                     data-i18n-vi="Đường hầm khai thác mỏ: Toa xe gỗ và các vật cản môi trường – hành động đẩy xe phát ra âm thanh lớn mang tính đánh đổi sinh tử."
+                                     data-i18n-en="Extraction drift: Pushing mine carts and manipulating heavy valves generates loud noise lures that demand stealth tradeoffs.">
+                                    Đường hầm khai thác mỏ: Toa xe gỗ và các vật cản môi trường – hành động đẩy xe phát ra âm thanh lớn mang tính đánh đổi sinh tử.
+                                </div>
+                            </div>
+                            <div class="gallery-item editorial-media-card">
+                                <img src="assets/images/projects/dead-mine/dead-mine-ore-carts.png" 
+                                     alt="Đường hầm vòm sắt và lối thoát hiểm" 
+                                     class="gallery-img"
+                                     loading="lazy">
+                                <div class="editorial-media-caption"
+                                     data-i18n-vi="Tuyến đường hầm vòm sắt: Đường dẫn tới Thang máy B – nơi diễn ra màn rượt đuổi sinh tử sau khi nạp đủ 3 Lõi Năng Lượng."
+                                     data-i18n-en="Arched iron ore gallery: Evacuation route to Elevator B where the desperate final pursuit unfolds once all 3 cores are inserted.">
+                                    Tuyến đường hầm vòm sắt: Đường dẫn tới Thang máy B – nơi diễn ra màn rượt đuổi sinh tử sau khi nạp đủ 3 Lõi Năng Lượng.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 <?php endif; ?>
             </div>
         <?php else: ?>

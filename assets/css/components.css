@@ -769,6 +769,20 @@
   }
 }
 
+.editorial-trio-images {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: clamp(1.25rem, 2.5vw, 1.85rem);
+  margin-top: 2rem;
+}
+
+@media (max-width: 900px) {
+  .editorial-trio-images {
+    grid-template-columns: 1fr;
+    gap: 1.75rem;
+  }
+}
+
 .tech-section-block {
   padding: clamp(2.5rem, 5vw, 4rem);
   margin-bottom: 4.5rem;

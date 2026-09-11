@@ -134,114 +134,233 @@ require_once __DIR__ . '/includes/header.php';
         <!-- Section 2: Story & Gameplay Presentation (Balanced with interspersed images) -->
         <?php if (!empty($project['story_desc_vi'])): ?>
             <div class="editorial-section">
-                <!-- Block 1: Story & Journey -->
-                <div class="editorial-block glass-panel">
-                    <h2 class="text-gradient editorial-heading" 
-                        data-i18n="projects.story_title"
-                        data-i18n-vi="Cốt Truyện & Hành Trình Phiêu Lưu"
-                        data-i18n-en="Narrative & Adventure Journey">
-                        Cốt Truyện & Hành Trình Phiêu Lưu
-                    </h2>
-                    <div class="editorial-grid-split">
-                        <div class="editorial-text-col">
-                            <p data-i18n-vi="<?php echo htmlspecialchars($project['story_desc_vi']); ?>"
-                               data-i18n-en="<?php echo htmlspecialchars($project['story_desc_en']); ?>">
-                                <?php echo htmlspecialchars($project['story_desc_vi']); ?>
+                <?php if (strcasecmp($project['slug'], 'the-flower') === 0): ?>
+                    <!-- Block 1: Story & Journey -->
+                    <div class="editorial-block glass-panel">
+                        <h2 class="text-gradient editorial-heading" 
+                            data-i18n="projects.story_title"
+                            data-i18n-vi="Cốt Truyện & Hành Trình Phiêu Lưu"
+                            data-i18n-en="Narrative & Adventure Journey">
+                            Cốt Truyện & Hành Trình Phiêu Lưu
+                        </h2>
+                        <div class="editorial-grid-split">
+                            <div class="editorial-text-col">
+                                <p data-i18n-vi="<?php echo htmlspecialchars($project['story_desc_vi']); ?>"
+                                   data-i18n-en="<?php echo htmlspecialchars($project['story_desc_en']); ?>">
+                                    <?php echo htmlspecialchars($project['story_desc_vi']); ?>
+                                </p>
+                            </div>
+                            <div class="gallery-item editorial-media-card">
+                                <img src="assets/images/projects/the-flower/the-flower-village.jpg" 
+                                     alt="Map 1: Ngôi Làng khởi đầu của Mia và Leo" 
+                                     class="gallery-img"
+                                     loading="lazy">
+                                <div class="editorial-media-caption"
+                                     data-i18n-vi="Map 1: Khung cảnh Ngôi Làng khởi đầu của Mia và Leo với đồ họa Stylized tươi sáng"
+                                     data-i18n-en="Map 1: The starting Village of Mia and Leo with vibrant stylized visuals">
+                                    Map 1: Khung cảnh Ngôi Làng khởi đầu của Mia và Leo với đồ họa Stylized tươi sáng
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Block 2: Cooperative Puzzles -->
+                    <div class="editorial-block glass-panel">
+                        <h2 class="text-gradient editorial-heading" 
+                            data-i18n="projects.gameplay_puzzles_title"
+                            data-i18n-vi="Lối Chơi Hợp Tác & Giải Đố Môi Trường"
+                            data-i18n-en="Cooperative Gameplay & Environmental Puzzles">
+                            Lối Chơi Hợp Tác & Giải Đố Môi Trường
+                        </h2>
+                        <div class="editorial-text-col editorial-text-full">
+                            <p data-i18n-vi="<?php echo htmlspecialchars($project['gameplay_puzzles_desc_vi']); ?>"
+                               data-i18n-en="<?php echo htmlspecialchars($project['gameplay_puzzles_desc_en']); ?>">
+                                <?php echo htmlspecialchars($project['gameplay_puzzles_desc_vi']); ?>
                             </p>
                         </div>
-                        <div class="gallery-item editorial-media-card">
-                            <img src="assets/images/projects/the-flower/the-flower-village.jpg" 
-                                 alt="Map 1: Ngôi Làng khởi đầu của Mia và Leo" 
-                                 class="gallery-img"
-                                 loading="lazy">
-                            <div class="editorial-media-caption"
-                                 data-i18n-vi="Map 1: Khung cảnh Ngôi Làng khởi đầu của Mia và Leo với đồ họa Stylized tươi sáng"
-                                 data-i18n-en="Map 1: The starting Village of Mia and Leo with vibrant stylized visuals">
-                                Map 1: Khung cảnh Ngôi Làng khởi đầu của Mia và Leo với đồ họa Stylized tươi sáng
+                        <div class="editorial-dual-images">
+                            <div class="gallery-item editorial-media-card">
+                                <img src="assets/images/projects/the-flower/the-flower-forest-checkpoint.jpg" 
+                                     alt="Thử thách Đầm Sen và Trạm Checkpoint Cây Nấm" 
+                                     class="gallery-img"
+                                     loading="lazy">
+                                <div class="editorial-media-caption"
+                                     data-i18n-vi="Map 1: Thử thách Bẫy Lá Sen, Đầm nước sâu và Checkpoint Cây Nấm phát sáng"
+                                     data-i18n-en="Map 1: Lily Pad puzzle coordination and glowing Crystal Mushroom checkpoint">
+                                    Map 1: Thử thách Bẫy Lá Sen, Đầm nước sâu và Checkpoint Cây Nấm phát sáng
+                                </div>
+                            </div>
+                            <div class="gallery-item editorial-media-card">
+                                <img src="assets/images/projects/the-flower/the-flower-desert-oasis.jpg" 
+                                     alt="Sa mạc Ốc đảo & Cột Gió Nâng" 
+                                     class="gallery-img"
+                                     loading="lazy">
+                                <div class="editorial-media-caption"
+                                     data-i18n-vi="Map 2: Sa mạc Ốc đảo, Cầu treo hẻm núi và hệ thống Cột Gió Nâng (Wind Updrafts)"
+                                     data-i18n-en="Map 2: Desert Oasis, canyon suspension bridges, and Wind Updraft launch pads">
+                                    Map 2: Sa mạc Ốc đảo, Cầu treo hẻm núi và hệ thống Cột Gió Nâng (Wind Updrafts)
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
 
-                <!-- Block 2: Cooperative Puzzles -->
-                <div class="editorial-block glass-panel">
-                    <h2 class="text-gradient editorial-heading" 
-                        data-i18n="projects.gameplay_puzzles_title"
-                        data-i18n-vi="Lối Chơi Hợp Tác & Giải Đố Môi Trường"
-                        data-i18n-en="Cooperative Gameplay & Environmental Puzzles">
-                        Lối Chơi Hợp Tác & Giải Đố Môi Trường
-                    </h2>
-                    <div class="editorial-text-col editorial-text-full">
-                        <p data-i18n-vi="<?php echo htmlspecialchars($project['gameplay_puzzles_desc_vi']); ?>"
-                           data-i18n-en="<?php echo htmlspecialchars($project['gameplay_puzzles_desc_en']); ?>">
-                            <?php echo htmlspecialchars($project['gameplay_puzzles_desc_vi']); ?>
-                        </p>
-                    </div>
-                    <div class="editorial-dual-images">
-                        <div class="gallery-item editorial-media-card">
-                            <img src="assets/images/projects/the-flower/the-flower-forest-checkpoint.jpg" 
-                                 alt="Thử thách Đầm Sen và Trạm Checkpoint Cây Nấm" 
-                                 class="gallery-img"
-                                 loading="lazy">
-                            <div class="editorial-media-caption"
-                                 data-i18n-vi="Map 1: Thử thách Bẫy Lá Sen, Đầm nước sâu và Checkpoint Cây Nấm phát sáng"
-                                 data-i18n-en="Map 1: Lily Pad puzzle coordination and glowing Crystal Mushroom checkpoint">
-                                Map 1: Thử thách Bẫy Lá Sen, Đầm nước sâu và Checkpoint Cây Nấm phát sáng
+                    <!-- Block 3: Climax & Boss Encounter -->
+                    <div class="editorial-block glass-panel">
+                        <h2 class="text-gradient editorial-heading" 
+                            data-i18n="projects.boss_title"
+                            data-i18n-vi="Đua Thuyền Cát & Trận Đấu Trùm Cuối"
+                            data-i18n-en="Sand Boat Chase & Final Boss Encounter">
+                            Đua Thuyền Cát & Trận Đấu Trùm Cuối
+                        </h2>
+                        <div class="editorial-text-col editorial-text-full">
+                            <p data-i18n-vi="<?php echo htmlspecialchars($project['boss_desc_vi']); ?>"
+                               data-i18n-en="<?php echo htmlspecialchars($project['boss_desc_en']); ?>">
+                                <?php echo htmlspecialchars($project['boss_desc_vi']); ?>
+                            </p>
+                        </div>
+                        <div class="editorial-dual-images">
+                            <div class="gallery-item editorial-media-card">
+                                <img src="assets/images/projects/the-flower/the-flower-ancient-temple.jpg" 
+                                     alt="Đại sảnh Đền Cổ linh thiêng" 
+                                     class="gallery-img"
+                                     loading="lazy">
+                                <div class="editorial-media-caption"
+                                     data-i18n-vi="Đại sảnh Đền Cổ linh thiêng - Nơi diễn ra câu đố Gương Thần và Bàn Cờ Eris"
+                                     data-i18n-en="Ancient Temple Hall - Setting for the Magic Mirror and Eris Chessboard">
+                                    Đại sảnh Đền Cổ linh thiêng - Nơi diễn ra câu đố Gương Thần và Bàn Cờ Eris
+                                </div>
+                            </div>
+                            <div class="gallery-item editorial-media-card">
+                                <img src="assets/images/projects/the-flower/the-flower-cat-sphinx-boss.jpg" 
+                                     alt="Trùm Cuối Thần Nhân Sư Mèo" 
+                                     class="gallery-img"
+                                     loading="lazy">
+                                <div class="editorial-media-caption"
+                                     data-i18n-vi="Phòng Đấu Trùm Cuối: Thần Nhân Sư Mèo với cơ chế Kích Hoạt Kép (Dual Activation)"
+                                     data-i18n-en="Final Boss Chamber: Cat Sphinx Guardian with synchronized Dual Activation platforms">
+                                    Phòng Đấu Trùm Cuối: Thần Nhân Sư Mèo với cơ chế Kích Hoạt Kép (Dual Activation)
+                                </div>
                             </div>
                         </div>
-                        <div class="gallery-item editorial-media-card">
-                            <img src="assets/images/projects/the-flower/the-flower-desert-oasis.jpg" 
-                                 alt="Sa mạc Ốc đảo & Cột Gió Nâng" 
-                                 class="gallery-img"
-                                 loading="lazy">
-                            <div class="editorial-media-caption"
-                                 data-i18n-vi="Map 2: Sa mạc Ốc đảo, Cầu treo hẻm núi và hệ thống Cột Gió Nâng (Wind Updrafts)"
-                                 data-i18n-en="Map 2: Desert Oasis, canyon suspension bridges, and Wind Updraft launch pads">
-                                Map 2: Sa mạc Ốc đảo, Cầu treo hẻm núi và hệ thống Cột Gió Nâng (Wind Updrafts)
+                    </div>
+                <?php elseif (strcasecmp($project['slug'], 'ROPE') === 0): ?>
+                    <!-- Block 1: Story & Setting -->
+                    <div class="editorial-block glass-panel">
+                        <h2 class="text-gradient editorial-heading" 
+                            data-i18n-vi="Cốt Truyện & Bối Cảnh Sinh Tồn"
+                            data-i18n-en="Narrative & Survival Setting">
+                            Cốt Truyện & Bối Cảnh Sinh Tồn
+                        </h2>
+                        <div class="editorial-grid-split">
+                            <div class="editorial-text-col">
+                                <p data-i18n-vi="<?php echo htmlspecialchars($project['story_desc_vi']); ?>"
+                                   data-i18n-en="<?php echo htmlspecialchars($project['story_desc_en']); ?>">
+                                    <?php echo htmlspecialchars($project['story_desc_vi']); ?>
+                                </p>
+                            </div>
+                            <div class="gallery-item editorial-media-card">
+                                <img src="assets/images/projects/rope/rope-map1-factory.png" 
+                                     alt="Khu Phức Hợp Nhà Máy Bỏ Hoang" 
+                                     class="gallery-img"
+                                     loading="lazy">
+                                <div class="editorial-media-caption"
+                                     data-i18n-vi="Map 1: Khu Phức Hợp Nhà Máy Bỏ Hoang - Không gian công nghiệp nặng u tối nơi thử nghiệm các mẫu vật đột biến sinh học"
+                                     data-i18n-en="Map 1: Abandoned Industrial Complex - Grim industrial environment where biological mutation experiments took place">
+                                    Map 1: Khu Phức Hợp Nhà Máy Bỏ Hoang - Không gian công nghiệp nặng u tối nơi thử nghiệm các mẫu vật đột biến sinh học
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
 
-                <!-- Block 3: Climax & Boss Encounter -->
-                <div class="editorial-block glass-panel">
-                    <h2 class="text-gradient editorial-heading" 
-                        data-i18n="projects.boss_title"
-                        data-i18n-vi="Đua Thuyền Cát & Trận Đấu Trùm Cuối"
-                        data-i18n-en="Sand Boat Chase & Final Boss Encounter">
-                        Đua Thuyền Cát & Trận Đấu Trùm Cuối
-                    </h2>
-                    <div class="editorial-text-col editorial-text-full">
-                        <p data-i18n-vi="<?php echo htmlspecialchars($project['boss_desc_vi']); ?>"
-                           data-i18n-en="<?php echo htmlspecialchars($project['boss_desc_en']); ?>">
-                            <?php echo htmlspecialchars($project['boss_desc_vi']); ?>
-                        </p>
-                    </div>
-                    <div class="editorial-dual-images">
-                        <div class="gallery-item editorial-media-card">
-                            <img src="assets/images/projects/the-flower/the-flower-ancient-temple.jpg" 
-                                 alt="Đại sảnh Đền Cổ linh thiêng" 
-                                 class="gallery-img"
-                                 loading="lazy">
-                            <div class="editorial-media-caption"
-                                 data-i18n-vi="Đại sảnh Đền Cổ linh thiêng - Nơi diễn ra câu đố Gương Thần và Bàn Cờ Eris"
-                                 data-i18n-en="Ancient Temple Hall - Setting for the Magic Mirror and Eris Chessboard">
-                                Đại sảnh Đền Cổ linh thiêng - Nơi diễn ra câu đố Gương Thần và Bàn Cờ Eris
+                    <!-- Block 2: Specialized Enemy AI Systems -->
+                    <div class="editorial-block glass-panel">
+                        <h2 class="text-gradient editorial-heading" 
+                            data-i18n-vi="Hệ Thống Kẻ Địch AI Chuyên Biệt"
+                            data-i18n-en="Specialized Enemy AI Systems">
+                            Hệ Thống Kẻ Địch AI Chuyên Biệt
+                        </h2>
+                        <div class="editorial-text-col editorial-text-full">
+                            <p data-i18n-vi="<?php echo htmlspecialchars($project['gameplay_puzzles_desc_vi']); ?>"
+                               data-i18n-en="<?php echo htmlspecialchars($project['gameplay_puzzles_desc_en']); ?>">
+                                <?php echo htmlspecialchars($project['gameplay_puzzles_desc_vi']); ?>
+                            </p>
+                        </div>
+                        <div class="editorial-trio-images">
+                            <div class="gallery-item editorial-media-card">
+                                <img src="assets/images/projects/rope/rope-enemy-arathrox.png" 
+                                     alt="Arathrox - Quái nhện đột biến với túi nọc độc điểm yếu" 
+                                     class="gallery-img"
+                                     loading="lazy">
+                                <div class="editorial-media-caption"
+                                     data-i18n-vi="Arathrox: Đột biến nhện phun nọc độc tầm xa, sở hữu túi độc phát sáng là điểm yếu chí mạng."
+                                     data-i18n-en="Arathrox: Ranged venom-spitting spider mutant with glowing venom sac as its critical weak point.">
+                                    Arathrox: Đột biến nhện phun nọc độc tầm xa, sở hữu túi độc phát sáng là điểm yếu chí mạng.
+                                </div>
+                            </div>
+                            <div class="gallery-item editorial-media-card">
+                                <img src="assets/images/projects/rope/rope-enemy-larvae.png" 
+                                     alt="Crustaspikan Larvae - Quái vật cảm tử kích nổ" 
+                                     class="gallery-img"
+                                     loading="lazy">
+                                <div class="editorial-media-caption"
+                                     data-i18n-vi="Crustaspikan Larvae: Sinh vật cảm tử mang bom đếm ngược, truy đuổi áp sát với tốc độ cao."
+                                     data-i18n-en="Crustaspikan Larvae: Suicide bomber rushing players with high-stress countdown explosive.">
+                                    Crustaspikan Larvae: Sinh vật cảm tử mang bom đếm ngược, truy đuổi áp sát với tốc độ cao.
+                                </div>
+                            </div>
+                            <div class="gallery-item editorial-media-card">
+                                <img src="assets/images/projects/rope/rope-enemy-droid.png" 
+                                     alt="Droid Oil - Người máy tuần tra an ninh vũ trang" 
+                                     class="gallery-img"
+                                     loading="lazy">
+                                <div class="editorial-media-caption"
+                                     data-i18n-vi="Droid Oil: Người máy an ninh mang súng năng lượng, chỉ bị vô hiệu hóa khi bắn chính xác vào đầu."
+                                     data-i18n-en="Droid Oil: Armored security droid with energy rifle, vulnerable only to precision headshots.">
+                                    Droid Oil: Người máy an ninh mang súng năng lượng, chỉ bị vô hiệu hóa khi bắn chính xác vào đầu.
+                                </div>
                             </div>
                         </div>
-                        <div class="gallery-item editorial-media-card">
-                            <img src="assets/images/projects/the-flower/the-flower-cat-sphinx-boss.jpg" 
-                                 alt="Trùm Cuối Thần Nhân Sư Mèo" 
-                                 class="gallery-img"
-                                 loading="lazy">
-                            <div class="editorial-media-caption"
-                                 data-i18n-vi="Phòng Đấu Trùm Cuối: Thần Nhân Sư Mèo với cơ chế Kích Hoạt Kép (Dual Activation)"
-                                 data-i18n-en="Final Boss Chamber: Cat Sphinx Guardian with synchronized Dual Activation platforms">
-                                Phòng Đấu Trùm Cuối: Thần Nhân Sư Mèo với cơ chế Kích Hoạt Kép (Dual Activation)
+                    </div>
+
+                    <!-- Block 3: Quota Loop & Final Boss Encounter -->
+                    <div class="editorial-block glass-panel">
+                        <h2 class="text-gradient editorial-heading" 
+                            data-i18n-vi="Vòng Lặp Nộp Quota & Đại Chiến Trùm Cuối"
+                            data-i18n-en="Quota Extraction Loop & Boss Encounter">
+                            Vòng Lặp Nộp Quota & Đại Chiến Trùm Cuối
+                        </h2>
+                        <div class="editorial-text-col editorial-text-full">
+                            <p data-i18n-vi="<?php echo htmlspecialchars($project['boss_desc_vi']); ?>"
+                               data-i18n-en="<?php echo htmlspecialchars($project['boss_desc_en']); ?>">
+                                <?php echo htmlspecialchars($project['boss_desc_vi']); ?>
+                            </p>
+                        </div>
+                        <div class="editorial-dual-images">
+                            <div class="gallery-item editorial-media-card">
+                                <img src="assets/images/projects/rope/rope-gameplay-patrol.png" 
+                                     alt="Khu vực bốc dỡ phế liệu Quota" 
+                                     class="gallery-img"
+                                     loading="lazy">
+                                <div class="editorial-media-caption"
+                                     data-i18n-vi="Khu vực bốc dỡ hàng: Thu thập phế liệu kim loại và tìm thẻ Passcard dưới ánh đèn báo động đỏ để nộp đủ chỉ tiêu Quota."
+                                     data-i18n-en="Loading Dock: Scavenging scrap metal and locating security Passcards under red alert lights to fulfill quotas.">
+                                    Khu vực bốc dỡ hàng: Thu thập phế liệu kim loại và tìm thẻ Passcard dưới ánh đèn báo động đỏ để nộp đủ chỉ tiêu Quota.
+                                </div>
+                            </div>
+                            <div class="gallery-item editorial-media-card">
+                                <img src="assets/images/projects/rope/rope-boss-crustaspikan.png" 
+                                     alt="Đại chiến Trùm Cuối Crustaspikan King" 
+                                     class="gallery-img"
+                                     loading="lazy">
+                                <div class="editorial-media-caption"
+                                     data-i18n-vi="Đại chiến Crustaspikan King: Trùm khổng lồ 2 giai đoạn với giáp vảy cứng cáp, kỹ năng đập đất chấn động và gầm thét cuồng nộ."
+                                     data-i18n-en="Crustaspikan King: 2-phase colossal boss featuring armored carapace, seismic ground slams, and enraged roars.">
+                                    Đại chiến Crustaspikan King: Trùm khổng lồ 2 giai đoạn với giáp vảy cứng cáp, kỹ năng đập đất chấn động và gầm thét cuồng nộ.
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
+                <?php endif; ?>
             </div>
         <?php else: ?>
             <!-- Fallback standard overview for other projects -->

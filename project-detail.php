@@ -402,18 +402,7 @@ require_once __DIR__ . '/includes/header.php';
                                 <?php echo htmlspecialchars($project['gameplay_puzzles_desc_vi']); ?>
                             </p>
                         </div>
-                        <div class="editorial-trio-images">
-                            <div class="gallery-item editorial-media-card">
-                                <img src="assets/images/projects/dead-mine/dead-mine-thumbnail.png" 
-                                     alt="Đối mặt quái vật THỨ ĐÓ trong ánh đèn pin" 
-                                     class="gallery-img"
-                                     loading="lazy">
-                                <div class="editorial-media-caption"
-                                     data-i18n-vi="Khoảnh khắc kinh hoàng: Sinh vật săn mồi 'THỨ ĐÓ' bất ngờ gầm thét khi phát hiện sóng âm người chơi trong ánh đèn pin."
-                                     data-i18n-en="Terrifying encounter: The apex predator 'IT' lunging down the rail tracks after locking onto player sound waves.">
-                                    Khoảnh khắc kinh hoàng: Sinh vật săn mồi 'THỨ ĐÓ' bất ngờ gầm thét khi phát hiện sóng âm người chơi trong ánh đèn pin.
-                                </div>
-                            </div>
+                        <div class="editorial-dual-images">
                             <div class="gallery-item editorial-media-card">
                                 <img src="assets/images/projects/dead-mine/dead-mine-arthur.png" 
                                      alt="Nhà khoa học Arthur Mills" 
@@ -454,25 +443,25 @@ require_once __DIR__ . '/includes/header.php';
                         </div>
                         <div class="editorial-dual-images">
                             <div class="gallery-item editorial-media-card">
-                                <img src="assets/images/projects/dead-mine/dead-mine-cart-tunnel.png" 
-                                     alt="Toa xe mỏ chở gỗ trong đường hầm sương mờ" 
+                                <img src="assets/images/projects/dead-mine/dead-mine-machinery.png" 
+                                     alt="Phòng máy trạm điều khiển trung tâm" 
                                      class="gallery-img"
                                      loading="lazy">
                                 <div class="editorial-media-caption"
-                                     data-i18n-vi="Đường hầm khai thác mỏ: Toa xe gỗ và các vật cản môi trường – hành động đẩy xe phát ra âm thanh lớn mang tính đánh đổi sinh tử."
-                                     data-i18n-en="Extraction drift: Pushing mine carts and manipulating heavy valves generates loud noise lures that demand stealth tradeoffs.">
-                                    Đường hầm khai thác mỏ: Toa xe gỗ và các vật cản môi trường – hành động đẩy xe phát ra âm thanh lớn mang tính đánh đổi sinh tử.
+                                     data-i18n-vi="Phòng máy trạm điều khiển: Khu vực tìm kiếm và nạp các Lõi Năng Lượng vào bảng điều khiển trung tâm để vận hành Thang máy B."
+                                     data-i18n-en="Central Machinery Room: Locating and inserting Energy Cores into the primary terminal to initialize escape Elevator B.">
+                                    Phòng máy trạm điều khiển: Khu vực tìm kiếm và nạp các Lõi Năng Lượng vào bảng điều khiển trung tâm để vận hành Thang máy B.
                                 </div>
                             </div>
                             <div class="gallery-item editorial-media-card">
-                                <img src="assets/images/projects/dead-mine/dead-mine-ore-carts.png" 
-                                     alt="Đường hầm vòm sắt và lối thoát hiểm" 
+                                <img src="assets/images/projects/dead-mine/dead-mine-cart-puzzle.png" 
+                                     alt="Khoang hầm quặng và chướng ngại vật giải đố" 
                                      class="gallery-img"
                                      loading="lazy">
                                 <div class="editorial-media-caption"
-                                     data-i18n-vi="Tuyến đường hầm vòm sắt: Đường dẫn tới Thang máy B – nơi diễn ra màn rượt đuổi sinh tử sau khi nạp đủ 3 Lõi Năng Lượng."
-                                     data-i18n-en="Arched iron ore gallery: Evacuation route to Elevator B where the desperate final pursuit unfolds once all 3 cores are inserted.">
-                                    Tuyến đường hầm vòm sắt: Đường dẫn tới Thang máy B – nơi diễn ra màn rượt đuổi sinh tử sau khi nạp đủ 3 Lõi Năng Lượng.
+                                     data-i18n-vi="Khoang hầm quặng: Mạng lưới các toa xe mỏ rỉ sét tạo nên các chướng ngại vật giải đố và lối lẩn trốn lén lút."
+                                     data-i18n-en="Ore Cart Chamber: Network of rusted carts creating environmental stealth routes and tactical puzzle obstacles.">
+                                    Khoang hầm quặng: Mạng lưới các toa xe mỏ rỉ sét tạo nên các chướng ngại vật giải đố và lối lẩn trốn lén lút.
                                 </div>
                             </div>
                         </div>
@@ -512,7 +501,7 @@ require_once __DIR__ . '/includes/header.php';
             </div>
 
             <?php if (!empty($project['highlights_vi'])): ?>
-                <h3 style="font-size: 1.25rem; margin-bottom: 1.5rem; color: #c4b5fd;" 
+                <h3 class="highlights-heading"
                     data-i18n="projects.highlights_title"
                     data-i18n-vi="Điểm Nhấn Lập Trình Nổi Bật:"
                     data-i18n-en="Core Technical Highlights:">
@@ -533,41 +522,7 @@ require_once __DIR__ . '/includes/header.php';
             <?php endif; ?>
         </div>
 
-        <!-- Section 4: Video Tự Loop Demo Cơ Chế (Nếu có) -->
-        <?php if (!empty($project['mechanic_loop_video'])): ?>
-            <div class="glass-panel looper-container">
-                <div class="looper-header">
-                    <div>
-                        <span class="looper-badge">
-                            <span class="pulse-dot" style="background-color: var(--accent-cyan); box-shadow: 0 0 8px var(--accent-cyan);"></span>
-                            AUTOPLAY LOOP &bull; 60 FPS
-                        </span>
-                        <h2 style="font-size: 1.6rem; margin-top: 0.75rem;" 
-                            data-i18n-vi="<?php echo htmlspecialchars($project['mechanic_title_vi'] ?? 'Demo Cơ Chế Gameplay'); ?>"
-                            data-i18n-en="<?php echo htmlspecialchars($project['mechanic_title_en'] ?? 'Gameplay Mechanic Demo'); ?>">
-                            <?php echo htmlspecialchars($project['mechanic_title_vi'] ?? 'Demo Cơ Chế Gameplay'); ?>
-                        </h2>
-                    </div>
-                </div>
-
-                <p style="color: var(--text-muted); margin-bottom: 1.5rem;" data-i18n="projects.looper_desc">
-                    Đoạn video ngắn tự động chạy lặp lại để biểu diễn chi tiết cơ chế tương tác, vật lý và xử lý logic gameplay.
-                </p>
-
-                <div class="looper-video-wrap">
-                    <video class="looper-video" 
-                           src="<?php echo htmlspecialchars($project['mechanic_loop_video']); ?>" 
-                           autoplay 
-                           loop 
-                           muted 
-                           playsinline>
-                        Trình duyệt của bạn không hỗ trợ thẻ video HTML5.
-                    </video>
-                </div>
-            </div>
-        <?php endif; ?>
-
-        <!-- Section 5: Community Feature / Media Recognition (Nếu có) -->
+        <!-- Section 4: Community Feature / Media Recognition (Nếu có) -->
         <?php if (!empty($project['community_feature'])): ?>
             <div class="community-feature-section">
                 <div class="editorial-block glass-panel">

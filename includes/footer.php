@@ -38,11 +38,11 @@
     </footer>
 
     <!-- Core Scripts -->
-    <script src="assets/js/main.js?v=2.8"></script>
-    <script src="assets/js/i18n.js?v=2.8"></script>
+    <script src="assets/js/main.js?v=2.9"></script>
+    <script src="assets/js/i18n.js?v=2.9"></script>
     <?php if (isset($extraScripts) && is_array($extraScripts)): ?>
         <?php foreach ($extraScripts as $script): ?>
-            <script src="<?php echo htmlspecialchars($script); ?>?v=2.8"></script>
+            <script src="<?php echo htmlspecialchars($script); ?>?v=2.9"></script>
         <?php endforeach; ?>
     <?php endif; ?>
 </body>

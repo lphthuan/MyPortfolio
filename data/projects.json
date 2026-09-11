@@ -217,11 +217,11 @@
     "short_desc_en": "3D third-person stealth survival horror game driven by the core principle 'Silence is Survival'. Players embody scientist Arthur Mills trapped in the Black Rock mines, evading a blind auditory apex predator ('IT') to recover 3 Energy Cores and activate the escape elevator.",
     "full_desc_vi": "Dead Mine (Khu Mỏ Tử Thần / Dead Depths) là dự án game kinh dị sinh tồn 3D đưa người chơi vào hầm mỏ công nghiệp Black Rock u ám sau một cơn dư chấn địa chấn kinh hoàng. Người chơi vào vai nhà khoa học Arthur Mills – hoàn toàn không có vũ khí tự vệ, buộc phải dựa vào trí tuệ, đèn pin và những bước chân cẩn trọng để lẩn trốn quái vật dị hình 'THỨ ĐÓ'. Mục tiêu sống còn là thu thập đủ 3 Lõi Năng Lượng phân bổ tại các khu vực nguy hiểm của mỏ để nạp vào Bảng điều khiển Trung tâm và tẩu thoát qua Thang máy B.\n\nTrong vai trò Lập trình viên chính (Core Developer), tôi chịu trách nhiệm kiến trúc các hệ thống gameplay và kỹ thuật cốt lõi:\n- Hệ thống AI Thính giác Quái vật: Xây dựng thuật toán nhận diện và định vị người chơi qua bán kính sóng âm (tiếng bước chạy, va đập đồ vật, mở cửa sắt).\n- Kiến trúc Observer Pattern: Thiết kế hệ thống phát tán sự kiện âm thanh môi trường theo thời gian thực tới tác tử AI trên Unity NavMesh.\n- Cơ chế Leo Thang Độ Khó (Dynamic Difficulty Scaling): Điều chỉnh trí thông minh, tốc độ tuần tra và bán kính thính giác của quái vật tăng dần theo từng Lõi Năng Lượng được thu thập.\n- Hệ thống Tương tác Môi trường & Lén lút: Lập trình cơ chế đánh đổi âm thanh – giải đố (xoay van nước, khởi động cầu dao điện, đẩy toa xe mỏ).\n- Quản lý Tài nguyên Sinh tồn & Kiểm thử: Tối ưu hóa chuyển động nhân vật, cơ chế tiêu hao pin đèn pin và cân bằng độ căng thẳng trong các đường hầm chật hẹp.",
     "full_desc_en": "Dead Mine (Dead Depths) is an atmospheric 3D survival horror experience set within the subterranean Black Rock industrial mine after a catastrophic seismic tremor. Players embody scientist Arthur Mills—completely weaponless, relying strictly on wits, flashlight management, and cautious footsteps to evade the blind auditory predator known as 'IT'. The paramount objective is retrieving 3 Energy Cores scattered across hazardous mine shafts to power the Central Control terminal and escape via Elevator B.\n\nAs Core Developer, I architected and engineered key technical pillars:\n- Sensory Auditory Enemy AI: Developed acoustic perception algorithms locating players via sound-wave propagation from footsteps and physical prop collisions.\n- Observer Pattern Event Architecture: Engineered decoupled, zero-latency audio event dispatching to NavMesh AI agents.\n- Dynamic Difficulty Escalation: Programmed scaling monster aggression, perception radii, and patrol speeds tied directly to core retrieval milestones.\n- Stealth & Environmental Interaction: Built risk-reward puzzle mechanics (valve turning, breaker flips, mine cart pushes) generating acoustic noise lures.\n- Survival Resource Balancing & QA: Optimized player locomotion, flashlight battery depletion, and claustrophobic collision navigation.",
-    "role_vi": "Lập trình viên chính (Core Developer) - Lập trình AI Thính giác quái vật, Tương tác Môi trường & Cân bằng Độ khó",
-    "role_en": "Core Developer - Auditory Enemy AI, Environment Interaction & Difficulty Balancing",
+    "role_vi": "Lập trình viên chính (Core Developer) - Lập trình hệ thống hành vi AI quái vật, cơ chế dò đường qua thính giác (lắng nghe event) & Cân bằng Độ khó",
+    "role_en": "Core Developer - Monster AI Behavior Systems, Auditory Event-Driven Pathfinding & Difficulty Balancing",
     "team_size": "5 thành viên (Nhóm 2)",
-    "duration_vi": "2025",
-    "duration_en": "2025",
+    "duration_vi": "Tháng 12/2025 - Tháng 02/2026",
+    "duration_en": "Dec 2025 - Feb 2026",
     "platform": "PC (Windows)",
     "thumbnail": "assets/images/projects/dead-mine/dead-mine-thumbnail.png",
     "trailer_video": "https://www.youtube-nocookie.com/embed/PmQAOy-L11w",
@@ -232,23 +232,23 @@
     "gallery": [
       {
         "url": "assets/images/projects/dead-mine/dead-mine-thumbnail.png",
-        "caption_vi": "Quái vật 'THỨ ĐÓ' đối mặt trong chùm sáng đèn pin trên đường ray mỏ",
-        "caption_en": "The blind apex predator 'IT' caught in the flashlight beam on underground mine rails"
+        "caption_vi": "Logo và màn hình tiêu đề chính thức của tựa game kinh dị sinh tồn Dead Mine",
+        "caption_en": "Official title screen and logo card for 3D survival horror game Dead Mine"
       },
       {
         "url": "assets/images/projects/dead-mine/dead-mine-environment.png",
-        "caption_vi": "Hành lang hầm mỏ Black Rock sâu hun hút với các thanh dầm gỗ và ánh đèn u ám",
-        "caption_en": "Deep Black Rock mine shaft corridor framed with timber supports and eerie lantern glow"
+        "caption_vi": "Hành lang hầm mỏ khai thác sâu Black Rock với dầm gỗ chống và ánh đèn u ám",
+        "caption_en": "Deep Black Rock mine extraction corridor framed with timber supports and eerie lantern light"
       },
       {
-        "url": "assets/images/projects/dead-mine/dead-mine-cart-tunnel.png",
-        "caption_vi": "Toa xe mỏ chở gỗ trong đường hầm sương mờ - Minh họa cơ chế tương tác tạo tiếng ồn",
-        "caption_en": "Timber-loaded mine cart in misty drift tunnel illustrating sound-emitting environmental props"
+        "url": "assets/images/projects/dead-mine/dead-mine-machinery.png",
+        "caption_vi": "Phòng máy trạm điều khiển trung tâm với đèn báo động và bàn thao tác thiết bị",
+        "caption_en": "Central machinery room with alert indicators and control workbench consoles"
       },
       {
-        "url": "assets/images/projects/dead-mine/dead-mine-ore-carts.png",
-        "caption_vi": "Đường hầm vòm sắt với các toa xe quặng rỉ sét - Địa hình luồn lách lẩn trốn",
-        "caption_en": "Arched steel tunnel with rusted ore carts providing claustrophobic stealth concealment"
+        "url": "assets/images/projects/dead-mine/dead-mine-cart-puzzle.png",
+        "caption_vi": "Khoang hầm quặng với hệ thống toa xe mỏ rỉ sét tạo nên mạng lưới chướng ngại vật giải đố",
+        "caption_en": "Ore cart chamber forming intricate environmental puzzle routes and stealth navigation"
       },
       {
         "url": "assets/images/projects/dead-mine/dead-mine-arthur.png",
@@ -262,14 +262,14 @@
       }
     ],
     "highlights_vi": [
-      "Lập trình AI Thính giác Quái vật (Auditory Sensor AI): Xây dựng thuật toán nhận diện và định vị người chơi trên Unity NavMesh dựa trên bán kính sóng âm phát ra từ tiếng bước chân và vật thể môi trường.",
+      "Lập trình hệ thống hành vi AI quái vật, cơ chế dò đường qua thính giác (lắng nghe event): Xây dựng thuật toán nhận diện và định vị người chơi trên Unity NavMesh dựa trên các sự kiện âm thanh môi trường phát ra từ bước chân và vật thể.",
       "Kiến trúc Hướng Sự kiện (Observer Pattern): Thiết kế hệ thống phát tán tín hiệu âm thanh độc lập, truyền phát thời gian thực tới các tác tử AI mà không gây xung đột hay sụt giảm hiệu năng.",
       "Cơ chế Leo Thang Độ Khó (Dynamic Difficulty Scaling): Tự động nâng cấp độ nhạy thính giác, tốc độ di chuyển và hành vi truy đuổi của quái vật tương ứng với số lượng Lõi Năng Lượng người chơi đã lắp đặt.",
       "Hệ thống Đánh Đổi Lén Lút & Tương Tác: Lập trình các cơ cấu giải đố môi trường (van xả áp, cầu dao, cửa thép, toa quặng) buộc người chơi phải cân nhắc giữa việc tạo tiếng ồn và ẩn nấp tính toán thời cơ.",
       "Tối ưu hóa Điều hướng & Không gian Hẹp: Cấu hình NavMesh Agent chuyên biệt cho địa hình hầm mỏ quanh co, kết hợp cơ chế quản lý pin đèn pin và hệ thống camera linh hoạt."
     ],
     "highlights_en": [
-      "Engineered Auditory Sensor AI: Programmed acoustic detection and localization on Unity NavMesh based on dynamic sound-wave radius emitted by footsteps and physics props.",
+      "Monster AI Behavior Systems & Auditory Event-Driven Pathfinding: Engineered intelligent agent navigation on Unity NavMesh listening to environmental sound events emitted by player movement and physics props.",
       "Event-Driven Observer Architecture: Designed a decoupled audio broadcast system dispatching real-time acoustic events to AI agents without performance bottlenecks.",
       "Dynamic Difficulty Progression: Scaled monster auditory sensitivity, aggression thresholds, and pursuit velocity in direct sync with Energy Core milestones (1 to 3 Cores).",
       "Sound-Stealth Tradeoff Mechanics: Implemented mechanical puzzle interactions (pressure valves, circuit breakers, heavy mine carts) requiring tactical risk assessment.",

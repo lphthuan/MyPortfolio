@@ -149,20 +149,18 @@
     "engine": "Unity 6 / C#",
     "tags": [
       "Unity 6",
-      "Sub Leader",
-      "Netcode for GameObjects",
-      "Co-op Puzzle Systems",
-      "Quest System",
-      "Gamepad Integration",
-      "Settings & Rebinding",
-      "QA Testing"
+      "Multiplayer",
+      "Co-op",
+      "3D",
+      "Adventure",
+      "Puzzle"
     ],
-    "short_desc_vi": "Game phiêu lưu hành động 3D giải đố hợp tác 2 người chơi phát triển trên Unity 6. Đảm nhiệm vai trò Phó nhóm (Sub leader), thiết kế gameplay & level giải đố, lập trình hệ thống puzzle, nhiệm vụ, cài đặt tùy biến phím, tích hợp tay cầm và kiểm thử chất lượng.",
-    "short_desc_en": "3D cooperative action-adventure puzzle game developed in Unity 6. Served as Sub Leader, designing gameplay & co-op puzzle levels, programming puzzle interactions, quest tracking, control rebinding settings, gamepad support, and QA testing.",
-    "full_desc_vi": "The Flower là đồ án tốt nghiệp game phiêu lưu hành động 3D kết hợp giải đố tương tác dành cho 2 người chơi (Co-op trực tuyến), xây dựng trên nền tảng Unity 6 với đồ họa Stylized URP tươi sáng. Cốt truyện đưa hai anh em khỉ Mia (nhanh nhẹn) và Leo (điềm đạm) vượt qua Ngôi làng, Sa mạc và Đền cổ để tìm kiếm Bông Hoa Thần làm quà tặng mẹ. Trong vai trò Phó nhóm (Sub leader), tôi trực tiếp tham gia thiết kế gameplay loop và xây dựng các màn chơi giải đố phối hợp (Co-op puzzle level design); lập trình toàn bộ hệ thống tương tác puzzle (bẫy lá sen, đòn bẩy đối trọng, gương ma thuật tầm nhìn bất đối xứng, bàn cờ Eris); phát triển hệ thống nhiệm vụ (Quest System) & HUD dẫn hướng theo thời gian thực; xây dựng menu Cài đặt (Settings) với tính năng tùy chỉnh gán phím (Rebind controls) và tích hợp hỗ trợ tay cầm (Gamepad Focus). Đồng thời, tôi phối hợp triển khai hạ tầng mạng Unity Netcode for GameObjects & Relay/Lobby, tích hợp Vivox Voice Chat và trực tiếp thực hiện kiểm thử chất lượng (QA & Smoke testing Host-Client) đảm bảo độ ổn định tối đa cho sản phẩm.",
-    "full_desc_en": "The Flower is a 3D cooperative action-adventure graduation project built with Unity 6 and stylized URP graphics. Players guide monkey siblings Mia and Leo through lush villages, desert dunes, and ancient ruins to retrieve the sacred Flower for their mother. Serving as Sub Leader, I contributed directly to gameplay loop design and co-op puzzle level architecture; programmed comprehensive puzzle interaction mechanics (Lily Pad traps, counterweight levers, Magic Mirror asymmetric vision, Eris Chessboard); developed the real-time Quest System with HUD waypoints; engineered the Settings system featuring key rebinding controls; and integrated seamless Gamepad Focus navigation. In addition, I co-implemented the multiplayer networking framework via Netcode for GameObjects and Unity Relay/Lobby, integrated Vivox Voice Chat, and spearheaded Host-Client QA smoke testing.",
-    "role_vi": "Phó nhóm (Sub leader) - Thiết kế Gameplay & Level, Lập trình Hệ thống Puzzle, Nhiệm vụ, Cài đặt, Hỗ trợ Tay cầm & QA",
-    "role_en": "Sub leader - Gameplay & Level Designer, Puzzle & Quest Systems, Settings, Gamepad Integration & QA",
+    "short_desc_vi": "Game phiêu lưu hành động 3D giải đố hợp tác 2 người chơi (Online Co-op) trên Unity 6. Đảm nhiệm vai trò Phó nhóm (Sub leader), thiết kế gameplay & level giải đố, lập trình Puzzle System, Quest System, Setting & Rebind controls, tích hợp hỗ trợ Gamepad và thực hiện QA testing.",
+    "short_desc_en": "3D cooperative action-adventure puzzle game developed in Unity 6. Served as Sub leader, designing gameplay & co-op puzzle levels, programming the Puzzle System, Quest System, Setting & Rebind controls, Gamepad integration, and QA testing.",
+    "full_desc_vi": "The Flower là đồ án tốt nghiệp game phiêu lưu hành động 3D kết hợp giải đố tương tác 2 người chơi (Online Co-op), phát triển trên nền tảng Unity 6 với phong cách đồ họa Stylized URP. Cốt truyện xoay quanh hành trình của hai anh em khỉ Mia (nhanh nhẹn) và Leo (cẩn trọng) vượt qua Ngôi làng, Sa mạc và Đền cổ để tìm Bông Hoa Thần làm quà tặng mẹ.\\n\\nTrong vai trò Phó nhóm (Sub leader), tôi đóng góp trực tiếp vào các phân hệ cốt lõi của dự án:\\n- Thiết kế Gameplay & Level giải đố: Lên ý tưởng gameplay loop phối hợp hai người chơi và thiết kế các level giải đố môi trường (Bẫy lá sen đầm nước, Cầu nâng đối trọng, Gương thần Magic Mirror tầm nhìn bất đối xứng, Bàn cờ Eris).\\n- Lập trình Hệ thống Puzzle (Puzzle System): Xây dựng framework tương tác puzzle qua mạng, cơ chế điều khiển bất đối xứng ở màn Sand Boat Chase (Host lái, Client điều tốc qua RPC) và cơ chế Dual Activation trong trận Boss Cat Sphinx Guardian.\\n- Hệ thống Nhiệm vụ (Quest System): Lập trình logic quản lý tiến trình nhiệm vụ, tích hợp QuestHUD hiển thị mục tiêu và marker chỉ dẫn khoảng cách thời gian thực.\\n- Hệ thống Cài đặt (Setting System) & Rebind Controls: Xây dựng menu Setting điều khiển âm lượng đa kênh (Master, BGM, SFX, Vivox Voice) và tính năng tùy chỉnh gán phím linh hoạt cho Bàn phím/Chuột và Gamepad.\\n- Tích hợp hỗ trợ Tay cầm (Gamepad Integration): Sử dụng Unity New Input System, tối ưu hóa cơ chế Gamepad Focus cho UI điều hướng và điều khiển chuyển động nhân vật với Finite State Machine (FSM).\\n- Kiểm tra chất lượng (QA & Testing): Xây dựng kịch bản kiểm thử, trực tiếp thực hiện smoke test Host-Client trên môi trường mạng Netcode for GameObjects & Unity Relay/Lobby, truy vết và khắc phục lỗi từ lịch sử commit Git.",
+    "full_desc_en": "The Flower is a 3D cooperative action-adventure graduation project built in Unity 6 with stylized URP visuals. The narrative follows monkey siblings Mia (agile) and Leo (observant) journeying through lush villages, desert canyons, and ancient ruins to retrieve the sacred Flower for their mother.\\n\\nAs Sub leader, I directly contributed to the project's core architectural and gameplay pillars:\\n- Gameplay & Puzzle Level Design: Conceived the cooperative gameplay loop and designed collaborative puzzle levels (Lily Pad water traps, counterweight bridge levers, Magic Mirror asymmetric vision, and Eris Chessboard).\\n- Puzzle System Programming: Developed the networked puzzle interaction framework, asymmetric Sand Boat Chase mechanics (Host steering, Client speed modulation via RPC), and synchronized Dual Activation in the Cat Sphinx Guardian Boss fight.\\n- Quest System: Programmed milestone objective progression, real-time QuestHUD tracking, and 3D in-world dynamic distance waypoint markers.\\n- Setting System & Rebind Controls: Built the Setting menu with multi-channel audio controls (Master, BGM, SFX, Vivox Voice) and flexible key/gamepad rebinding capabilities.\\n- Gamepad Integration: Implemented Unity New Input System with smooth Gamepad Focus UI navigation and responsive character locomotion powered by a Finite State Machine (FSM).\\n- Quality Assurance (QA & Testing): Authored test plans, spearheaded Host-Client smoke testing over Netcode for GameObjects and Unity Relay/Lobby, and tracked/resolved buglists across Git commits.",
+    "role_vi": "Phó nhóm (Sub leader) - Thiết kế Gameplay & Level giải đố, Lập trình Puzzle System, Quest System, Setting & Rebind Controls, Hỗ trợ Gamepad, QA & Testing",
+    "role_en": "Sub leader - Gameplay & Puzzle Level Designer, Puzzle System, Quest System, Setting & Rebind Controls, Gamepad Integration, QA & Testing",
     "team_size": "Nhóm 4 thành viên (FPT Polytechnic)",
     "duration_vi": "03/2026 – 08/2026 (488 Commits Git)",
     "duration_en": "Mar 2026 – Aug 2026 (488 Git Commits)",
@@ -198,40 +196,25 @@
         "url": "assets/images/projects/the-flower/the-flower-cat-sphinx-boss.jpg",
         "caption_vi": "Phòng Đấu Trùm Cuối: Thần Nhân Sư Mèo (Cat Sphinx Guardian) với cơ chế giẫm bệ Kích Hoạt Kép (Dual Activation)",
         "caption_en": "Final Boss Chamber: Cat Sphinx Guardian encounter featuring synchronized Dual Activation platforms"
-      },
-      {
-        "url": "assets/images/projects/the-flower/the-flower-lobby-skins.jpg",
-        "caption_vi": "Phòng Chờ Lobby: Hệ thống lựa chọn và đồng bộ 10 Skin Chibi Monkey độc bản giữa 2 người chơi qua mạng",
-        "caption_en": "Lobby Room: Selection and network synchronization of 10 unique Chibi Monkey skins across players"
-      },
-      {
-        "url": "assets/images/projects/the-flower/the-flower-quest-hud.jpg",
-        "caption_vi": "Hệ thống Nhiệm vụ (Quest System) & HUD dẫn hướng: Hiển thị mục tiêu, mô tả chỉ dẫn và khoảng cách mục tiêu",
-        "caption_en": "Quest System & Directional HUD: Real-time objective tracking, instructional hints, and distance markers"
-      },
-      {
-        "url": "assets/images/projects/the-flower/the-flower-sandboat-chase.jpg",
-        "caption_vi": "Cơ chế Thuyền Cát Bất Đối Xứng (Sand Boat): Host bẻ lái né chướng ngại vật, Client điều tốc qua RPC vượt bão sa mạc",
-        "caption_en": "Asymmetric Sand Boat Chase: Host steers around obstacles while Client modulates speed via RPC"
       }
     ],
     "highlights_vi": [
-      "Đảm nhiệm vai trò Phó nhóm (Sub leader): Quản lý tiến độ dự án, điều phối 488 commit Git theo chuẩn Agile Sprint và trực tiếp kiểm thử chất lượng (QA) Host-Client.",
-      "Trực tiếp tham gia thiết kế gameplay và xây dựng cấp độ giải đố (Co-op Puzzle Level Design): Thiết kế luồng phối hợp nhịp nhàng giữa hai người chơi.",
-      "Lập trình toàn diện các hệ thống giải đố tương tác (Puzzle Systems): Bẫy lá sen đầm nước, Cầu nâng đối trọng, Gương thần tầm nhìn bất đối xứng và Bàn cờ ma thuật Eris.",
-      "Phát triển hệ thống Nhiệm vụ (Quest System) & Dẫn hướng: Tự động cập nhật mục tiêu theo tiến trình màn chơi, hiển thị QuestHUD và marker khoảng cách thời gian thực.",
-      "Xây dựng hệ thống Cài đặt (Settings) & Tùy biến nút (Rebind Controls): Tích hợp điều khiển âm lượng đa kênh (Master, BGM, SFX, Voice Vivox) và cho phép người chơi gán lại phím bấm linh hoạt.",
-      "Tích hợp hỗ trợ Tay cầm chuyên sâu (Gamepad Integration): Ứng dụng Unity New Input System với cơ chế Gamepad Focus mượt mà cho UI điều hướng và điều khiển nhân vật.",
-      "Phối hợp triển khai hạ tầng mạng Co-op & Giao tiếp: Đồng bộ hóa Host-Authoritative qua Netcode for GameObjects, kết nối ẩn danh Unity Relay/Lobby và tích hợp Vivox Voice Chat."
+      "Đảm nhiệm vai trò Phó nhóm (Sub leader): Điều phối kỹ thuật, quản lý tiến độ 488 commit Git theo quy trình Agile Sprint và trực tiếp kiểm thử chất lượng (QA Testing) kết nối Host-Client.",
+      "Thiết kế Gameplay & Level giải đố: Lên ý tưởng cơ chế gameplay loop phối hợp 2 người (Co-op 2 players) và trực tiếp thiết kế các màn chơi giải đố môi trường (Co-op Puzzle Level Design).",
+      "Lập trình Hệ thống Puzzle (Puzzle System): Xây dựng trọn bộ câu đố tương tác qua mạng gồm Bẫy lá sen, Cầu nâng đối trọng, Gương thần Magic Mirror tầm nhìn bất đối xứng và Bàn cờ ma thuật Eris.",
+      "Phát triển Hệ thống Nhiệm vụ (Quest System): Quản lý tiến trình mục tiêu theo thời gian thực, tích hợp QuestHUD trực quan và marker chỉ dẫn khoảng cách trong không gian 3D.",
+      "Xây dựng Hệ thống Setting & Rebind Controls: Quản lý âm thanh đa kênh (Master, BGM, SFX, Vivox Voice) và phát triển tính năng Rebind controls cho phép người chơi tùy biến gán phím linh hoạt.",
+      "Tích hợp hỗ trợ Tay cầm (Gamepad Integration): Áp dụng Unity New Input System với cơ chế Gamepad Focus mượt mà cho UI điều hướng và điều khiển nhân vật theo Finite State Machine (FSM).",
+      "Lập trình cơ chế Asymmetric & Dual Activation: Triển khai điều khiển bất đối xứng ở màn Sand Boat Chase (Host bẻ lái, Client điều tốc qua RPC) và cơ chế kích hoạt kép (Dual Activation) ở trận Boss Cat Sphinx Guardian."
     ],
     "highlights_en": [
-      "Served as Sub Leader: Managed project milestones, coordinated 488 Git commits under Agile sprints, and spearheaded end-to-end Host-Client QA testing.",
-      "Contributed to Gameplay & Co-op Puzzle Level Design: Designed collaborative progression loops and environmental hazard pacing between dual players.",
-      "Programmed complete interactive Puzzle Systems: Lily Pad water traps, counterweight bridge levers, Magic Mirror asymmetric vision, and the Eris Chessboard.",
-      "Developed Quest System & Directional Navigation: Managed milestone objectives across scenes with real-time QuestHUD updates and dynamic distance markers.",
-      "Engineered Settings System & Control Rebinding: Managed multi-channel audio (Master, BGM, SFX, Vivox Voice) and enabled custom key/gamepad remapping.",
-      "Implemented comprehensive Gamepad Support: Leveraged Unity New Input System with intuitive Gamepad Focus navigation for menus and in-game controls.",
-      "Co-implemented Multiplayer & Team Communication: Host-Authoritative networking via Netcode for GameObjects, zero-config Unity Relay/Lobby, and Vivox Voice Chat."
+      "Served as Sub leader: Coordinated technical milestones, managed 488 Git commits under Agile Sprints, and spearheaded Host-Client network QA testing.",
+      "Designed Gameplay & Puzzle Levels: Architected collaborative 2-player co-op gameplay loops and authored environmental puzzle layouts (Co-op Puzzle Level Design).",
+      "Programmed comprehensive Puzzle Systems: Built networked interaction mechanics for Lily Pad traps, counterweight levers, Magic Mirror asymmetric perspective, and the Eris Chessboard.",
+      "Developed Quest System: Implemented real-time milestone objective tracking, dynamic QuestHUD interface, and 3D in-world directional distance waypoints.",
+      "Built Setting System & Rebind Controls: Managed multi-channel audio (Master, BGM, SFX, Vivox Voice) and engineered flexible control rebinding for Keyboard and Gamepad.",
+      "Implemented Gamepad Integration: Integrated Unity New Input System with intuitive Gamepad Focus navigation across all UI menus and FSM character locomotion.",
+      "Engineered Asymmetric & Dual Activation Mechanics: Programmed asymmetric control during the Sand Boat Chase (Host steering, Client throttle RPC) and synchronized Dual Activation in the Cat Sphinx Guardian Boss fight."
     ],
     "demo_link": "https://tandat0303.itch.io/the-flower",
     "github_link": "https://github.com/JohnnyDat06/TheFLower-DATN.git"

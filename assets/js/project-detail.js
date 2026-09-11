@@ -18,7 +18,7 @@
       galleryItems.forEach((item) => {
         item.addEventListener('click', () => {
           const img = item.querySelector('.gallery-img');
-          const overlay = item.querySelector('.gallery-overlay');
+          const overlay = item.querySelector('.gallery-overlay') || item.querySelector('.editorial-media-caption');
           if (img) {
             lightboxImg.src = img.src;
             lightboxImg.alt = img.alt || 'Screenshot Preview';

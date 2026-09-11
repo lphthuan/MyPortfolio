@@ -55,8 +55,13 @@
       "looper_desc": "Đoạn video ngắn tự động chạy lặp lại để biểu diễn chi tiết cơ chế tương tác, vật lý và xử lý logic gameplay.",
       "gallery_title": "Bộ Sưu Tập Hình Ảnh Trong Game",
       "gallery_hint": "Bấm vào hình ảnh bất kỳ để xem toàn màn hình",
-      "play_demo": "Chơi Thử Demo",
-      "source_code": "Mã Nguồn GitHub"
+      "play_demo": "Tải game",
+      "source_code": "Mã Nguồn GitHub",
+      "story_title": "Cốt Truyện & Hành Trình Phiêu Lưu",
+      "gameplay_puzzles_title": "Lối Chơi Hợp Tác & Giải Đố Môi Trường",
+      "boss_title": "Đua Thuyền Cát & Trận Đấu Trùm Cuối",
+      "tech_title": "Vai Trò & Đóng Góp Kỹ Thuật",
+      "highlights_title": "Điểm Nhấn Lập Trình Nổi Bật:"
     },
     "footer": {
       "quote": "Biến ý tưởng sáng tạo thành những trải nghiệm tương tác đỉnh cao.",
@@ -120,14 +125,19 @@
       "duration_label": "Duration",
       "engine_label": "Engine",
       "platform_label": "Platform",
-      "trailer_title": "Official Trailer",
+      "trailer_title": "Official Video Trailer",
       "gameplay_title": "Gameplay Walkthrough",
       "looper_title": "Mechanic Showcase (Looping Video Demo)",
       "looper_desc": "Continuous looping demo capturing real-time mechanics, collision response, and dynamic gameplay systems.",
       "gallery_title": "In-Game Screenshot Gallery",
       "gallery_hint": "Click any screenshot to inspect in full-screen lightbox",
-      "play_demo": "Play WebGL Demo",
-      "source_code": "GitHub Repository"
+      "play_demo": "Go to download",
+      "source_code": "GitHub Repository",
+      "story_title": "Narrative & Adventure Journey",
+      "gameplay_puzzles_title": "Cooperative Gameplay & Environmental Puzzles",
+      "boss_title": "Sand Boat Chase & Final Boss Encounter",
+      "tech_title": "Role & Technical Engineering Contributions",
+      "highlights_title": "Core Technical Highlights:"
     },
     "footer": {
       "quote": "Transforming creative ideas into responsive, unforgettable interactive experiences.",

@@ -635,15 +635,22 @@
 }
 
 .detail-meta-bar {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
   gap: 1.5rem;
   padding: 1.25rem 0;
   border-top: 1px solid var(--border-subtle);
   border-bottom: 1px solid var(--border-subtle);
-  margin-bottom: 3rem;
+  margin-bottom: 2.5rem;
   font-family: var(--font-mono);
   font-size: 0.9rem;
+}
+
+@media (max-width: 640px) {
+  .detail-meta-bar {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
 }
 
 .detail-meta-col {
@@ -661,6 +668,123 @@
 .meta-main {
   color: var(--accent-cyan);
   font-weight: 600;
+}
+
+/* Editorial Story & Gameplay Section with Interspersed Imagery */
+.editorial-section {
+  margin-bottom: 3.5rem;
+}
+
+.editorial-block {
+  padding: 2.25rem;
+  margin-bottom: 2rem;
+  border-radius: var(--radius-lg);
+}
+
+.editorial-grid-split {
+  display: grid;
+  grid-template-columns: 1.15fr 1fr;
+  gap: 2rem;
+  align-items: center;
+}
+
+@media (max-width: 900px) {
+  .editorial-grid-split {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+}
+
+.editorial-text-col p {
+  font-size: 1.05rem;
+  line-height: 1.8;
+  color: var(--text-secondary);
+}
+
+.editorial-media-card {
+  position: relative;
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  border: 1px solid var(--border-subtle);
+  box-shadow: var(--shadow-md);
+  cursor: pointer;
+  transition: transform 0.3s ease, border-color 0.3s ease;
+}
+
+.editorial-media-card:hover {
+  transform: translateY(-4px);
+  border-color: var(--accent-purple);
+}
+
+.editorial-media-card img {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  display: block;
+}
+
+.editorial-media-caption {
+  padding: 10px 14px;
+  background: rgba(10, 12, 28, 0.85);
+  backdrop-filter: blur(8px);
+  color: var(--text-muted);
+  font-size: 0.85rem;
+  line-height: 1.4;
+  border-top: 1px solid var(--border-subtle);
+}
+
+.editorial-dual-images {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.25rem;
+  margin-top: 1.5rem;
+}
+
+@media (max-width: 640px) {
+  .editorial-dual-images {
+    grid-template-columns: 1fr;
+  }
+}
+
+.role-badge-panel {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: rgba(139, 92, 246, 0.12);
+  border: 1px solid rgba(139, 92, 246, 0.35);
+  color: #c4b5fd;
+  padding: 8px 16px;
+  border-radius: var(--radius-full);
+  font-family: var(--font-mono);
+  font-size: 0.88rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+}
+
+.highlights-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 1rem;
+}
+
+.highlight-card {
+  padding: 1.25rem 1.5rem;
+  border-radius: var(--radius-md);
+  background: rgba(255, 255, 255, 0.02);
+  border: 1px solid var(--border-subtle);
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  line-height: 1.6;
+  color: var(--text-secondary);
+  font-size: 0.95rem;
+  transition: all 0.25s ease;
+}
+
+.highlight-card:hover {
+  background: rgba(139, 92, 246, 0.06);
+  border-color: rgba(139, 92, 246, 0.3);
+  transform: translateY(-2px);
 }
 
 /* Video Showcase Box */

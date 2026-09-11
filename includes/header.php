@@ -18,16 +18,16 @@ if (!isset($activeNav)) {
     <meta name="description" content="Portfolio Lập trình viên Game - Lê Phan Hòa Thuận (lphThuan.dev). Chuyên sâu về cơ chế gameplay, tương tác vật lý và phát triển game trên Unity & C#.">
     <meta name="theme-color" content="#080915">
     
-    <!-- Google Fonts: Outfit & JetBrains Mono -->
+    <!-- Google Fonts: Be Vietnam Pro & JetBrains Mono (Full Vietnamese Support) -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Outfit:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
     
     <base href="/">
 
     <!-- Stylesheets with Cache Busting -->
-    <link rel="stylesheet" href="assets/css/style.css?v=2.3">
-    <link rel="stylesheet" href="assets/css/components.css?v=2.3">
+    <link rel="stylesheet" href="assets/css/style.css?v=2.4">
+    <link rel="stylesheet" href="assets/css/components.css?v=2.4">
 </head>
 <body>
     <!-- Ambient Background Glows -->

@@ -13,7 +13,7 @@
   // Fetch or initialize translations
   async function loadTranslations() {
     try {
-      const response = await fetch('data/translations.json');
+      const response = await fetch('data/translations.json?v=' + Date.now());
       if (!response.ok) throw new Error('Failed to load translations');
       currentTranslations = await response.json();
       
@@ -41,14 +41,20 @@
   }
 
   function applyLanguage(lang) {
-    if (!currentTranslations[lang]) return;
     currentLang = lang;
     localStorage.setItem(STORAGE_KEY_LANG, lang);
     document.documentElement.setAttribute('lang', lang);
 
+    // 1. Update dynamic project cards/details immediately
+    document.querySelectorAll('[data-i18n-vi][data-i18n-en]').forEach((el) => {
+      const val = lang === 'vi' ? el.getAttribute('data-i18n-vi') : el.getAttribute('data-i18n-en');
+      if (val) el.textContent = val;
+    });
+
+    if (!currentTranslations[lang]) return;
     const langData = currentTranslations[lang];
 
-    // 1. Update text nodes
+    // 2. Update text nodes
     document.querySelectorAll('[data-i18n]').forEach((el) => {
       const key = el.getAttribute('data-i18n');
       const val = getNestedTranslation(langData, key);
@@ -57,19 +63,13 @@
       }
     });
 
-    // 2. Update HTML nodes
+    // 3. Update HTML nodes
     document.querySelectorAll('[data-i18n-html]').forEach((el) => {
       const key = el.getAttribute('data-i18n-html');
       const val = getNestedTranslation(langData, key);
       if (val !== null && val !== undefined) {
         el.innerHTML = val;
       }
-    });
-
-    // 3. Update dynamic project cards/details if present
-    document.querySelectorAll('[data-i18n-vi][data-i18n-en]').forEach((el) => {
-      const val = lang === 'vi' ? el.getAttribute('data-i18n-vi') : el.getAttribute('data-i18n-en');
-      if (val) el.textContent = val;
     });
 
     // 4. Update Header Flag and Code Button

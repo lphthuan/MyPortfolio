@@ -34,12 +34,12 @@ require_once __DIR__ . '/includes/header.php';
     <div class="container">
         <!-- Back Link Navigation -->
         <div class="back-btn-row">
-            <a href="projects" class="btn btn-outline" style="padding: 8px 16px; font-size: 0.88rem;">
+            <a href="projects" class="btn btn-outline" style="padding: 10px 20px; font-size: 0.9rem;">
                 <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
                     <line x1="19" y1="12" x2="5" y2="12"></line>
                     <polyline points="12 19 5 12 12 5"></polyline>
                 </svg>
-                <span data-i18n="projects.back_to_projects">Quay lại danh sách dự án</span>
+                <span data-i18n="projects.back_to_projects" data-i18n-vi="Quay lại danh sách dự án" data-i18n-en="Back to Projects">Quay lại danh sách dự án</span>
             </a>
         </div>
 
@@ -51,7 +51,7 @@ require_once __DIR__ . '/includes/header.php';
                 <?php echo htmlspecialchars($project['title_vi']); ?>
             </h1>
 
-            <p style="font-size: 1.15rem; max-width: 880px; line-height: 1.75; color: var(--text-secondary); margin-bottom: 2rem;"
+            <p style="font-size: 1.15rem; max-width: 900px; line-height: 1.85; color: var(--text-secondary); margin-bottom: 2.5rem;"
                data-i18n-vi="<?php echo htmlspecialchars($project['short_desc_vi']); ?>"
                data-i18n-en="<?php echo htmlspecialchars($project['short_desc_en']); ?>">
                 <?php echo htmlspecialchars($project['short_desc_vi']); ?>
@@ -60,7 +60,7 @@ require_once __DIR__ . '/includes/header.php';
             <!-- 3-Column Metadata Grid (Equal columns with responsive auto-scale) -->
             <div class="detail-meta-bar">
                 <div class="detail-meta-col">
-                    <span class="meta-sub" data-i18n="projects.team_label">Quy mô nhóm</span>
+                    <span class="meta-sub" data-i18n="projects.team_label" data-i18n-vi="Quy mô nhóm" data-i18n-en="Team Size">Quy mô nhóm</span>
                     <span class="meta-main"
                           data-i18n-vi="<?php echo htmlspecialchars($project['team_size']); ?>"
                           data-i18n-en="<?php echo htmlspecialchars($project['team_size_en'] ?? $project['team_size']); ?>">
@@ -69,7 +69,7 @@ require_once __DIR__ . '/includes/header.php';
                 </div>
 
                 <div class="detail-meta-col">
-                    <span class="meta-sub" data-i18n="projects.duration_label">Thời gian</span>
+                    <span class="meta-sub" data-i18n="projects.duration_label" data-i18n-vi="Thời gian" data-i18n-en="Duration">Thời gian</span>
                     <span class="meta-main"
                           data-i18n-vi="<?php echo htmlspecialchars($project['duration_vi']); ?>"
                           data-i18n-en="<?php echo htmlspecialchars($project['duration_en']); ?>">
@@ -78,13 +78,13 @@ require_once __DIR__ . '/includes/header.php';
                 </div>
 
                 <div class="detail-meta-col">
-                    <span class="meta-sub" data-i18n="projects.platform_label">Nền tảng</span>
+                    <span class="meta-sub" data-i18n="projects.platform_label" data-i18n-vi="Nền tảng" data-i18n-en="Platform">Nền tảng</span>
                     <span class="meta-main"><?php echo htmlspecialchars($project['platform']); ?></span>
                 </div>
             </div>
 
             <!-- Action Links: Download & GitHub -->
-            <div style="display: flex; gap: 14px; margin-bottom: 3.5rem; flex-wrap: wrap;">
+            <div style="display: flex; gap: 16px; margin-bottom: 4rem; flex-wrap: wrap;">
                 <?php if (!empty($project['demo_link'])): ?>
                     <a href="<?php echo htmlspecialchars($project['demo_link']); ?>" target="_blank" rel="noopener noreferrer" class="btn btn-zalo" style="padding: 12px 24px;">
                         <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
@@ -92,7 +92,7 @@ require_once __DIR__ . '/includes/header.php';
                             <polyline points="7 10 12 15 17 10"></polyline>
                             <line x1="12" y1="15" x2="12" y2="3"></line>
                         </svg>
-                        <span data-i18n="projects.play_demo">Tải game</span>
+                        <span data-i18n="projects.play_demo" data-i18n-vi="Tải game" data-i18n-en="Go to download">Tải game</span>
                     </a>
                 <?php endif; ?>
 
@@ -101,7 +101,7 @@ require_once __DIR__ . '/includes/header.php';
                         <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
                             <path fill-rule="evenodd" clip-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.53 1.032 1.53 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"/>
                         </svg>
-                        <span data-i18n="projects.source_code">Mã Nguồn GitHub</span>
+                        <span data-i18n="projects.source_code" data-i18n-vi="Mã Nguồn GitHub" data-i18n-en="GitHub Repository">Mã Nguồn GitHub</span>
                     </a>
                 <?php endif; ?>
             </div>
@@ -110,9 +110,14 @@ require_once __DIR__ . '/includes/header.php';
         <!-- Section 1: Video Trailer (ĐƯỢC ĐƯA LÊN ĐẦU TIÊN) -->
         <?php if (!empty($project['trailer_video'])): ?>
             <div class="video-section-box">
-                <div class="section-header" style="text-align: left; margin-bottom: 1.5rem;">
-                    <h2 style="font-size: 1.8rem;">
-                        <span class="text-gradient" data-i18n="projects.trailer_title">Video Trailer Giới Thiệu</span>
+                <div class="section-header" style="text-align: left; margin-bottom: 1.75rem;">
+                    <h2 style="font-size: clamp(1.5rem, 3.5vw, 1.9rem);">
+                        <span class="text-gradient" 
+                              data-i18n="projects.trailer_title"
+                              data-i18n-vi="Video Trailer Giới Thiệu"
+                              data-i18n-en="Official Video Trailer">
+                            Video Trailer Giới Thiệu
+                        </span>
                     </h2>
                 </div>
 
@@ -131,7 +136,10 @@ require_once __DIR__ . '/includes/header.php';
             <div class="editorial-section">
                 <!-- Block 1: Story & Journey -->
                 <div class="editorial-block glass-panel">
-                    <h2 class="text-gradient" style="font-size: 1.6rem; margin-bottom: 1.25rem;" data-i18n="projects.story_title">
+                    <h2 class="text-gradient editorial-heading" 
+                        data-i18n="projects.story_title"
+                        data-i18n-vi="Cốt Truyện & Hành Trình Phiêu Lưu"
+                        data-i18n-en="Narrative & Adventure Journey">
                         Cốt Truyện & Hành Trình Phiêu Lưu
                     </h2>
                     <div class="editorial-grid-split">
@@ -157,10 +165,13 @@ require_once __DIR__ . '/includes/header.php';
 
                 <!-- Block 2: Cooperative Puzzles -->
                 <div class="editorial-block glass-panel">
-                    <h2 class="text-gradient" style="font-size: 1.6rem; margin-bottom: 1.25rem;" data-i18n="projects.gameplay_puzzles_title">
+                    <h2 class="text-gradient editorial-heading" 
+                        data-i18n="projects.gameplay_puzzles_title"
+                        data-i18n-vi="Lối Chơi Hợp Tác & Giải Đố Môi Trường"
+                        data-i18n-en="Cooperative Gameplay & Environmental Puzzles">
                         Lối Chơi Hợp Tác & Giải Đố Môi Trường
                     </h2>
-                    <div class="editorial-text-col" style="margin-bottom: 1.5rem;">
+                    <div class="editorial-text-col editorial-text-full">
                         <p data-i18n-vi="<?php echo htmlspecialchars($project['gameplay_puzzles_desc_vi']); ?>"
                            data-i18n-en="<?php echo htmlspecialchars($project['gameplay_puzzles_desc_en']); ?>">
                             <?php echo htmlspecialchars($project['gameplay_puzzles_desc_vi']); ?>
@@ -194,10 +205,13 @@ require_once __DIR__ . '/includes/header.php';
 
                 <!-- Block 3: Climax & Boss Encounter -->
                 <div class="editorial-block glass-panel">
-                    <h2 class="text-gradient" style="font-size: 1.6rem; margin-bottom: 1.25rem;" data-i18n="projects.boss_title">
+                    <h2 class="text-gradient editorial-heading" 
+                        data-i18n="projects.boss_title"
+                        data-i18n-vi="Đua Thuyền Cát & Trận Đấu Trùm Cuối"
+                        data-i18n-en="Sand Boat Chase & Final Boss Encounter">
                         Đua Thuyền Cát & Trận Đấu Trùm Cuối
                     </h2>
-                    <div class="editorial-text-col" style="margin-bottom: 1.5rem;">
+                    <div class="editorial-text-col editorial-text-full">
                         <p data-i18n-vi="<?php echo htmlspecialchars($project['boss_desc_vi']); ?>"
                            data-i18n-en="<?php echo htmlspecialchars($project['boss_desc_en']); ?>">
                             <?php echo htmlspecialchars($project['boss_desc_vi']); ?>
@@ -231,7 +245,7 @@ require_once __DIR__ . '/includes/header.php';
             </div>
         <?php else: ?>
             <!-- Fallback standard overview for other projects -->
-            <div class="glass-panel" style="padding: 2.5rem; margin-bottom: 3.5rem;">
+            <div class="glass-panel" style="padding: clamp(2.25rem, 4.5vw, 3.5rem); margin-bottom: 3.5rem;">
                 <h2 class="text-gradient" style="font-size: 1.8rem; margin-bottom: 1.25rem;">Tổng Quan Dự Án</h2>
                 <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 2rem;"
                    data-i18n-vi="<?php echo htmlspecialchars($project['full_desc_vi']); ?>"
@@ -242,9 +256,12 @@ require_once __DIR__ . '/includes/header.php';
         <?php endif; ?>
 
         <!-- Section 3: Role & Technical Highlights (Dedicated Engineering Block) -->
-        <div class="glass-panel" style="padding: 2.5rem; margin-bottom: 3.5rem;">
-            <div style="margin-bottom: 1.5rem;">
-                <h2 class="text-gradient" style="font-size: 1.8rem; margin-bottom: 0.75rem;" data-i18n="projects.tech_title">
+        <div class="tech-section-block glass-panel">
+            <div style="margin-bottom: 2rem;">
+                <h2 class="text-gradient editorial-heading" 
+                    data-i18n="projects.tech_title"
+                    data-i18n-vi="Vai Trò & Đóng Góp Kỹ Thuật"
+                    data-i18n-en="Role & Technical Engineering Contributions">
                     Vai Trò & Đóng Góp Kỹ Thuật
                 </h2>
                 <div class="role-badge-panel">
@@ -259,7 +276,10 @@ require_once __DIR__ . '/includes/header.php';
             </div>
 
             <?php if (!empty($project['highlights_vi'])): ?>
-                <h3 style="font-size: 1.25rem; margin-bottom: 1.25rem; color: #c4b5fd;" data-i18n="projects.highlights_title">
+                <h3 style="font-size: 1.25rem; margin-bottom: 1.5rem; color: #c4b5fd;" 
+                    data-i18n="projects.highlights_title"
+                    data-i18n-vi="Điểm Nhấn Lập Trình Nổi Bật:"
+                    data-i18n-en="Core Technical Highlights:">
                     Điểm Nhấn Lập Trình Nổi Bật:
                 </h3>
                 <div class="highlights-grid">

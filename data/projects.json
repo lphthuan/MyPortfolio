@@ -105,8 +105,8 @@
     "id": 2,
     "slug": "ROPE",
     "category": "rpg",
-    "category_label_vi": "3D Action / Sinh tồn",
-    "category_label_en": "3D Action / Survival",
+    "category_label_vi": "Bắn súng góc nhìn thứ 3 / Sinh tồn",
+    "category_label_en": "Third-Person Shooter / Survival",
     "featured": true,
     "title_vi": "ROPE - 3D Action Survival Sci-Fi",
     "title_en": "ROPE - 3D Action Survival Sci-Fi",
@@ -114,15 +114,15 @@
     "tags": [
       "Unity",
       "C#",
+      "TPS",
       "Enemy AI",
-      "NavMesh",
-      "3D Action",
-      "Survival"
+      "Survival",
+      "3D Action"
     ],
-    "short_desc_vi": "Game hành động sinh tồn Sci-Fi 3D góc nhìn thứ nhất phát triển trên Unity. Người chơi vào vai người thu gom \"Subject Zero\" thâm nhập nhà máy công nghiệp bỏ hoang, đối đầu với hệ thống quái vật đột biến thông minh, thu thập hạn ngạch (Quota) và tìm kiếm Thẻ khóa an ninh để đối đầu trùm cuối.",
-    "short_desc_en": "3D Sci-Fi first-person action survival title built in Unity. Players embody scavenger \"Subject Zero\" infiltrating a quarantined industrial facility, surviving intelligent mutated AI threats, collecting mission quotas, and securing access passcards to breach the final boss sector.",
-    "full_desc_vi": "ROPE là dự án game hành động sinh tồn Sci-Fi 3D góc nhìn thứ nhất, đưa người chơi vào một nhà máy công nghiệp bỏ hoang tràn ngập quái vật sinh học nguy hiểm dưới bầu trời đỏ rực. Trong vai trò \"Subject Zero\", người chơi phải thu gom các vật phẩm giá trị bị bỏ lại, tích lũy đủ chỉ tiêu hạn ngạch (Quota) và nộp tại điểm tập kết để nhận Thẻ khóa an ninh (Passcard) mở cánh cổng tiến vào khu vực trùm cuối.\\n\\nTrong vai trò Lập trình viên chính (Core Developer), tôi chịu trách nhiệm chính trong việc kiến trúc và phát triển các phân hệ cốt lõi:\\n- Lập trình AI Kẻ địch đa dạng: Thiết kế và triển khai 3 loại tác tử AI (Nhện độc Arathrox săn theo bầy, Quái cảm tử Crustaspikan Larvae ôm bom tự sát, Robot chiến đấu Droid Oil tấn công tầm xa) và Trùm cuối 2 Phase Crustaspikan King.\\n- Vòng lặp Gameplay Quota & Nhiệm vụ: Xây dựng cơ chế thu thập tài nguyên, kiểm tra tiến độ giao nộp tại điểm tập kết và kích hoạt nhận Thẻ khóa Passcard mở rào chắn an ninh.\\n- Hệ thống Vũ khí & Tác chiến: Lập trình cơ chế bắn súng, độ giật, quản lý đạn dược và nhặt hòm tiếp tế phân bổ rải rác trên bản đồ.\\n- Chuyển động nhân vật: Tích hợp Root Motion kết hợp điều khiển chuyển động và góc nhìn FPS/TPS mượt mà, chân thực.\\n- Cân bằng và Kiểm thử (QA Testing): Cân chỉnh sát thương, tầm phát hiện của quái vật và tối ưu hóa hiệu năng tính toán đường đi trên Unity NavMesh.",
-    "full_desc_en": "ROPE is a 3D first-person Sci-Fi action survival title where players infiltrate a hazardous abandoned industrial complex teeming with mutated bio-threats. As \"Subject Zero\", players must scavenge valuable remnants, fulfill quota collection thresholds at extraction terminals to unlock security Passcards, and breach the final boss sector.\\n\\nAs Core Developer, I architected and engineered key gameplay and technical pillars:\\n- Multifaceted Enemy AI Systems: Designed 3 distinct AI archetypes (pack-hunting venomous Arathrox spiders, suicide-bombing Crustaspikan Larvae, and long-range Droid Oil combat mechs) alongside the formidable 2-Phase Crustaspikan King Boss.\\n- Quota Objective Gameplay Loop: Built physical item scavenging mechanics, extraction terminal validation, and dynamic security passcard gate unlock flows.\\n- Combat & Ballistics: Implemented responsive shooting physics, weapon recoil, magazine constraints, and ambient supply crate looting.\\n- Locomotion & Root Motion: Synchronized character movement animations with Root Motion for responsive, grounded first-person controls.\\n- Quality Assurance & Balance Tuning: Calibrated combat damage scaling, enemy sensory perception radii, and real-time pathfinding performance on Unity NavMesh.",
+    "short_desc_vi": "Game bắn súng hành động sinh tồn Sci-Fi 3D góc nhìn thứ ba (TPS) phát triển trên Unity. Người chơi vào vai người thu gom \"Subject Zero\" thâm nhập nhà máy công nghiệp bỏ hoang, đối đầu với hệ thống quái vật đột biến thông minh, thu thập hạn ngạch (Quota) và tìm kiếm Thẻ khóa an ninh để đối đầu trùm cuối.",
+    "short_desc_en": "3D Sci-Fi third-person shooter (TPS) action survival title built in Unity. Players embody scavenger \"Subject Zero\" infiltrating a quarantined industrial facility, surviving intelligent mutated AI threats, collecting mission quotas, and securing access passcards to breach the final boss sector.",
+    "full_desc_vi": "ROPE là dự án game bắn súng hành động sinh tồn Sci-Fi 3D góc nhìn thứ ba (TPS), đưa người chơi vào một nhà máy công nghiệp bỏ hoang tràn ngập quái vật sinh học nguy hiểm dưới bầu trời đỏ rực. Trong vai trò \"Subject Zero\", người chơi phải thu gom các vật phẩm giá trị bị bỏ lại, tích lũy đủ chỉ tiêu hạn ngạch (Quota) và nộp tại điểm tập kết để nhận Thẻ khóa an ninh (Passcard) mở cánh cổng tiến vào khu vực trùm cuối.\\n\\nTrong vai trò Lập trình viên chính (Core Developer), tôi chịu trách nhiệm chính trong việc kiến trúc và phát triển các phân hệ cốt lõi:\\n- Lập trình AI Kẻ địch đa dạng: Thiết kế và triển khai 3 loại tác tử AI (Nhện độc Arathrox săn theo bầy, Quái cảm tử Crustaspikan Larvae ôm bom tự sát, Robot chiến đấu Droid Oil tấn công tầm xa) và Trùm cuối 2 Phase Crustaspikan King.\\n- Vòng lặp Gameplay Quota & Nhiệm vụ: Xây dựng cơ chế thu thập tài nguyên, kiểm tra tiến độ giao nộp tại điểm tập kết và kích hoạt nhận Thẻ khóa Passcard mở rào chắn an ninh.\\n- Hệ thống Vũ khí & Tác chiến: Lập trình cơ chế bắn súng, độ giật, quản lý đạn dược và nhặt hòm tiếp tế phân bổ rải rác trên bản đồ.\\n- Chuyển động nhân vật: Tích hợp Root Motion kết hợp điều khiển chuyển động và hệ thống camera bắn súng góc nhìn thứ ba (TPS) mượt mà, chân thực.\\n- Cân bằng và Kiểm thử (QA Testing): Cân chỉnh sát thương, tầm phát hiện của quái vật và tối ưu hóa hiệu năng tính toán đường đi trên Unity NavMesh.",
+    "full_desc_en": "ROPE is a 3D third-person shooter (TPS) Sci-Fi action survival title where players infiltrate a hazardous abandoned industrial complex teeming with mutated bio-threats. As \"Subject Zero\", players must scavenge valuable remnants, fulfill quota collection thresholds at extraction terminals to unlock security Passcards, and breach the final boss sector.\\n\\nAs Core Developer, I architected and engineered key gameplay and technical pillars:\\n- Multifaceted Enemy AI Systems: Designed 3 distinct AI archetypes (pack-hunting venomous Arathrox spiders, suicide-bombing Crustaspikan Larvae, and long-range Droid Oil combat mechs) alongside the formidable 2-Phase Crustaspikan King Boss.\\n- Quota Objective Gameplay Loop: Built physical item scavenging mechanics, extraction terminal validation, and dynamic security passcard gate unlock flows.\\n- Combat & Ballistics: Implemented responsive shooting physics, weapon recoil, magazine constraints, and ambient supply crate looting.\\n- Locomotion & Root Motion: Synchronized character movement animations with Root Motion for responsive, grounded third-person shooter (TPS) controls.\\n- Quality Assurance & Balance Tuning: Calibrated combat damage scaling, enemy sensory perception radii, and real-time pathfinding performance on Unity NavMesh.",
     "role_vi": "Lập trình viên chính (Core Developer) - Hệ thống AI Kẻ địch, Vũ khí & Gameplay Sinh tồn",
     "role_en": "Core Developer - Enemy AI Systems, Weapon Combat & Survival Gameplay",
     "team_size": "4 thành viên (Team Doro)",
@@ -149,7 +149,7 @@
       "Robot chiến đấu Droid Oil: Xây dựng cơ chế phát hiện mục tiêu, xả súng tầm xa với độ chính xác cao và tích hợp điểm yếu Headshot tại cụm cảm biến quang học.",
       "Trận đấu Boss 2 Phase (Crustaspikan King): Phát triển cơ chế nhặt ném tảng đá vật lý, triệu hồi quái phụ hỗ trợ và cơ chế phá hủy giáp bụng để lộ điểm yếu nội tạng.",
       "Vòng lặp Quota & Thẻ Khóa (Passcard): Xây dựng cơ chế thu thập tài nguyên giá trị, kiểm tra điều kiện giao nộp tại điểm tập kết để mở rào chắn khu vực trùm.",
-      "Đồng bộ Chuyển động & Vũ khí: Tích hợp Root Motion kết hợp điều khiển súng, độ giật và hệ thống camera FPS/TPS mượt mà cho nhân vật Subject Zero.",
+      "Đồng bộ Chuyển động & Vũ khí: Tích hợp Root Motion kết hợp điều khiển súng, độ giật và hệ thống camera bắn súng góc nhìn thứ ba (TPS) mượt mà cho nhân vật Subject Zero.",
       "Kiểm thử & Cân bằng Gameplay (QA & Balancing): Tối ưu hóa số lượng tác tử AI trên NavMesh, cân bằng sát thương và tỷ lệ rơi đạn dược từ hòm tiếp tế."
     ],
     "highlights_en": [
@@ -159,7 +159,7 @@
       "Droid Oil Combat Mech: Built long-range ballistic targeting with high precision and integrated critical headshot hitboxes on the optical sensor array.",
       "2-Phase Crustaspikan King Boss Encounter: Developed physical boulder-tossing trajectories, minion summoning waves, and abdominal armor-shattering mechanics.",
       "Quota Progression & Passcard Loop: Engineered physical item scavenging, collection terminal validation, and dynamic security barrier unlock systems.",
-      "Locomotion & Weapon Sync: Integrated Root Motion animation blending with responsive weapon handling, recoil physics, and smooth camera controls for Subject Zero.",
+      "Locomotion & Weapon Sync: Integrated Root Motion animation blending with responsive weapon handling, recoil physics, and smooth third-person shooter (TPS) camera controls for Subject Zero.",
       "QA Testing & Combat Balancing: Optimized NavMesh agent densities, tuned weapon damage curves, and balanced ammunition drop rates across supply crates."
     ],
     "gallery": [

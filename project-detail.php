@@ -161,36 +161,38 @@ require_once __DIR__ . '/includes/header.php';
         </div>
 
         <!-- Section 3: Video Tự Loop Demo Cơ Chế (Mechanic Looper Component) -->
-        <div class="glass-panel looper-container">
-            <div class="looper-header">
-                <div>
-                    <span class="looper-badge">
-                        <span class="pulse-dot" style="background-color: var(--accent-cyan); box-shadow: 0 0 8px var(--accent-cyan);"></span>
-                        AUTOPLAY LOOP &bull; 60 FPS
-                    </span>
-                    <h2 style="font-size: 1.6rem; margin-top: 0.75rem;" 
-                        data-i18n-vi="<?php echo htmlspecialchars($project['mechanic_title_vi'] ?? 'Demo Cơ Chế Gameplay'); ?>"
-                        data-i18n-en="<?php echo htmlspecialchars($project['mechanic_title_en'] ?? 'Gameplay Mechanic Demo'); ?>">
-                        <?php echo htmlspecialchars($project['mechanic_title_vi'] ?? 'Demo Cơ Chế Gameplay'); ?>
-                    </h2>
+        <?php if (!empty($project['mechanic_loop_video'])): ?>
+            <div class="glass-panel looper-container">
+                <div class="looper-header">
+                    <div>
+                        <span class="looper-badge">
+                            <span class="pulse-dot" style="background-color: var(--accent-cyan); box-shadow: 0 0 8px var(--accent-cyan);"></span>
+                            AUTOPLAY LOOP &bull; 60 FPS
+                        </span>
+                        <h2 style="font-size: 1.6rem; margin-top: 0.75rem;" 
+                            data-i18n-vi="<?php echo htmlspecialchars($project['mechanic_title_vi'] ?? 'Demo Cơ Chế Gameplay'); ?>"
+                            data-i18n-en="<?php echo htmlspecialchars($project['mechanic_title_en'] ?? 'Gameplay Mechanic Demo'); ?>">
+                            <?php echo htmlspecialchars($project['mechanic_title_vi'] ?? 'Demo Cơ Chế Gameplay'); ?>
+                        </h2>
+                    </div>
+                </div>
+
+                <p style="color: var(--text-muted); margin-bottom: 1.5rem;" data-i18n="projects.looper_desc">
+                    Đoạn video ngắn tự động chạy lặp lại để biểu diễn chi tiết cơ chế tương tác, vật lý và xử lý logic gameplay.
+                </p>
+
+                <div class="looper-video-wrap">
+                    <video class="looper-video" 
+                           src="<?php echo htmlspecialchars($project['mechanic_loop_video']); ?>" 
+                           autoplay 
+                           loop 
+                           muted 
+                           playsinline>
+                        Trình duyệt của bạn không hỗ trợ thẻ video HTML5.
+                    </video>
                 </div>
             </div>
-
-            <p style="color: var(--text-muted); margin-bottom: 1.5rem;" data-i18n="projects.looper_desc">
-                Đoạn video ngắn tự động chạy lặp lại để biểu diễn chi tiết cơ chế tương tác, vật lý và xử lý logic gameplay.
-            </p>
-
-            <div class="looper-video-wrap">
-                <video class="looper-video" 
-                       src="<?php echo htmlspecialchars($project['mechanic_loop_video']); ?>" 
-                       autoplay 
-                       loop 
-                       muted 
-                       playsinline>
-                    Trình duyệt của bạn không hỗ trợ thẻ video HTML5.
-                </video>
-            </div>
-        </div>
+        <?php endif; ?>
 
         <!-- Section 4: Image Gallery & Lightbox (Các hình ảnh) -->
         <?php if (!empty($project['gallery'])): ?>

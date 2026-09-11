@@ -9,7 +9,15 @@
     "title_vi": "ROPE - 3D FPS Game Project",
     "title_en": "ROPE - 3D FPS Game Project",
     "engine": "Unity / C#",
-    "tags": ["Unity", "C#", "3D FPS", "Enemy AI", "NavMesh", "Root Motion", "Inventory System"],
+    "tags": [
+      "Unity",
+      "C#",
+      "3D FPS",
+      "Enemy AI",
+      "NavMesh",
+      "Root Motion",
+      "Inventory System"
+    ],
     "short_desc_vi": "Game FPS 3D với gameplay chiến đấu và nhiệm vụ sinh tồn. Xây dựng hệ thống AI kẻ địch sử dụng NavMesh cho tìm đường và theo dõi người chơi, thiết kế hệ thống kho đồ và tương tác vật phẩm lấy cảm hứng từ R.E.P.O, tích hợp root motion để đồng bộ chuyển động nhân vật.",
     "short_desc_en": "Tactical 3D FPS title featuring combat and mission-based gameplay. Built an Enemy AI system with NavMesh pathfinding and player tracking, an inventory interaction framework inspired by R.E.P.O, and root motion animation synchronization.",
     "full_desc_vi": "ROPE là dự án game FPS 3D nơi người chơi hoàn thành các nhiệm vụ sinh tồn và chiến đấu nhịp độ cao. Trong vai trò Phó nhóm (Sub leader), tôi chịu trách nhiệm chính trong việc phát triển hệ thống AI kẻ địch cho 3 loại quái và Boss, mỗi loại sở hữu cơ chế và hành vi riêng biệt sử dụng NavMesh và State Machine. Bên cạnh đó, tôi trực tiếp thiết kế hệ thống kho đồ và cơ chế tương tác vật phẩm 3D lấy cảm hứng từ tựa game R.E.P.O, đồng thời tích hợp Root Motion để đồng bộ hóa hoàn hảo giữa hoạt ảnh nhân vật và chuyển động vật lý.",
@@ -73,7 +81,14 @@
     "title_vi": "Death Mine - 3D Survival Horror",
     "title_en": "Death Mine - 3D Survival Horror",
     "engine": "Unity / C#",
-    "tags": ["Unity", "C#", "Survival Horror", "Sound-wave AI", "Observer Pattern", "NavMesh"],
+    "tags": [
+      "Unity",
+      "C#",
+      "Survival Horror",
+      "Sound-wave AI",
+      "Observer Pattern",
+      "NavMesh"
+    ],
     "short_desc_vi": "Game kinh dị sinh tồn 3D với cơ chế lén lút và giải đố. Xây dựng hệ thống AI kẻ địch có khả năng theo dõi, lắng nghe và định vị người chơi thông qua sóng âm sử dụng NavMesh và kiến trúc Observer Pattern.",
     "short_desc_en": "3D survival horror game featuring stealth and puzzle-solving. Built an Enemy AI capable of listening and locating players through dynamic sound waves via NavMesh and an event-driven Observer Pattern.",
     "full_desc_vi": "Death Mine là dự án game kinh dị sinh tồn góc nhìn thứ nhất, đưa người chơi vào một khu mỏ bỏ hoang với bầu không khí u ám và nguy hiểm rình rập. Trong vai trò Phó nhóm, tôi chịu trách nhiệm lập trình AI kẻ địch với cơ chế thính giác đặc biệt: quái vật có khả năng lắng nghe tiếng bước chân, tiếng va đập vật phẩm và sóng âm phát ra từ môi trường để truy vết người chơi. Bằng việc áp dụng kiến trúc hướng sự kiện (Observer Pattern), các sự kiện âm thanh được phân phối linh hoạt tới các tác tử AI mà không gây xung đột hiệu năng.",
@@ -126,54 +141,82 @@
     "id": 3,
     "slug": "the-flower",
     "category": "jam",
-    "category_label_vi": "Co-op Adventure / Đồ Án",
-    "category_label_en": "Co-op Adventure / Capstone",
+    "category_label_vi": "Co-op Adventure / Đồ Án Tốt Nghiệp",
+    "category_label_en": "Co-op Adventure / Capstone Project",
     "featured": true,
-    "title_vi": "The Flower - Đồ Án Tốt Nghiệp",
-    "title_en": "The Flower - Graduation Project",
+    "title_vi": "The Flower - Đồ Án Tốt Nghiệp 3D Co-op Adventure",
+    "title_en": "The Flower - 3D Co-op Adventure Graduation Project",
     "engine": "Unity 6 / C#",
-    "tags": ["Unity 6", "Netcode for GameObjects", "Unity Relay", "Co-op 2 Players", "Puzzle AI"],
-    "short_desc_vi": "Game phiêu lưu hợp tác 2 người chơi sử dụng Unity 6 với giải đố và tương tác môi trường. Triển khai multiplayer qua Netcode for GameObjects và Unity Services (Relay, Auth), cùng hệ thống nhập liệu đa thiết bị.",
-    "short_desc_en": "2-player cooperative adventure title built with Unity 6 featuring collaborative puzzles. Integrated multiplayer networking via Netcode for GameObjects and Unity Relay, with multi-device input.",
-    "full_desc_vi": "The Flower là dự án game tốt nghiệp (Đồ án tốt nghiệp) được phát triển trên nền tảng Unity 6 với phong cách đồ họa giàu cảm xúc. Tựa game mang lối chơi phiêu lưu hợp tác 2 người (2-player Co-op), đòi hỏi hai người chơi phối hợp giải đố và tương tác môi trường. Trong vai trò Phó nhóm, tôi chịu trách nhiệm thiết kế hệ thống giải đố, lập trình AI kẻ địch phản xạ với cả hai người chơi, và tham gia cấu hình hạ tầng mạng P2P/Relay qua Unity Netcode for GameObjects và Unity Authentication. Dự án hỗ trợ cắm nhiều thiết bị (Keyboard/Gamepad) cùng lúc với UI động mượt mà.",
-    "full_desc_en": "The Flower is a capstone graduation project developed in Unity 6, focusing on a poignant two-player cooperative adventure. Players must collaborate to solve environmental mechanisms and navigate hazards. As Sub Leader, I engineered the puzzle interaction frameworks, implemented adaptive Enemy AI responding to dual players, and co-configured the networking architecture using Netcode for GameObjects and Unity Gaming Services (Relay & Authentication). The project features comprehensive multi-device input support.",
-    "role_vi": "Phó nhóm (Sub leader) - Lập trình viên Cơ chế Giải đố, AI Kẻ địch & Mạng",
-    "role_en": "Sub leader - Puzzle Systems, Enemy AI & Networking Dev",
-    "team_size": "Nhóm đồ án tốt nghiệp (Graduation Team)",
-    "duration_vi": "2026",
-    "duration_en": "2026",
-    "platform": "PC (Co-op Multiplayer)",
-    "thumbnail": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?q=80&w=1200&auto=format&fit=crop",
-    "trailer_video": "https://www.youtube-nocookie.com/embed/dQw4w9WgXcQ",
-    "gameplay_video": "https://www.youtube-nocookie.com/embed/dQw4w9WgXcQ",
+    "tags": [
+      "Unity 6",
+      "Netcode for GameObjects",
+      "Unity Relay & Lobby",
+      "Vivox Voice Chat",
+      "Co-op 2 Players",
+      "Asymmetric Mechanics",
+      "Finite State Machine",
+      "URP 3D Stylized"
+    ],
+    "short_desc_vi": "Game phiêu lưu hành động 3D giải đố hợp tác 2 người chơi phát triển trên Unity 6. Tích hợp hạ tầng mạng hoàn chỉnh qua Netcode for GameObjects, Unity Relay/Lobby và Vivox Voice Chat, cùng hàng loạt cơ chế giải đố phối hợp và màn đấu trùm hấp dẫn.",
+    "short_desc_en": "3D cooperative action-adventure puzzle game developed in Unity 6. Features full multiplayer networking with Netcode for GameObjects, Unity Relay/Lobby, and Vivox Voice Chat, alongside inventive co-op puzzle mechanisms and a climactic boss encounter.",
+    "full_desc_vi": "The Flower là đồ án tốt nghiệp game phiêu lưu hành động 3D kết hợp giải đố tương tác dành cho 2 người chơi (Co-op trực tuyến), xây dựng trên nền tảng Unity 6 với đồ họa Stylized URP tươi sáng. Cốt truyện đưa hai anh em khỉ Mia (nhanh nhẹn) và Leo (điềm đạm) vượt qua Ngôi làng, Sa mạc và Ngôi đền cổ để tìm kiếm Bông Hoa Thần làm quà tặng mẹ. Dự án ứng dụng kiến trúc 3 tầng chặt chẽ: tích hợp Unity Gaming Services (Anonymous Auth, Lobby, Relay) kết nối P2P ẩn danh không cần cấu hình mạng phức tạp; đồng bộ trạng thái Host-Authoritative qua Netcode for GameObjects; hỗ trợ giao tiếp đa kênh gồm Vivox Voice Chat, Text Chat và Emoji Ping; cùng hệ thống điều khiển đa thiết bị (Keyboard/Gamepad Focus) với Finite State Machine (FSM) 5 trạng thái vận động.",
+    "full_desc_en": "The Flower is a capstone graduation project featuring a 3D cooperative action-adventure puzzle experience built with Unity 6 and stylized URP visuals. Players guide monkey siblings Mia (agile) and Leo (observant) through lush villages, desert dunes, and ancient ruins to retrieve the sacred Flower for their mother. Architecturally, the game incorporates Unity Gaming Services (Anonymous Auth, Lobby, Relay) for seamless zero-config P2P networking, Host-Authoritative state synchronization via Netcode for GameObjects, multi-channel communication (Vivox Voice Chat, Realtime Text Chat, Head Emoji Pings), and multi-device input support (Keyboard/Gamepad) with a 5-state character Finite State Machine (FSM).",
+    "role_vi": "Lập trình viên Gameplay, Cơ chế Giải đố & Đồng bộ Mạng (Gameplay & Network Programmer)",
+    "role_en": "Gameplay, Puzzle Mechanics & Network Systems Programmer",
+    "team_size": "Nhóm 4 thành viên (FPT Polytechnic)",
+    "duration_vi": "03/2026 – 08/2026 (488 Commits Git)",
+    "duration_en": "Mar 2026 – Aug 2026 (488 Git Commits)",
+    "platform": "PC Windows (Online Co-op)",
+    "thumbnail": "assets/images/projects/the-flower/the-flower-village.jpg",
+    "trailer_video": "https://www.youtube-nocookie.com/embed/yUSBdBJtGU8",
+    "gameplay_video": "https://www.youtube-nocookie.com/embed/yUSBdBJtGU8",
     "mechanic_loop_video": "https://assets.mixkit.co/videos/preview/mixkit-digital-animation-of-screens-with-graphs-99784-large.mp4",
-    "mechanic_title_vi": "Demo Cơ Chế: Đồng Bộ Mạng Co-op 2 Người & Câu Đố Tương Tác",
-    "mechanic_title_en": "Mechanic Demo: 2-Player Co-op State Synchronization & Cooperative Puzzles",
+    "mechanic_title_vi": "Demo Cơ Chế: Điều Khiển Bất Đối Xứng (Sand Boat) & Dual Activation Boss",
+    "mechanic_title_en": "Mechanic Demo: Asymmetric Sand Boat Chase & Dual Activation Boss Fight",
     "gallery": [
       {
-        "url": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?q=80&w=1200&auto=format&fit=crop",
-        "caption_vi": "Thế giới phiêu lưu nghệ thuật với cơ chế câu đố tương tác 2 người",
-        "caption_en": "Artistic adventure environment with 2-player cooperative puzzle"
+        "url": "assets/images/projects/the-flower/the-flower-village.jpg",
+        "caption_vi": "Map 1: Khung cảnh Ngôi Làng khởi đầu của Mia và Leo với phong cách đồ họa Stylized tươi sáng",
+        "caption_en": "Map 1: The starting Village of Mia and Leo featuring vibrant stylized art direction"
       },
       {
-        "url": "https://images.unsplash.com/photo-1550745165-9bc0b252726f?q=80&w=1200&auto=format&fit=crop",
-        "caption_vi": "Giao diện kết nối mạng qua Unity Relay và Authentication",
-        "caption_en": "Multiplayer lobby interface powered by Unity Relay and Authentication"
+        "url": "assets/images/projects/the-flower/the-flower-forest-checkpoint.jpg",
+        "caption_vi": "Map 1: Thử thách Đầm Sen, Bẫy Đá Lăn và Trạm Checkpoint Cây Nấm Pha Lê phát sáng",
+        "caption_en": "Map 1: Lily Pad pond coordination, Boulder traps, and Crystal Mushroom glowing checkpoint"
+      },
+      {
+        "url": "assets/images/projects/the-flower/the-flower-desert-oasis.jpg",
+        "caption_vi": "Map 2: Sa mạc Ốc đảo với cầu treo gỗ, vách đá dựng đứng và hệ thống Cột Gió Nâng (Wind Updrafts)",
+        "caption_en": "Map 2: Desert Oasis with wooden suspension bridges, canyons, and Wind Updraft launch pads"
+      },
+      {
+        "url": "assets/images/projects/the-flower/the-flower-ancient-temple.jpg",
+        "caption_vi": "Đại sảnh Đền Cổ linh thiêng - Nơi diễn ra câu đố Gương Thần (Magic Mirror) và Bàn Cờ Ma Thuật Eris",
+        "caption_en": "Ancient Temple Hall - Setting for the Magic Mirror perspective puzzle and Eris Chessboard"
+      },
+      {
+        "url": "assets/images/projects/the-flower/the-flower-cat-sphinx-boss.jpg",
+        "caption_vi": "Phòng Đấu Trùm Cuối: Thần Nhân Sư Mèo (Cat Sphinx Guardian) với cơ chế giẫm bệ Kích Hoạt Kép (Dual Activation)",
+        "caption_en": "Final Boss Chamber: Cat Sphinx Guardian encounter featuring synchronized Dual Activation platforms"
       }
     ],
     "highlights_vi": [
-      "Triển khai tính năng Multiplayer mượt mà bằng Unity Netcode for GameObjects và Unity Services (Relay, Auth).",
-      "Thiết kế hệ thống câu đố môi trường tương tác đòi hỏi sự phối hợp nhịp nhàng giữa 2 người chơi.",
-      "Xây dựng hệ thống nhập liệu đa thiết bị (Multi-device Input) hỗ trợ đồng thời Bàn phím và Gamepad.",
-      "Áp dụng kiến trúc hướng sự kiện (Event-driven Architecture) đảm bảo hiệu năng và khả năng mở rộng."
+      "Thiết kế và lập trình trọn bộ hệ thống câu đố Co-op đa dạng: Bẫy lá sen, Cầu nâng đối trọng, Gương thần chia sẻ tầm nhìn và Bàn cờ ma thuật Eris.",
+      "Triển khai cơ chế điều khiển bất đối xứng độc đáo trong màn Đua Thuyền Cát (Host lái hướng, Client điều tốc qua RPC) và cơ chế Dual Activation trận trùm Cat Sphinx.",
+      "Tích hợp hạ tầng mạng Unity Netcode for GameObjects (NGO) kết hợp Unity Relay & Lobby, đảm bảo kết nối P2P ổn định qua JoinCode mà không cần cấu hình mạng phức tạp.",
+      "Tích hợp giải pháp đàm thoại giọng nói Vivox Voice Chat và hệ thống Quick Ping / Sticker thời gian thực hỗ trợ tối đa trải nghiệm phối hợp 2 người.",
+      "Xây dựng Finite State Machine (FSM) cho 5 trạng thái vận động nhân vật và hỗ trợ đồng thời Bàn phím/Chuột + Gamepad với New Input System.",
+      "Tuân thủ quy trình phát triển chuyên nghiệp: Agile Sprint 2 tuần, quản lý 488 commit trên Git/GitHub, giải quyết xung đột scene/prefab và kiểm thử smoke test Host-Client."
     ],
     "highlights_en": [
-      "Implemented responsive multiplayer networking via Unity 6 Netcode for GameObjects and Unity Relay.",
-      "Designed collaborative environmental puzzles requiring synchronized dual-player actions.",
-      "Architected a versatile multi-device input system supporting simultaneous Keyboard and Gamepads.",
-      "Applied an Event-driven architecture ensuring low network latency and scalable code maintenance."
+      "Engineered comprehensive cooperative puzzle mechanics: Lily Pad traps, Counterweight bridge levers, Magic Mirror asymmetric vision, and Eris Chessboard.",
+      "Implemented asymmetric dual-player control in the Sand Boat Chase sequence (Host steers, Client accelerates via RPC) and synchronized Dual Activation in the Boss fight.",
+      "Integrated Unity Netcode for GameObjects (NGO) with Unity Relay & Lobby for frictionless, zero-config P2P multiplayer sessions using room JoinCodes.",
+      "Incorporated real-time Vivox Voice Chat and overhead Quick Ping / Sticker communication to streamline seamless cooperative gameplay.",
+      "Architected character Finite State Machine (FSM) covering 5 kinematic states alongside dual Keyboard/Gamepad support via Unity New Input System.",
+      "Maintained rigorous Agile practices: 2-week sprints, 488 Git commits, scene/prefab merge conflict resolution, and end-to-end Host-Client smoke testing."
     ],
-    "demo_link": "https://github.com/JohnnyDat06/DATN_Co-op",
-    "github_link": "https://github.com/JohnnyDat06/DATN_Co-op"
+    "demo_link": "https://tandat0303.itch.io/the-flower",
+    "github_link": "https://github.com/JohnnyDat06/TheFLower-DATN.git"
   }
 ]

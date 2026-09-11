@@ -27,7 +27,7 @@ if (!isset($activeNav)) {
 
     <!-- Stylesheets with Cache Busting -->
     <link rel="stylesheet" href="assets/css/style.css?v=2.5">
-    <link rel="stylesheet" href="assets/css/components.css?v=3.0">
+    <link rel="stylesheet" href="assets/css/components.css?v=3.1">
 </head>
 <body>
     <!-- Ambient Background Glows -->

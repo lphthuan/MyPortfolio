@@ -8,11 +8,11 @@
     "hero": {
       "greeting": "Xin chào, tôi là",
       "name": "Lê Phan Hòa Thuận",
-      "role": "Lập trình viên Game (Unity Game Developer)",
+      "role": "Game Developer",
       "badge": "Sẵn sàng đón nhận cơ hội Fresher",
-      "bio_lead": "Lập trình viên Game đam mê phát triển cơ chế tương tác và trải nghiệm gameplay mượt mà trên Unity.",
-      "bio_title": "MÔ TẢ BẢN THÂN // BIO",
-      "bio_desc": "Tôi là Lập trình viên Game với kinh nghiệm thực tế về Unity qua các dự án học tập và đợt thực tập 3 tháng. Tôi đang tìm kiếm vị trí Fresher trong môi trường chuyên nghiệp để tiếp tục trau dồi kỹ năng, phát triển bản thân và hướng tới sự gắn bó lâu dài cùng những đóng góp ý nghĩa cho công ty.",
+      "bio_lead": "Lập trình viên Game đam mê phát triển cơ chế tương tác và trải nghiệm gameplay mượt mà.",
+      "bio_title": "MÔ TẢ BẢN THÂN",
+      "bio_desc": "Tôi là một lập trình viên Game đã có hơn 18 tháng kinh nghiệm tiếp xúc với Unity.  Đã thực hiện nhiều dự án và trải nghiệm 3 tháng thực tập tại doanh nghiệp. Tôi mong muốn tìm kiếm công việc với vị trí Fresher hoặc tương đương. Mong muốn được làm việc trong môi trường chuyên nghiệp để tiếp tục trau dồi kỹ năng và phát triển bản thân. Cũng như tìm được một bến đỗ an toàn để gắn bó lâu dài và cống hiến hết mình cho công ty.",
       "github_btn": "Xem GitHub",
       "zalo_btn": "Nhắn tin Zalo",
       "download_cv": "Tải CV Lập Trình"
@@ -85,11 +85,11 @@
     "hero": {
       "greeting": "Hello, I am",
       "name": "Le Phan Hoa Thuan",
-      "role": "Game Developer (Unity)",
+      "role": "Game Developer",
       "badge": "Open to Fresher Opportunities",
-      "bio_lead": "Game Developer passionate about creating responsive gameplay mechanics and polished experiences in Unity.",
-      "bio_title": "ABOUT ME // BIO",
-      "bio_desc": "I’m a Game Developer with hands-on experience in Unity through academic projects and a 3-month internship. I’m seeking a fresher position in a professional environment to further improve my skills and grow as a developer, while aiming for long-term commitment and meaningful contributions to the company.",
+      "bio_lead": "Game Developer passionate about creating responsive gameplay mechanics and polished experiences.",
+      "bio_title": "ABOUT ME",
+      "bio_desc": "Unity Game Developer with over 18 months of hands-on experience across diverse projects and a 3-month corporate internship. Seeking a Fresher position in a professional environment to further hone technical skills and grow as a developer. Aiming to find a stable organization for long-term commitment, where I can fully dedicate myself and make meaningful contributions to the company's success.",
       "github_btn": "Visit GitHub",
       "zalo_btn": "Chat on Zalo",
       "download_cv": "Download Resume"

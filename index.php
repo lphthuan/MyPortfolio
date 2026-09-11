@@ -35,7 +35,7 @@ require_once __DIR__ . '/includes/header.php';
                             <span class="text-gradient" data-i18n="hero.name">Lê Phan Hòa Thuận</span>
                         </h1>
                         <div class="profile-role-tag" data-i18n="hero.role">
-                            Lập trình viên Game (Unity Game Developer)
+                            Game Developer
                         </div>
 
                         <!-- Contact Action Buttons: GitHub & Zalo -->
@@ -126,10 +126,10 @@ require_once __DIR__ . '/includes/header.php';
                             <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
                             <circle cx="12" cy="7" r="4"></circle>
                         </svg>
-                        <span data-i18n="hero.bio_title">MÔ TẢ BẢN THÂN // BIO</span>
+                        <span data-i18n="hero.bio_title">MÔ TẢ BẢN THÂN</span>
                     </div>
                     <p class="bio-text" data-i18n="hero.bio_desc">
-                        Tôi là Lập trình viên Game với kinh nghiệm thực tế về Unity qua các dự án học tập và đợt thực tập 3 tháng. Tôi đang tìm kiếm vị trí Fresher trong môi trường chuyên nghiệp để tiếp tục trau dồi kỹ năng, phát triển bản thân và hướng tới sự gắn bó lâu dài cùng những đóng góp ý nghĩa cho công ty.
+                        Tôi là một lập trình viên Game đã có hơn 18 tháng kinh nghiệm tiếp xúc với Unity.  Đã thực hiện nhiều dự án và trải nghiệm 3 tháng thực tập tại doanh nghiệp. Tôi mong muốn tìm kiếm công việc với vị trí Fresher hoặc tương đương. Mong muốn được làm việc trong môi trường chuyên nghiệp để tiếp tục trau dồi kỹ năng và phát triển bản thân. Cũng như tìm được một bến đỗ an toàn để gắn bó lâu dài và cống hiến hết mình cho công ty.
                     </p>
                 </div>
             </div>

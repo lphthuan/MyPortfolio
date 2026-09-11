@@ -25,9 +25,6 @@ require_once __DIR__ . '/includes/header.php';
             <?php foreach ($projects as $proj): ?>
                 <article class="glass-panel project-card" data-category="<?php echo htmlspecialchars($proj['category']); ?>">
                     <div class="project-thumb-wrap">
-                        <span class="badge badge-tech project-badge-overlay">
-                            <?php echo htmlspecialchars($proj['engine']); ?>
-                        </span>
                         <img src="<?php echo htmlspecialchars($proj['thumbnail']); ?>" 
                              alt="<?php echo htmlspecialchars($proj['title_vi']); ?>" 
                              class="project-thumb-img" 

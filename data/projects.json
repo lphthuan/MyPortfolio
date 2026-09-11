@@ -24,8 +24,8 @@
     "role_vi": "Phó nhóm (Sub leader) - Thiết kế Gameplay & Level giải đố, Lập trình Puzzle System, Quest System, Setting & Rebind Controls, Hỗ trợ Gamepad, QA & Testing",
     "role_en": "Sub leader - Gameplay & Puzzle Level Designer, Puzzle System, Quest System, Setting & Rebind Controls, Gamepad Integration, QA & Testing",
     "team_size": "4 thành viên (Team Doro)",
-    "duration_vi": "03/2026 – 08/2026",
-    "duration_en": "Mar 2026 – Aug 2026",
+    "duration_vi": "Tháng 03/2026 - Tháng 08/2026",
+    "duration_en": "Mar 2026 - Aug 2026",
     "platform": "PC (Windows)",
     "thumbnail": "assets/images/projects/the-flower/the-flower-thumbnail.png",
     "trailer_video": "https://www.youtube-nocookie.com/embed/YFq7RSlulEc",
@@ -92,8 +92,8 @@
     "community_feature": {
       "badge_vi": "XUẤT HIỆN TRÊN DIỄN ĐÀN INDIE GAMES VIETNAM",
       "badge_en": "FEATURED ON INDIE GAMES VIETNAM",
-      "title_vi": "Dấu Ấn Cộng Đồng: Xuất Hiện Trên Diễn Đàn Game Indie Việt Nam",
-      "title_en": "Community Milestone: Featured on Indie Games Vietnam",
+      "title_vi": "Dự Án Đã Xuất Hiện Trên Diễn Đàn Game Indie Việt Nam",
+      "title_en": "Project Featured on Indie Games Vietnam Community Portal",
       "desc_vi": "Dự án The Flower vinh dự được giới thiệu và đón nhận nồng nhiệt trên diễn đàn Indie Games Vietnam tại hạng mục Co-op / Puzzle / Adventure. Đây là minh chứng cho sức hút từ lối chơi giải đố hợp tác đồng đội sáng tạo và phong cách mỹ thuật 3D Stylized được hoàn thiện chỉn chu.",
       "desc_en": "The Flower was proudly showcased and warmly received on the Indie Games Vietnam community portal under the Co-op, Puzzle, and Adventure category. This milestone highlights the community appeal of its creative cooperative puzzle gameplay and polished 3D stylized art direction.",
       "image": "assets/images/projects/the-flower/the-flower-indie-games-vietnam.png",
@@ -113,11 +113,11 @@
     "engine": "Unity / C#",
     "tags": [
       "Unity",
-      "C#",
+      "3D",
       "TPS",
-      "Enemy AI",
       "Survival",
-      "3D Action"
+      "Sci-Fi",
+      "Action"
     ],
     "short_desc_vi": "Game bắn súng hành động sinh tồn Sci-Fi 3D góc nhìn thứ ba (TPS) phát triển trên Unity. Người chơi vào vai người thu gom \"Subject Zero\" thâm nhập nhà máy công nghiệp bỏ hoang, đối đầu với hệ thống quái vật đột biến thông minh, thu thập hạn ngạch (Quota) và tìm kiếm Thẻ khóa an ninh để đối đầu trùm cuối.",
     "short_desc_en": "3D Sci-Fi third-person shooter (TPS) action survival title built in Unity. Players embody scavenger \"Subject Zero\" infiltrating a quarantined industrial facility, surviving intelligent mutated AI threats, collecting mission quotas, and securing access passcards to breach the final boss sector.",
@@ -207,11 +207,11 @@
     "engine": "Unity / C#",
     "tags": [
       "Unity",
-      "C#",
-      "Stealth Horror",
-      "Sound-wave AI",
-      "Observer Pattern",
-      "NavMesh"
+      "3D",
+      "Horror",
+      "Stealth",
+      "Survival",
+      "Puzzle"
     ],
     "short_desc_vi": "Game kinh dị sinh tồn 3D góc nhìn thứ ba với triết lý 'Im lặng là sống sót'. Người chơi vào vai nhà khoa học Arthur Mills bị mắc kẹt tại hầm mỏ Black Rock, lẩn trốn sinh vật săn mồi mù lòa 'THỨ ĐÓ' sở hữu thính giác siêu nhạy, tìm kiếm 3 Lõi Năng Lượng để kích hoạt thang máy thoát hiểm.",
     "short_desc_en": "3D third-person stealth survival horror game driven by the core principle 'Silence is Survival'. Players embody scientist Arthur Mills trapped in the Black Rock mines, evading a blind auditory apex predator ('IT') to recover 3 Energy Cores and activate the escape elevator.",
@@ -223,7 +223,7 @@
     "duration_vi": "Tháng 12/2025 - Tháng 02/2026",
     "duration_en": "Dec 2025 - Feb 2026",
     "platform": "PC (Windows)",
-    "thumbnail": "assets/images/projects/dead-mine/dead-mine-thumbnail.png",
+    "thumbnail": "assets/images/projects/dead-mine/dead-mine-thumbnail-165012.png",
     "trailer_video": "https://www.youtube-nocookie.com/embed/PmQAOy-L11w",
     "gameplay_video": "https://www.youtube-nocookie.com/embed/dQw4w9WgXcQ",
     "mechanic_loop_video": "https://assets.mixkit.co/videos/preview/mixkit-animation-of-futuristic-devices-99786-large.mp4",
@@ -231,12 +231,12 @@
     "mechanic_title_en": "Mechanic Demo: Acoustic Sound-wave AI Sensor & Event-driven Reaction",
     "gallery": [
       {
-        "url": "assets/images/projects/dead-mine/dead-mine-thumbnail.png",
+        "url": "assets/images/projects/dead-mine/dead-mine-thumbnail-165012.png",
         "caption_vi": "Logo và màn hình tiêu đề chính thức của tựa game kinh dị sinh tồn Dead Mine",
         "caption_en": "Official title screen and logo card for 3D survival horror game Dead Mine"
       },
       {
-        "url": "assets/images/projects/dead-mine/dead-mine-environment.png",
+        "url": "assets/images/projects/dead-mine/dead-mine-story-164255.png",
         "caption_vi": "Hành lang hầm mỏ khai thác sâu Black Rock với dầm gỗ chống và ánh đèn u ám",
         "caption_en": "Deep Black Rock mine extraction corridor framed with timber supports and eerie lantern light"
       },
@@ -247,8 +247,8 @@
       },
       {
         "url": "assets/images/projects/dead-mine/dead-mine-cart-puzzle.png",
-        "caption_vi": "Khoang hầm quặng với hệ thống toa xe mỏ rỉ sét tạo nên mạng lưới chướng ngại vật giải đố",
-        "caption_en": "Ore cart chamber forming intricate environmental puzzle routes and stealth navigation"
+        "caption_vi": "Kho xe mỏ: Cần tìm kiếm mật mã trong các xe để mở gương",
+        "caption_en": "Mine Cart Depot: Search for hidden passcodes within the carts to unlock the mirror puzzle"
       },
       {
         "url": "assets/images/projects/dead-mine/dead-mine-arthur.png",

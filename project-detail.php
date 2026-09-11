@@ -376,7 +376,7 @@ require_once __DIR__ . '/includes/header.php';
                                 </p>
                             </div>
                             <div class="gallery-item editorial-media-card">
-                                <img src="assets/images/projects/dead-mine/dead-mine-environment.png" 
+                                <img src="assets/images/projects/dead-mine/dead-mine-story-164255.png" 
                                      alt="Hành lang hầm mỏ Black Rock sâu hun hút" 
                                      class="gallery-img"
                                      loading="lazy">
@@ -455,13 +455,13 @@ require_once __DIR__ . '/includes/header.php';
                             </div>
                             <div class="gallery-item editorial-media-card">
                                 <img src="assets/images/projects/dead-mine/dead-mine-cart-puzzle.png" 
-                                     alt="Khoang hầm quặng và chướng ngại vật giải đố" 
+                                     alt="Kho xe mỏ" 
                                      class="gallery-img"
                                      loading="lazy">
                                 <div class="editorial-media-caption"
-                                     data-i18n-vi="Khoang hầm quặng: Mạng lưới các toa xe mỏ rỉ sét tạo nên các chướng ngại vật giải đố và lối lẩn trốn lén lút."
-                                     data-i18n-en="Ore Cart Chamber: Network of rusted carts creating environmental stealth routes and tactical puzzle obstacles.">
-                                    Khoang hầm quặng: Mạng lưới các toa xe mỏ rỉ sét tạo nên các chướng ngại vật giải đố và lối lẩn trốn lén lút.
+                                     data-i18n-vi="Kho xe mỏ: Cần tìm kiếm mật mã trong các xe để mở gương."
+                                     data-i18n-en="Mine Cart Depot: Search for hidden passcodes within the carts to unlock the mirror puzzle.">
+                                    Kho xe mỏ: Cần tìm kiếm mật mã trong các xe để mở gương.
                                 </div>
                             </div>
                         </div>
@@ -527,14 +527,7 @@ require_once __DIR__ . '/includes/header.php';
             <div class="community-feature-section">
                 <div class="editorial-block glass-panel">
                     <div style="margin-bottom: 2rem;">
-                        <span class="community-badge">
-                            <span class="pulse-dot" style="background-color: var(--accent-emerald); box-shadow: 0 0 8px var(--accent-emerald);"></span>
-                            <span data-i18n-vi="<?php echo htmlspecialchars($project['community_feature']['badge_vi']); ?>"
-                                  data-i18n-en="<?php echo htmlspecialchars($project['community_feature']['badge_en']); ?>">
-                                <?php echo htmlspecialchars($project['community_feature']['badge_vi']); ?>
-                            </span>
-                        </span>
-                        <h2 class="text-gradient editorial-heading" style="margin-top: 1.25rem;"
+                        <h2 class="text-gradient editorial-heading"
                             data-i18n-vi="<?php echo htmlspecialchars($project['community_feature']['title_vi']); ?>"
                             data-i18n-en="<?php echo htmlspecialchars($project['community_feature']['title_en']); ?>">
                             <?php echo htmlspecialchars($project['community_feature']['title_vi']); ?>

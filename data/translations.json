@@ -61,7 +61,8 @@
       "gameplay_puzzles_title": "Lối Chơi Hợp Tác & Giải Đố Môi Trường",
       "boss_title": "Đua Thuyền Cát & Trận Đấu Trùm Cuối",
       "tech_title": "Vai Trò & Đóng Góp Kỹ Thuật",
-      "highlights_title": "Điểm Nhấn Lập Trình Nổi Bật:"
+      "highlights_title": "Điểm Nhấn Lập Trình Nổi Bật:",
+      "community_title": "Dấu Ấn Cộng Đồng & Truyền Thông"
     },
     "footer": {
       "quote": "Biến ý tưởng sáng tạo thành những trải nghiệm tương tác đỉnh cao.",
@@ -137,7 +138,8 @@
       "gameplay_puzzles_title": "Cooperative Gameplay & Environmental Puzzles",
       "boss_title": "Sand Boat Chase & Final Boss Encounter",
       "tech_title": "Role & Technical Engineering Contributions",
-      "highlights_title": "Core Technical Highlights:"
+      "highlights_title": "Core Technical Highlights:",
+      "community_title": "Community Milestone & Media Feature"
     },
     "footer": {
       "quote": "Transforming creative ideas into responsive, unforgettable interactive experiences.",

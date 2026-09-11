@@ -331,7 +331,46 @@ require_once __DIR__ . '/includes/header.php';
             </div>
         <?php endif; ?>
 
-        <!-- Section 5: Gallery (For other projects that don't have editorial blocks) -->
+        <!-- Section 5: Community Feature / Media Recognition (Nếu có) -->
+        <?php if (!empty($project['community_feature'])): ?>
+            <div class="community-feature-section">
+                <div class="editorial-block glass-panel">
+                    <div style="margin-bottom: 2rem;">
+                        <span class="community-badge">
+                            <span class="pulse-dot" style="background-color: var(--accent-emerald); box-shadow: 0 0 8px var(--accent-emerald);"></span>
+                            <span data-i18n-vi="<?php echo htmlspecialchars($project['community_feature']['badge_vi']); ?>"
+                                  data-i18n-en="<?php echo htmlspecialchars($project['community_feature']['badge_en']); ?>">
+                                <?php echo htmlspecialchars($project['community_feature']['badge_vi']); ?>
+                            </span>
+                        </span>
+                        <h2 class="text-gradient editorial-heading" style="margin-top: 1.25rem;"
+                            data-i18n-vi="<?php echo htmlspecialchars($project['community_feature']['title_vi']); ?>"
+                            data-i18n-en="<?php echo htmlspecialchars($project['community_feature']['title_en']); ?>">
+                            <?php echo htmlspecialchars($project['community_feature']['title_vi']); ?>
+                        </h2>
+                        <p style="font-size: 1.08rem; line-height: 1.9; color: var(--text-secondary); max-width: 980px;"
+                           data-i18n-vi="<?php echo htmlspecialchars($project['community_feature']['desc_vi']); ?>"
+                           data-i18n-en="<?php echo htmlspecialchars($project['community_feature']['desc_en']); ?>">
+                            <?php echo htmlspecialchars($project['community_feature']['desc_vi']); ?>
+                        </p>
+                    </div>
+
+                    <div class="gallery-item editorial-media-card">
+                        <img src="<?php echo htmlspecialchars($project['community_feature']['image']); ?>" 
+                             alt="<?php echo htmlspecialchars($project['community_feature']['caption_vi']); ?>" 
+                             class="gallery-img"
+                             loading="lazy">
+                        <div class="editorial-media-caption"
+                             data-i18n-vi="<?php echo htmlspecialchars($project['community_feature']['caption_vi']); ?>"
+                             data-i18n-en="<?php echo htmlspecialchars($project['community_feature']['caption_en']); ?>">
+                            <?php echo htmlspecialchars($project['community_feature']['caption_vi']); ?>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        <?php endif; ?>
+
+        <!-- Section 6: Gallery (For other projects that don't have editorial blocks) -->
         <?php if (empty($project['story_desc_vi']) && !empty($project['gallery'])): ?>
             <div class="gallery-section">
                 <div class="section-header" style="text-align: left; margin-bottom: 1.5rem;">

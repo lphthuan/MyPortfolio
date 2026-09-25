@@ -24,7 +24,7 @@ require_once __DIR__ . '/includes/header.php';
                     <!-- Left Column: Circular Avatar with Neon Glow Ring -->
                     <div class="profile-avatar-wrap">
                         <div class="avatar-ring">
-                            <img src="assets/images/thuan_avatar.jpg?v=2.3" alt="Lê Phan Hòa Thuận - Game Developer Avatar" class="avatar-img" width="240" height="240">
+                            <img src="assets/images/thuan-avatar-cafe.png?v=1" alt="Lê Phan Hòa Thuận - Game Developer Avatar" class="avatar-img" width="240" height="240">
                         </div>
                     </div>
 
